@@ -1,0 +1,904 @@
+pageType: content
+background:
+  type: image
+  src: media/bg-warm.png
+  fit:
+    mode: cover
+elements:
+- elementId: stime
+  elementType: text
+  bounds:
+  - 18
+  - 4
+  - 52
+  - 20
+  content:
+    text: '9:41'
+    fontSize: 12
+    color: '#252821'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: ssignal
+  elementType: icon
+  bounds:
+  - 302
+  - 7
+  - 14
+  - 12
+  iconName: fas:signal
+  fill:
+    type: solid
+    color: '#252821'
+- elementId: swifi
+  elementType: icon
+  bounds:
+  - 323
+  - 7
+  - 15
+  - 12
+  iconName: fas:wifi
+  fill:
+    type: solid
+    color: '#252821'
+- elementId: sbattery
+  elementType: icon
+  bounds:
+  - 348
+  - 7
+  - 22
+  - 12
+  iconName: fas:battery-three-quarters
+  fill:
+    type: solid
+    color: '#252821'
+- elementId: ntitle
+  elementType: text
+  bounds:
+  - 48
+  - 27
+  - 250
+  - 34
+  content:
+    text: 购物车
+    fontSize: 18
+    color: '#252821'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: nright
+  elementType: text
+  bounds:
+  - 310
+  - 29
+  - 64
+  - 30
+  content:
+    text: 管理
+    fontSize: 11
+    color: '#175C3B'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - right
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: cartbatch
+  elementType: shape
+  bounds:
+  - 16
+  - 76
+  - 358
+  - 50
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#EAF3E5'
+  adjustments:
+  - 24000
+- elementId: carttruck
+  elementType: icon
+  bounds:
+  - 30
+  - 92
+  - 19
+  - 19
+  iconName: fas:truck-fast
+  fill:
+    type: solid
+    color: '#175C3B'
+- elementId: cartbatcht
+  elementType: text
+  bounds:
+  - 60
+  - 76
+  - 260
+  - 50
+  content:
+    text: 明日配送批次 · 今日 21:00 截单
+    fontSize: 12
+    color: '#175C3B'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: cartc0
+  elementType: shape
+  bounds:
+  - 16
+  - 144
+  - 358
+  - 116
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#FFFFFF'
+  adjustments:
+  - 13793
+- elementId: cartcheck0
+  elementType: icon
+  bounds:
+  - 28
+  - 192
+  - 20
+  - 20
+  iconName: fas:circle-check
+  fill:
+    type: solid
+    color: '#F0442E'
+- elementId: cartim0
+  elementType: image
+  bounds:
+  - 58
+  - 156
+  - 92
+  - 92
+  src: media/tomato.jpg
+  fit:
+    mode: cover
+  cropShape:
+    shapeName: roundRect
+    adjustments:
+    - 13043
+- elementId: cartn0
+  elementType: text
+  bounds:
+  - 164
+  - 154
+  - 170
+  - 26
+  content:
+    text: 沙瓤西红柿
+    fontSize: 14
+    color: '#252821'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: carts0
+  elementType: text
+  bounds:
+  - 164
+  - 184
+  - 120
+  - 22
+  content:
+    text: 500g/份
+    fontSize: 11
+    color: '#7B7D72'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: cartp0
+  elementType: text
+  bounds:
+  - 164
+  - 216
+  - 90
+  - 28
+  content:
+    text: ¥3.99
+    fontSize: 18
+    color: '#F0442E'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: cartnum0
+  elementType: text
+  bounds:
+  - 282
+  - 216
+  - 70
+  - 30
+  content:
+    text: −  1  ＋
+    fontSize: 14
+    color: '#175C3B'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - center
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: cartc1
+  elementType: shape
+  bounds:
+  - 16
+  - 274
+  - 358
+  - 116
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#FFFFFF'
+  adjustments:
+  - 13793
+- elementId: cartcheck1
+  elementType: icon
+  bounds:
+  - 28
+  - 322
+  - 20
+  - 20
+  iconName: fas:circle-check
+  fill:
+    type: solid
+    color: '#F0442E'
+- elementId: cartim1
+  elementType: image
+  bounds:
+  - 58
+  - 286
+  - 92
+  - 92
+  src: media/eggs.jpg
+  fit:
+    mode: cover
+  cropShape:
+    shapeName: roundRect
+    adjustments:
+    - 13043
+- elementId: cartn1
+  elementType: text
+  bounds:
+  - 164
+  - 284
+  - 170
+  - 26
+  content:
+    text: 谷物鲜鸡蛋
+    fontSize: 14
+    color: '#252821'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: carts1
+  elementType: text
+  bounds:
+  - 164
+  - 314
+  - 120
+  - 22
+  content:
+    text: 10枚/盒
+    fontSize: 11
+    color: '#7B7D72'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: cartp1
+  elementType: text
+  bounds:
+  - 164
+  - 346
+  - 90
+  - 28
+  content:
+    text: ¥9.90
+    fontSize: 18
+    color: '#F0442E'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: cartnum1
+  elementType: text
+  bounds:
+  - 282
+  - 346
+  - 70
+  - 30
+  content:
+    text: −  1  ＋
+    fontSize: 14
+    color: '#175C3B'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - center
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: cartfree
+  elementType: shape
+  bounds:
+  - 16
+  - 414
+  - 358
+  - 40
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#FFF0E7'
+  adjustments:
+  - 25000
+- elementId: cartfreet
+  elementType: text
+  bounds:
+  - 30
+  - 414
+  - 330
+  - 40
+  content:
+    text: 已免配送费 5 元，优惠将在结算页明细展示
+    fontSize: 11
+    color: '#F0442E'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: sec常购推荐
+  elementType: text
+  bounds:
+  - 16
+  - 482
+  - 220
+  - 30
+  content:
+    text: 常购推荐
+    fontSize: 20
+    color: '#252821'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: cartrec0card
+  elementType: shape
+  bounds:
+  - 16
+  - 522
+  - 174
+  - 190
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#FFFFFF'
+  adjustments:
+  - 9195
+- elementId: cartrec0img
+  elementType: image
+  bounds:
+  - 16
+  - 522
+  - 174
+  - 140
+  src: media/orange.jpg
+  fit:
+    mode: cover
+  cropShape:
+    shapeName: roundRect
+    adjustments:
+    - 11428
+- elementId: cartrec0mask
+  elementType: shape
+  bounds:
+  - 16
+  - 648
+  - 174
+  - 16
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#FFFFFF'
+- elementId: cartrec0n
+  elementType: text
+  bounds:
+  - 26
+  - 668
+  - 154
+  - 24
+  content:
+    text: 赣南脐橙
+    fontSize: 14
+    color: '#252821'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: cartrec0s
+  elementType: text
+  bounds:
+  - 26
+  - 693
+  - 154
+  - 20
+  content:
+    text: 皮薄多汁 · 酸甜适口
+    fontSize: 10
+    color: '#7B7D72'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: cartrec0sp
+  elementType: text
+  bounds:
+  - 26
+  - 716
+  - 124
+  - 18
+  content:
+    text: 1kg/份
+    fontSize: 10
+    color: '#7B7D72'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: cartrec0pr
+  elementType: text
+  bounds:
+  - 26
+  - 736
+  - 124
+  - 28
+  content:
+    text: ¥8.80
+    fontSize: 20
+    color: '#F0442E'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: cartrec0plus
+  elementType: shape
+  bounds:
+  - 150
+  - 670
+  - 30
+  - 30
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#F0442E'
+  adjustments:
+  - 50000
+- elementId: cartrec0plusi
+  elementType: icon
+  bounds:
+  - 159
+  - 679
+  - 12
+  - 12
+  iconName: fas:plus
+  fill:
+    type: solid
+    color: '#FFFFFF'
+- elementId: cartrec1card
+  elementType: shape
+  bounds:
+  - 200
+  - 522
+  - 174
+  - 190
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#FFFFFF'
+  adjustments:
+  - 9195
+- elementId: cartrec1img
+  elementType: image
+  bounds:
+  - 200
+  - 522
+  - 174
+  - 140
+  src: media/milk.jpg
+  fit:
+    mode: cover
+  cropShape:
+    shapeName: roundRect
+    adjustments:
+    - 11428
+- elementId: cartrec1mask
+  elementType: shape
+  bounds:
+  - 200
+  - 648
+  - 174
+  - 16
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#FFFFFF'
+- elementId: cartrec1n
+  elementType: text
+  bounds:
+  - 210
+  - 668
+  - 154
+  - 24
+  content:
+    text: 纯牛奶
+    fontSize: 14
+    color: '#252821'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: cartrec1s
+  elementType: text
+  bounds:
+  - 210
+  - 693
+  - 154
+  - 20
+  content:
+    text: 生牛乳 · 香浓顺滑
+    fontSize: 10
+    color: '#7B7D72'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: cartrec1sp
+  elementType: text
+  bounds:
+  - 210
+  - 716
+  - 124
+  - 18
+  content:
+    text: 250ml×12
+    fontSize: 10
+    color: '#7B7D72'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: cartrec1pr
+  elementType: text
+  bounds:
+  - 210
+  - 736
+  - 124
+  - 28
+  content:
+    text: ¥39.90
+    fontSize: 20
+    color: '#F0442E'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: cartrec1plus
+  elementType: shape
+  bounds:
+  - 334
+  - 670
+  - 30
+  - 30
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#F0442E'
+  adjustments:
+  - 50000
+- elementId: cartrec1plusi
+  elementType: icon
+  bounds:
+  - 343
+  - 679
+  - 12
+  - 12
+  iconName: fas:plus
+  fill:
+    type: solid
+    color: '#FFFFFF'
+- elementId: carttotal
+  elementType: shape
+  bounds:
+  - 0
+  - 716
+  - 390
+  - 64
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#FFFFFF'
+- elementId: cartall
+  elementType: icon
+  bounds:
+  - 18
+  - 738
+  - 20
+  - 20
+  iconName: fas:circle-check
+  fill:
+    type: solid
+    color: '#175C3B'
+- elementId: cartallt
+  elementType: text
+  bounds:
+  - 46
+  - 726
+  - 50
+  - 44
+  content:
+    text: 全选
+    fontSize: 12
+    color: '#252821'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: cartmoney
+  elementType: text
+  bounds:
+  - 144
+  - 726
+  - 110
+  - 44
+  content:
+    text: ¥13.89
+    fontSize: 20
+    color: '#F0442E'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: cartcheckout-bg
+  elementType: shape
+  bounds:
+  - 270
+  - 726
+  - 104
+  - 44
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#F0442E'
+  adjustments:
+  - 50000
+- elementId: cartcheckout-t
+  elementType: text
+  bounds:
+  - 270
+  - 726
+  - 104
+  - 44
+  content:
+    text: 去结算 (2)
+    fontSize: 14
+    color: '#FFFFFF'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - center
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: tabbg
+  elementType: shape
+  bounds:
+  - 12
+  - 774
+  - 366
+  - 60
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#FFFFFF'
+  adjustments:
+  - 50000
+- elementId: tabi0
+  elementType: icon
+  bounds:
+  - 47
+  - 789
+  - 19
+  - 19
+  iconName: fas:house
+  fill:
+    type: solid
+    color: '#7B7D72'
+- elementId: tabt0
+  elementType: text
+  bounds:
+  - 20
+  - 811
+  - 74
+  - 20
+  content:
+    text: 首页
+    fontSize: 10
+    color: '#7B7D72'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - center
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: tabi1
+  elementType: icon
+  bounds:
+  - 137
+  - 789
+  - 19
+  - 19
+  iconName: fas:table-cells-large
+  fill:
+    type: solid
+    color: '#7B7D72'
+- elementId: tabt1
+  elementType: text
+  bounds:
+  - 110
+  - 811
+  - 74
+  - 20
+  content:
+    text: 分类
+    fontSize: 10
+    color: '#7B7D72'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - center
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: tabon
+  elementType: shape
+  bounds:
+  - 200
+  - 782
+  - 74
+  - 44
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#EAF3E5'
+  adjustments:
+  - 50000
+- elementId: tabi2
+  elementType: icon
+  bounds:
+  - 227
+  - 789
+  - 19
+  - 19
+  iconName: fas:cart-shopping
+  fill:
+    type: solid
+    color: '#175C3B'
+- elementId: tabt2
+  elementType: text
+  bounds:
+  - 200
+  - 811
+  - 74
+  - 20
+  content:
+    text: 购物车
+    fontSize: 10
+    color: '#175C3B'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - center
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: tabi3
+  elementType: icon
+  bounds:
+  - 317
+  - 789
+  - 19
+  - 19
+  iconName: far:user
+  fill:
+    type: solid
+    color: '#7B7D72'
+- elementId: tabt3
+  elementType: text
+  bounds:
+  - 290
+  - 811
+  - 74
+  - 20
+  content:
+    text: 我的
+    fontSize: 10
+    color: '#7B7D72'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - center
+    - middle
+    wrap: false
+    lineHeight: 1.15

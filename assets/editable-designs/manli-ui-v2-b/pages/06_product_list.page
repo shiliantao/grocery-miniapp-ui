@@ -1,0 +1,819 @@
+pageType: content
+background:
+  type: image
+  src: media/bg-warm.png
+  fit:
+    mode: cover
+elements:
+- elementId: stime
+  elementType: text
+  bounds:
+  - 18
+  - 4
+  - 52
+  - 20
+  content:
+    text: '9:41'
+    fontSize: 12
+    color: '#252821'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: ssignal
+  elementType: icon
+  bounds:
+  - 302
+  - 7
+  - 14
+  - 12
+  iconName: fas:signal
+  fill:
+    type: solid
+    color: '#252821'
+- elementId: swifi
+  elementType: icon
+  bounds:
+  - 323
+  - 7
+  - 15
+  - 12
+  iconName: fas:wifi
+  fill:
+    type: solid
+    color: '#252821'
+- elementId: sbattery
+  elementType: icon
+  bounds:
+  - 348
+  - 7
+  - 22
+  - 12
+  iconName: fas:battery-three-quarters
+  fill:
+    type: solid
+    color: '#252821'
+- elementId: nback
+  elementType: icon
+  bounds:
+  - 16
+  - 32
+  - 18
+  - 22
+  iconName: fas:chevron-left
+  fill:
+    type: solid
+    color: '#252821'
+- elementId: ntitle
+  elementType: text
+  bounds:
+  - 48
+  - 27
+  - 250
+  - 34
+  content:
+    text: 时令蔬菜
+    fontSize: 18
+    color: '#252821'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: nright
+  elementType: text
+  bounds:
+  - 310
+  - 29
+  - 64
+  - 30
+  content:
+    text: 筛选
+    fontSize: 11
+    color: '#175C3B'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - right
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: chip760
+  elementType: shape
+  bounds:
+  - 16
+  - 76
+  - 64
+  - 32
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#EAF3E5'
+  adjustments:
+  - 50000
+- elementId: chipt760
+  elementType: text
+  bounds:
+  - 16
+  - 76
+  - 64
+  - 32
+  content:
+    text: 综合
+    fontSize: 12
+    color: '#175C3B'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - center
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: chip761
+  elementType: shape
+  bounds:
+  - 88
+  - 76
+  - 64
+  - 32
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#FFFFFF'
+  adjustments:
+  - 50000
+  border:
+    style: solid
+    width: 1
+    color: '#EAE3D7'
+- elementId: chipt761
+  elementType: text
+  bounds:
+  - 88
+  - 76
+  - 64
+  - 32
+  content:
+    text: 销量
+    fontSize: 12
+    color: '#7B7D72'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - center
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: chip762
+  elementType: shape
+  bounds:
+  - 160
+  - 76
+  - 64
+  - 32
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#FFFFFF'
+  adjustments:
+  - 50000
+  border:
+    style: solid
+    width: 1
+    color: '#EAE3D7'
+- elementId: chipt762
+  elementType: text
+  bounds:
+  - 160
+  - 76
+  - 64
+  - 32
+  content:
+    text: 价格
+    fontSize: 12
+    color: '#7B7D72'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - center
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: chip763
+  elementType: shape
+  bounds:
+  - 232
+  - 76
+  - 64
+  - 32
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#FFFFFF'
+  adjustments:
+  - 50000
+  border:
+    style: solid
+    width: 1
+    color: '#EAE3D7'
+- elementId: chipt763
+  elementType: text
+  bounds:
+  - 232
+  - 76
+  - 64
+  - 32
+  content:
+    text: 新品
+    fontSize: 12
+    color: '#7B7D72'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - center
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: lst
+  elementType: shape
+  bounds:
+  - 16
+  - 122
+  - 358
+  - 38
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#EAF3E5'
+  adjustments:
+  - 21052
+- elementId: lsti
+  elementType: icon
+  bounds:
+  - 30
+  - 132
+  - 17
+  - 17
+  iconName: fas:truck-fast
+  fill:
+    type: solid
+    color: '#175C3B'
+- elementId: lstt
+  elementType: text
+  bounds:
+  - 58
+  - 122
+  - 270
+  - 38
+  content:
+    text: 幸福里社区可配送 · 明日达
+    fontSize: 11
+    color: '#175C3B'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: lp0card
+  elementType: shape
+  bounds:
+  - 16
+  - 176
+  - 174
+  - 250
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#FFFFFF'
+  adjustments:
+  - 9195
+- elementId: lp0img
+  elementType: image
+  bounds:
+  - 16
+  - 176
+  - 174
+  - 140
+  src: media/tomato.jpg
+  fit:
+    mode: cover
+  cropShape:
+    shapeName: roundRect
+    adjustments:
+    - 11428
+- elementId: lp0mask
+  elementType: shape
+  bounds:
+  - 16
+  - 302
+  - 174
+  - 16
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#FFFFFF'
+- elementId: lp0n
+  elementType: text
+  bounds:
+  - 26
+  - 322
+  - 154
+  - 24
+  content:
+    text: 沙瓤西红柿
+    fontSize: 14
+    color: '#252821'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: lp0s
+  elementType: text
+  bounds:
+  - 26
+  - 347
+  - 154
+  - 20
+  content:
+    text: 自然熟 · 沙瓤多汁
+    fontSize: 10
+    color: '#7B7D72'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: lp0sp
+  elementType: text
+  bounds:
+  - 26
+  - 370
+  - 124
+  - 18
+  content:
+    text: 500g/份
+    fontSize: 10
+    color: '#7B7D72'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: lp0pr
+  elementType: text
+  bounds:
+  - 26
+  - 390
+  - 124
+  - 28
+  content:
+    text: ¥3.99
+    fontSize: 20
+    color: '#F0442E'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: lp0plus
+  elementType: shape
+  bounds:
+  - 150
+  - 384
+  - 30
+  - 30
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#F0442E'
+  adjustments:
+  - 50000
+- elementId: lp0plusi
+  elementType: icon
+  bounds:
+  - 159
+  - 393
+  - 12
+  - 12
+  iconName: fas:plus
+  fill:
+    type: solid
+    color: '#FFFFFF'
+- elementId: lp1card
+  elementType: shape
+  bounds:
+  - 200
+  - 176
+  - 174
+  - 250
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#FFFFFF'
+  adjustments:
+  - 9195
+- elementId: lp1img
+  elementType: image
+  bounds:
+  - 200
+  - 176
+  - 174
+  - 140
+  src: media/broccoli.jpg
+  fit:
+    mode: cover
+  cropShape:
+    shapeName: roundRect
+    adjustments:
+    - 11428
+- elementId: lp1mask
+  elementType: shape
+  bounds:
+  - 200
+  - 302
+  - 174
+  - 16
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#FFFFFF'
+- elementId: lp1n
+  elementType: text
+  bounds:
+  - 210
+  - 322
+  - 154
+  - 24
+  content:
+    text: 新鲜西兰花
+    fontSize: 14
+    color: '#252821'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: lp1s
+  elementType: text
+  bounds:
+  - 210
+  - 347
+  - 154
+  - 20
+  content:
+    text: 脆嫩花球 · 基地直供
+    fontSize: 10
+    color: '#7B7D72'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: lp1sp
+  elementType: text
+  bounds:
+  - 210
+  - 370
+  - 124
+  - 18
+  content:
+    text: 400g/份
+    fontSize: 10
+    color: '#7B7D72'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: lp1pr
+  elementType: text
+  bounds:
+  - 210
+  - 390
+  - 124
+  - 28
+  content:
+    text: ¥5.60
+    fontSize: 20
+    color: '#F0442E'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: lp1plus
+  elementType: shape
+  bounds:
+  - 334
+  - 384
+  - 30
+  - 30
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#F0442E'
+  adjustments:
+  - 50000
+- elementId: lp1plusi
+  elementType: icon
+  bounds:
+  - 343
+  - 393
+  - 12
+  - 12
+  iconName: fas:plus
+  fill:
+    type: solid
+    color: '#FFFFFF'
+- elementId: lp2card
+  elementType: shape
+  bounds:
+  - 16
+  - 436
+  - 174
+  - 250
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#FFFFFF'
+  adjustments:
+  - 9195
+- elementId: lp2img
+  elementType: image
+  bounds:
+  - 16
+  - 436
+  - 174
+  - 140
+  src: media/strawberry.jpg
+  fit:
+    mode: cover
+  cropShape:
+    shapeName: roundRect
+    adjustments:
+    - 11428
+- elementId: lp2mask
+  elementType: shape
+  bounds:
+  - 16
+  - 562
+  - 174
+  - 16
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#FFFFFF'
+- elementId: lp2n
+  elementType: text
+  bounds:
+  - 26
+  - 582
+  - 154
+  - 24
+  content:
+    text: 红颜草莓
+    fontSize: 14
+    color: '#252821'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: lp2s
+  elementType: text
+  bounds:
+  - 26
+  - 607
+  - 154
+  - 20
+  content:
+    text: 当日现摘 · 清甜
+    fontSize: 10
+    color: '#7B7D72'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: lp2sp
+  elementType: text
+  bounds:
+  - 26
+  - 630
+  - 124
+  - 18
+  content:
+    text: 250g/盒
+    fontSize: 10
+    color: '#7B7D72'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: lp2pr
+  elementType: text
+  bounds:
+  - 26
+  - 650
+  - 124
+  - 28
+  content:
+    text: ¥15.90
+    fontSize: 20
+    color: '#F0442E'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: lp2plus
+  elementType: shape
+  bounds:
+  - 150
+  - 644
+  - 30
+  - 30
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#F0442E'
+  adjustments:
+  - 50000
+- elementId: lp2plusi
+  elementType: icon
+  bounds:
+  - 159
+  - 653
+  - 12
+  - 12
+  iconName: fas:plus
+  fill:
+    type: solid
+    color: '#FFFFFF'
+- elementId: lp3card
+  elementType: shape
+  bounds:
+  - 200
+  - 436
+  - 174
+  - 250
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#FFFFFF'
+  adjustments:
+  - 9195
+- elementId: lp3img
+  elementType: image
+  bounds:
+  - 200
+  - 436
+  - 174
+  - 140
+  src: media/eggs.jpg
+  fit:
+    mode: cover
+  cropShape:
+    shapeName: roundRect
+    adjustments:
+    - 11428
+- elementId: lp3mask
+  elementType: shape
+  bounds:
+  - 200
+  - 562
+  - 174
+  - 16
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#FFFFFF'
+- elementId: lp3n
+  elementType: text
+  bounds:
+  - 210
+  - 582
+  - 154
+  - 24
+  content:
+    text: 谷物鲜鸡蛋
+    fontSize: 14
+    color: '#252821'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: lp3s
+  elementType: text
+  bounds:
+  - 210
+  - 607
+  - 154
+  - 20
+  content:
+    text: 谷物喂养 · 蛋香浓郁
+    fontSize: 10
+    color: '#7B7D72'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: lp3sp
+  elementType: text
+  bounds:
+  - 210
+  - 630
+  - 124
+  - 18
+  content:
+    text: 10枚/盒
+    fontSize: 10
+    color: '#7B7D72'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: lp3pr
+  elementType: text
+  bounds:
+  - 210
+  - 650
+  - 124
+  - 28
+  content:
+    text: ¥9.90
+    fontSize: 20
+    color: '#F0442E'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: lp3plus
+  elementType: shape
+  bounds:
+  - 334
+  - 644
+  - 30
+  - 30
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#F0442E'
+  adjustments:
+  - 50000
+- elementId: lp3plusi
+  elementType: icon
+  bounds:
+  - 343
+  - 653
+  - 12
+  - 12
+  iconName: fas:plus
+  fill:
+    type: solid
+    color: '#FFFFFF'

@@ -1,0 +1,469 @@
+pageType: content
+background:
+  type: image
+  src: media/bg-warm.png
+  fit:
+    mode: cover
+elements:
+- elementId: stime
+  elementType: text
+  bounds:
+  - 18
+  - 4
+  - 52
+  - 20
+  content:
+    text: '9:41'
+    fontSize: 12
+    color: '#252821'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: ssignal
+  elementType: icon
+  bounds:
+  - 302
+  - 7
+  - 14
+  - 12
+  iconName: fas:signal
+  fill:
+    type: solid
+    color: '#252821'
+- elementId: swifi
+  elementType: icon
+  bounds:
+  - 323
+  - 7
+  - 15
+  - 12
+  iconName: fas:wifi
+  fill:
+    type: solid
+    color: '#252821'
+- elementId: sbattery
+  elementType: icon
+  bounds:
+  - 348
+  - 7
+  - 22
+  - 12
+  iconName: fas:battery-three-quarters
+  fill:
+    type: solid
+    color: '#252821'
+- elementId: nback
+  elementType: icon
+  bounds:
+  - 16
+  - 32
+  - 18
+  - 22
+  iconName: fas:chevron-left
+  fill:
+    type: solid
+    color: '#252821'
+- elementId: ntitle
+  elementType: text
+  bounds:
+  - 48
+  - 27
+  - 250
+  - 34
+  content:
+    text: 消息中心
+    fontSize: 18
+    color: '#252821'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: nright
+  elementType: text
+  bounds:
+  - 310
+  - 29
+  - 64
+  - 30
+  content:
+    text: 全部已读
+    fontSize: 11
+    color: '#175C3B'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - right
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: msg0
+  elementType: shape
+  bounds:
+  - 16
+  - 82
+  - 358
+  - 96
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#FFFFFF'
+  adjustments:
+  - 16666
+- elementId: msgic0bg
+  elementType: shape
+  bounds:
+  - 28
+  - 104
+  - 38
+  - 38
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#E1F1FC'
+  adjustments:
+  - 50000
+- elementId: msgic0ic
+  elementType: icon
+  bounds:
+  - 37.0
+  - 113.0
+  - 20
+  - 20
+  iconName: fas:truck-fast
+  fill:
+    type: solid
+    color: '#328CB4'
+- elementId: msgt0
+  elementType: text
+  bounds:
+  - 82
+  - 94
+  - 210
+  - 26
+  content:
+    text: 订单配送中
+    fontSize: 14
+    color: '#252821'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: msgtime0
+  elementType: text
+  bounds:
+  - 300
+  - 96
+  - 58
+  - 22
+  content:
+    text: 09:26
+    fontSize: 10
+    color: '#7B7D72'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - right
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: msgd0
+  elementType: text
+  bounds:
+  - 82
+  - 126
+  - 260
+  - 38
+  content:
+    text: 您的订单已交接配送员，预计今日送达
+    fontSize: 11
+    color: '#7B7D72'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - left
+    - top
+    wrap: true
+    lineHeight: 1.4
+- elementId: msg1
+  elementType: shape
+  bounds:
+  - 16
+  - 194
+  - 358
+  - 96
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#FFFFFF'
+  adjustments:
+  - 16666
+- elementId: msgic1bg
+  elementType: shape
+  bounds:
+  - 28
+  - 216
+  - 38
+  - 38
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#FFE5E0'
+  adjustments:
+  - 50000
+- elementId: msgic1ic
+  elementType: icon
+  bounds:
+  - 37.0
+  - 225.0
+  - 20
+  - 20
+  iconName: fas:bullhorn
+  fill:
+    type: solid
+    color: '#D95745'
+- elementId: msgt1
+  elementType: text
+  bounds:
+  - 82
+  - 206
+  - 210
+  - 26
+  content:
+    text: 草莓限时降价
+    fontSize: 14
+    color: '#252821'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: msgtime1
+  elementType: text
+  bounds:
+  - 300
+  - 208
+  - 58
+  - 22
+  content:
+    text: 昨天
+    fontSize: 10
+    color: '#7B7D72'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - right
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: msgd1
+  elementType: text
+  bounds:
+  - 82
+  - 238
+  - 260
+  - 38
+  content:
+    text: 常购商品红颜草莓今日活动价 ¥15.90
+    fontSize: 11
+    color: '#7B7D72'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - left
+    - top
+    wrap: true
+    lineHeight: 1.4
+- elementId: msg2
+  elementType: shape
+  bounds:
+  - 16
+  - 306
+  - 358
+  - 96
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#FFFFFF'
+  adjustments:
+  - 16666
+- elementId: msgic2bg
+  elementType: shape
+  bounds:
+  - 28
+  - 328
+  - 38
+  - 38
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#E8F3E4'
+  adjustments:
+  - 50000
+- elementId: msgic2ic
+  elementType: icon
+  bounds:
+  - 37.0
+  - 337.0
+  - 20
+  - 20
+  iconName: fas:rotate-left
+  fill:
+    type: solid
+    color: '#4E9A52'
+- elementId: msgt2
+  elementType: text
+  bounds:
+  - 82
+  - 318
+  - 210
+  - 26
+  content:
+    text: 售后审核通过
+    fontSize: 14
+    color: '#252821'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: msgtime2
+  elementType: text
+  bounds:
+  - 300
+  - 320
+  - 58
+  - 22
+  content:
+    text: 11月09日
+    fontSize: 10
+    color: '#7B7D72'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - right
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: msgd2
+  elementType: text
+  bounds:
+  - 82
+  - 350
+  - 260
+  - 38
+  content:
+    text: 退款将在 1–3 个工作日内原路退回
+    fontSize: 11
+    color: '#7B7D72'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - left
+    - top
+    wrap: true
+    lineHeight: 1.4
+- elementId: msg3
+  elementType: shape
+  bounds:
+  - 16
+  - 418
+  - 358
+  - 96
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#FFFFFF'
+  adjustments:
+  - 16666
+- elementId: msgic3bg
+  elementType: shape
+  bounds:
+  - 28
+  - 440
+  - 38
+  - 38
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#F0E7F8'
+  adjustments:
+  - 50000
+- elementId: msgic3ic
+  elementType: icon
+  bounds:
+  - 37.0
+  - 449.0
+  - 20
+  - 20
+  iconName: fas:circle-info
+  fill:
+    type: solid
+    color: '#8B62B0'
+- elementId: msgt3
+  elementType: text
+  bounds:
+  - 82
+  - 430
+  - 210
+  - 26
+  content:
+    text: 站点营业时间调整
+    fontSize: 14
+    color: '#252821'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: msgtime3
+  elementType: text
+  bounds:
+  - 300
+  - 432
+  - 58
+  - 22
+  content:
+    text: 11月08日
+    fontSize: 10
+    color: '#7B7D72'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - right
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: msgd3
+  elementType: text
+  bounds:
+  - 82
+  - 462
+  - 260
+  - 38
+  content:
+    text: 阳光便民站周末营业时间调整为 08:30
+    fontSize: 11
+    color: '#7B7D72'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - left
+    - top
+    wrap: true
+    lineHeight: 1.4

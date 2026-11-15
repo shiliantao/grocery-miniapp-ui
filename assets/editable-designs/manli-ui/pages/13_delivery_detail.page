@@ -1,0 +1,627 @@
+pageType: content
+background:
+  type: solid
+  color: '#F6F7F3'
+elements:
+- elementId: status-time
+  elementType: text
+  bounds:
+  - 18
+  - 4
+  - 52
+  - 20
+  content:
+    text: '9:41'
+    fontSize: 12
+    color: '#17231D'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: status-signal
+  elementType: icon
+  bounds:
+  - 302
+  - 7
+  - 14
+  - 12
+  iconName: fas:signal
+  fill:
+    type: solid
+    color: '#17231D'
+- elementId: status-wifi
+  elementType: icon
+  bounds:
+  - 323
+  - 7
+  - 15
+  - 12
+  iconName: fas:wifi
+  fill:
+    type: solid
+    color: '#17231D'
+- elementId: status-battery
+  elementType: icon
+  bounds:
+  - 348
+  - 7
+  - 22
+  - 12
+  iconName: fas:battery-three-quarters
+  fill:
+    type: solid
+    color: '#17231D'
+- elementId: nav-back
+  elementType: icon
+  bounds:
+  - 16
+  - 33
+  - 18
+  - 20
+  iconName: fas:chevron-left
+  fill:
+    type: solid
+    color: '#17231D'
+- elementId: nav-title
+  elementType: text
+  bounds:
+  - 60
+  - 28
+  - 270
+  - 30
+  content:
+    text: 订单详情
+    fontSize: 17
+    color: '#17231D'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - center
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: nav-right
+  elementType: text
+  bounds:
+  - 314
+  - 29
+  - 58
+  - 28
+  content:
+    text: 客服
+    fontSize: 12
+    color: '#17231D'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - right
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: delivery-hero
+  elementType: shape
+  bounds:
+  - 16
+  - 76
+  - 358
+  - 116
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#176B4D'
+  adjustments:
+  - 12068
+- elementId: delivery-truck
+  elementType: icon
+  bounds:
+  - 32
+  - 96
+  - 30
+  - 30
+  iconName: fas:truck-fast
+  fill:
+    type: solid
+    color: '#FFFFFF'
+- elementId: delivery-status
+  elementType: text
+  bounds:
+  - 76
+  - 88
+  - 180
+  - 32
+  content:
+    text: 配送中
+    fontSize: 21
+    color: '#FFFFFF'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: delivery-sub
+  elementType: text
+  bounds:
+  - 76
+  - 123
+  - 250
+  - 24
+  content:
+    text: 配送员已出发，请保持电话畅通
+    fontSize: 12
+    color: '#D8EBDF'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: delivery-batch
+  elementType: text
+  bounds:
+  - 32
+  - 158
+  - 280
+  - 22
+  content:
+    text: 批次：ML-D20261112-03
+    fontSize: 11
+    color: '#D8EBDF'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: delivery-progress
+  elementType: shape
+  bounds:
+  - 16
+  - 208
+  - 358
+  - 258
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#FFFFFF'
+  adjustments:
+  - 4651
+- elementId: delivery-progress-t
+  elementType: text
+  bounds:
+  - 30
+  - 220
+  - 180
+  - 28
+  content:
+    text: 配送进度
+    fontSize: 16
+    color: '#17231D'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: dot-0
+  elementType: shape
+  bounds:
+  - 32
+  - 270
+  - 12
+  - 12
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#176B4D'
+  adjustments:
+  - 50000
+- elementId: step-a-0
+  elementType: text
+  bounds:
+  - 58
+  - 264
+  - 200
+  - 24
+  content:
+    text: 包裹已交接配送员
+    fontSize: 13
+    color: '#17231D'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: step-b-0
+  elementType: text
+  bounds:
+  - 238
+  - 264
+  - 112
+  - 24
+  content:
+    text: 今天 08:36
+    fontSize: 10
+    color: '#748078'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - right
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: step-line-0
+  elementType: shape
+  bounds:
+  - 37
+  - 284
+  - 2
+  - 30
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#E8F4EC'
+- elementId: dot-1
+  elementType: shape
+  bounds:
+  - 32
+  - 318
+  - 12
+  - 12
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#176B4D'
+  adjustments:
+  - 50000
+- elementId: step-a-1
+  elementType: text
+  bounds:
+  - 58
+  - 312
+  - 200
+  - 24
+  content:
+    text: 仓库分拣复核完成
+    fontSize: 13
+    color: '#17231D'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: step-b-1
+  elementType: text
+  bounds:
+  - 238
+  - 312
+  - 112
+  - 24
+  content:
+    text: 今天 07:52
+    fontSize: 10
+    color: '#748078'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - right
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: step-line-1
+  elementType: shape
+  bounds:
+  - 37
+  - 332
+  - 2
+  - 30
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#E8F4EC'
+- elementId: dot-2
+  elementType: shape
+  bounds:
+  - 32
+  - 366
+  - 12
+  - 12
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#176B4D'
+  adjustments:
+  - 50000
+- elementId: step-a-2
+  elementType: text
+  bounds:
+  - 58
+  - 360
+  - 200
+  - 24
+  content:
+    text: 订单支付成功
+    fontSize: 13
+    color: '#17231D'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: step-b-2
+  elementType: text
+  bounds:
+  - 238
+  - 360
+  - 112
+  - 24
+  content:
+    text: 昨天 20:18
+    fontSize: 10
+    color: '#748078'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - right
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: step-line-2
+  elementType: shape
+  bounds:
+  - 37
+  - 380
+  - 2
+  - 30
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#E8F4EC'
+- elementId: dot-3
+  elementType: shape
+  bounds:
+  - 32
+  - 414
+  - 12
+  - 12
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#E4E9E3'
+  adjustments:
+  - 50000
+- elementId: step-a-3
+  elementType: text
+  bounds:
+  - 58
+  - 408
+  - 200
+  - 24
+  content:
+    text: 预计送达
+    fontSize: 13
+    color: '#748078'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: step-b-3
+  elementType: text
+  bounds:
+  - 238
+  - 408
+  - 112
+  - 24
+  content:
+    text: 今天 09:00–18:00
+    fontSize: 10
+    color: '#748078'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - right
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: delivery-address
+  elementType: shape
+  bounds:
+  - 16
+  - 482
+  - 358
+  - 92
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#FFFFFF'
+  adjustments:
+  - 13043
+- elementId: delivery-loc
+  elementType: icon
+  bounds:
+  - 30
+  - 500
+  - 20
+  - 22
+  iconName: fas:location-dot
+  fill:
+    type: solid
+    color: '#176B4D'
+- elementId: delivery-name
+  elementType: text
+  bounds:
+  - 62
+  - 490
+  - 250
+  - 26
+  content:
+    text: 李女士  138****6721
+    fontSize: 14
+    color: '#17231D'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: delivery-addr
+  elementType: text
+  bounds:
+  - 62
+  - 521
+  - 270
+  - 24
+  content:
+    text: 幸福里一期 2 栋 1 单元 801
+    fontSize: 12
+    color: '#748078'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: delivery-no
+  elementType: text
+  bounds:
+  - 16
+  - 590
+  - 358
+  - 24
+  content:
+    text: 订单号  ML202611110086  |  共3件
+    fontSize: 11
+    color: '#748078'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: delivery-note
+  elementType: shape
+  bounds:
+  - 16
+  - 626
+  - 358
+  - 58
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#E8F4EC'
+  adjustments:
+  - 17241
+- elementId: delivery-info
+  elementType: icon
+  bounds:
+  - 30
+  - 644
+  - 16
+  - 16
+  iconName: fas:circle-info
+  fill:
+    type: solid
+    color: '#176B4D'
+- elementId: delivery-note-t
+  elementType: text
+  bounds:
+  - 56
+  - 626
+  - 300
+  - 58
+  content:
+    text: 本期不展示骑手实时位置，进度以配送事件为准
+    fontSize: 11
+    color: '#176B4D'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: delivery-contact-bg
+  elementType: shape
+  bounds:
+  - 16
+  - 748
+  - 172
+  - 44
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#FFFFFF'
+  adjustments:
+  - 50000
+  border:
+    style: solid
+    width: 1
+    color: '#176B4D'
+- elementId: delivery-contact-txt
+  elementType: text
+  bounds:
+  - 16
+  - 748
+  - 172
+  - 44
+  content:
+    text: 联系配送员
+    fontSize: 15
+    color: '#176B4D'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - center
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: delivery-sign-bg
+  elementType: shape
+  bounds:
+  - 202
+  - 748
+  - 172
+  - 44
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#176B4D'
+  adjustments:
+  - 50000
+- elementId: delivery-sign-txt
+  elementType: text
+  bounds:
+  - 202
+  - 748
+  - 172
+  - 44
+  content:
+    text: 确认签收
+    fontSize: 15
+    color: '#FFFFFF'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - center
+    - middle
+    wrap: false
+    lineHeight: 1.15

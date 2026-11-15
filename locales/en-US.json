@@ -1,0 +1,17 @@
+{
+  "displayName": "Grocery Mini Program UI",
+  "shortDescription": "Design three high-fidelity grocery mini program UI concepts in Kimi",
+  "longDescription": "Create three distinct high-fidelity UI concepts for grocery, fresh-food and community-delivery mini programs, with editable design sources, offline interactive HTML previews, and checks for category recognition, promotions, membership, interactions and asset usage rights.",
+  "developerName": "Local developer",
+  "tryPrompts": [
+    "Design three UI concepts for a community grocery mini program",
+    "Revise the home and membership pages in a fresh market style",
+    "Generate three offline interactive HTML previews"
+  ],
+  "skillOverrides": {
+    "grocery-miniapp-ui": {
+      "displayName": "Grocery Mini Program UI",
+      "description": "Create editable UI designs and three offline interactive HTML previews"
+    }
+  }
+}

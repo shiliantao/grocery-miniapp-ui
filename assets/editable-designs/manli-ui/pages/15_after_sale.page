@@ -1,0 +1,614 @@
+pageType: content
+background:
+  type: solid
+  color: '#F6F7F3'
+elements:
+- elementId: status-time
+  elementType: text
+  bounds:
+  - 18
+  - 4
+  - 52
+  - 20
+  content:
+    text: '9:41'
+    fontSize: 12
+    color: '#17231D'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: status-signal
+  elementType: icon
+  bounds:
+  - 302
+  - 7
+  - 14
+  - 12
+  iconName: fas:signal
+  fill:
+    type: solid
+    color: '#17231D'
+- elementId: status-wifi
+  elementType: icon
+  bounds:
+  - 323
+  - 7
+  - 15
+  - 12
+  iconName: fas:wifi
+  fill:
+    type: solid
+    color: '#17231D'
+- elementId: status-battery
+  elementType: icon
+  bounds:
+  - 348
+  - 7
+  - 22
+  - 12
+  iconName: fas:battery-three-quarters
+  fill:
+    type: solid
+    color: '#17231D'
+- elementId: nav-back
+  elementType: icon
+  bounds:
+  - 16
+  - 33
+  - 18
+  - 20
+  iconName: fas:chevron-left
+  fill:
+    type: solid
+    color: '#17231D'
+- elementId: nav-title
+  elementType: text
+  bounds:
+  - 60
+  - 28
+  - 270
+  - 30
+  content:
+    text: 申请售后
+    fontSize: 17
+    color: '#17231D'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - center
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: nav-right
+  elementType: text
+  bounds:
+  - 314
+  - 29
+  - 58
+  - 28
+  content:
+    text: 售后记录
+    fontSize: 12
+    color: '#17231D'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - right
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: after-goods
+  elementType: shape
+  bounds:
+  - 16
+  - 76
+  - 358
+  - 92
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#FFFFFF'
+  adjustments:
+  - 13043
+- elementId: after-img
+  elementType: image
+  bounds:
+  - 30
+  - 88
+  - 68
+  - 68
+  src: media/tomato.jpg
+  fit:
+    mode: cover
+  cropShape:
+    shapeName: roundRect
+    adjustments:
+    - 11764
+- elementId: after-name
+  elementType: text
+  bounds:
+  - 110
+  - 88
+  - 210
+  - 26
+  content:
+    text: 沙瓤西红柿
+    fontSize: 14
+    color: '#17231D'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: after-spec
+  elementType: text
+  bounds:
+  - 110
+  - 118
+  - 160
+  - 22
+  content:
+    text: 500g/份 ×1
+    fontSize: 11
+    color: '#748078'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: after-price
+  elementType: text
+  bounds:
+  - 110
+  - 140
+  - 160
+  - 22
+  content:
+    text: 实付 ¥3.99
+    fontSize: 12
+    color: '#17231D'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: rows-bg
+  elementType: shape
+  bounds:
+  - 16
+  - 184
+  - 358
+  - 156
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#FFFFFF'
+  adjustments:
+  - 7692
+- elementId: row-ic-0
+  elementType: icon
+  bounds:
+  - 30
+  - 201
+  - 18
+  - 18
+  iconName: fas:rotate-left
+  fill:
+    type: solid
+    color: '#176B4D'
+- elementId: row-label-0
+  elementType: text
+  bounds:
+  - 58
+  - 184
+  - 170
+  - 52
+  content:
+    text: 售后类型
+    fontSize: 14
+    color: '#17231D'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: row-value-0
+  elementType: text
+  bounds:
+  - 210
+  - 184
+  - 130
+  - 52
+  content:
+    text: 仅退款
+    fontSize: 12
+    color: '#748078'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - right
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: row-arrow-0
+  elementType: icon
+  bounds:
+  - 350
+  - 204
+  - 10
+  - 14
+  iconName: fas:chevron-right
+  fill:
+    type: solid
+    color: '#A6AEA8'
+- elementId: row-line-0
+  elementType: line
+  bounds:
+  - 30
+  - 236
+  - 332
+  - 1
+  viewBox:
+  - 332
+  - 1
+  points: 0,0 332,0
+  curve: sharp
+  border:
+    style: solid
+    width: 1
+    color: '#E4E9E3'
+- elementId: row-ic-1
+  elementType: icon
+  bounds:
+  - 30
+  - 253
+  - 18
+  - 18
+  iconName: far:circle-question
+  fill:
+    type: solid
+    color: '#176B4D'
+- elementId: row-label-1
+  elementType: text
+  bounds:
+  - 58
+  - 236
+  - 170
+  - 52
+  content:
+    text: 申请原因
+    fontSize: 14
+    color: '#17231D'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: row-value-1
+  elementType: text
+  bounds:
+  - 210
+  - 236
+  - 130
+  - 52
+  content:
+    text: 商品破损 / 质量问题
+    fontSize: 12
+    color: '#748078'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - right
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: row-arrow-1
+  elementType: icon
+  bounds:
+  - 350
+  - 256
+  - 10
+  - 14
+  iconName: fas:chevron-right
+  fill:
+    type: solid
+    color: '#A6AEA8'
+- elementId: row-line-1
+  elementType: line
+  bounds:
+  - 30
+  - 288
+  - 332
+  - 1
+  viewBox:
+  - 332
+  - 1
+  points: 0,0 332,0
+  curve: sharp
+  border:
+    style: solid
+    width: 1
+    color: '#E4E9E3'
+- elementId: row-ic-2
+  elementType: icon
+  bounds:
+  - 30
+  - 305
+  - 18
+  - 18
+  iconName: fas:sack-dollar
+  fill:
+    type: solid
+    color: '#176B4D'
+- elementId: row-label-2
+  elementType: text
+  bounds:
+  - 58
+  - 288
+  - 170
+  - 52
+  content:
+    text: 退款金额
+    fontSize: 14
+    color: '#17231D'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: row-value-2
+  elementType: text
+  bounds:
+  - 210
+  - 288
+  - 130
+  - 52
+  content:
+    text: ¥3.99
+    fontSize: 12
+    color: '#748078'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - right
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: row-arrow-2
+  elementType: icon
+  bounds:
+  - 350
+  - 308
+  - 10
+  - 14
+  iconName: fas:chevron-right
+  fill:
+    type: solid
+    color: '#A6AEA8'
+- elementId: after-desc-t
+  elementType: text
+  bounds:
+  - 16
+  - 356
+  - 200
+  - 28
+  content:
+    text: 问题描述
+    fontSize: 15
+    color: '#17231D'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: after-desc
+  elementType: shape
+  bounds:
+  - 16
+  - 392
+  - 358
+  - 104
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#FFFFFF'
+  adjustments:
+  - 11538
+- elementId: after-desc-ph
+  elementType: text
+  bounds:
+  - 30
+  - 402
+  - 320
+  - 30
+  content:
+    text: 请描述商品问题，便于客服快速处理
+    fontSize: 12
+    color: '#748078'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: after-count
+  elementType: text
+  bounds:
+  - 286
+  - 464
+  - 72
+  - 20
+  content:
+    text: 0 / 200
+    fontSize: 10
+    color: '#A6AEA8'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - right
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: after-upload-t
+  elementType: text
+  bounds:
+  - 16
+  - 516
+  - 200
+  - 28
+  content:
+    text: 上传凭证
+    fontSize: 15
+    color: '#17231D'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: after-upload
+  elementType: shape
+  bounds:
+  - 16
+  - 554
+  - 82
+  - 82
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#FFFFFF'
+  adjustments:
+  - 12195
+  border:
+    style: solid
+    width: 1
+    color: '#E4E9E3'
+- elementId: after-camera
+  elementType: icon
+  bounds:
+  - 43
+  - 574
+  - 28
+  - 28
+  iconName: fas:camera
+  fill:
+    type: solid
+    color: '#748078'
+- elementId: after-upload-txt
+  elementType: text
+  bounds:
+  - 16
+  - 608
+  - 82
+  - 20
+  content:
+    text: 上传图片
+    fontSize: 10
+    color: '#748078'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - center
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: after-upload-tip
+  elementType: text
+  bounds:
+  - 112
+  - 570
+  - 240
+  - 48
+  content:
+    text: 最多 6 张，支持破损、少件等情况
+    fontSize: 11
+    color: '#748078'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - left
+    - top
+    wrap: true
+    lineHeight: 1.5
+- elementId: after-tip
+  elementType: shape
+  bounds:
+  - 16
+  - 658
+  - 358
+  - 54
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#E8F4EC'
+  adjustments:
+  - 18518
+- elementId: after-tip-t
+  elementType: text
+  bounds:
+  - 30
+  - 658
+  - 330
+  - 54
+  content:
+    text: 优惠将按订单明细比例分摊后计算退款
+    fontSize: 11
+    color: '#176B4D'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: after-submit-bg
+  elementType: shape
+  bounds:
+  - 16
+  - 754
+  - 358
+  - 46
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#176B4D'
+  adjustments:
+  - 50000
+- elementId: after-submit-txt
+  elementType: text
+  bounds:
+  - 16
+  - 754
+  - 358
+  - 46
+  content:
+    text: 提交申请
+    fontSize: 15
+    color: '#FFFFFF'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - center
+    - middle
+    wrap: false
+    lineHeight: 1.15

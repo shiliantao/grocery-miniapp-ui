@@ -1,0 +1,422 @@
+pageType: content
+background:
+  type: solid
+  color: '#F6F7F3'
+elements:
+- elementId: status-time
+  elementType: text
+  bounds:
+  - 18
+  - 4
+  - 52
+  - 20
+  content:
+    text: '9:41'
+    fontSize: 12
+    color: '#17231D'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: status-signal
+  elementType: icon
+  bounds:
+  - 302
+  - 7
+  - 14
+  - 12
+  iconName: fas:signal
+  fill:
+    type: solid
+    color: '#17231D'
+- elementId: status-wifi
+  elementType: icon
+  bounds:
+  - 323
+  - 7
+  - 15
+  - 12
+  iconName: fas:wifi
+  fill:
+    type: solid
+    color: '#17231D'
+- elementId: status-battery
+  elementType: icon
+  bounds:
+  - 348
+  - 7
+  - 22
+  - 12
+  iconName: fas:battery-three-quarters
+  fill:
+    type: solid
+    color: '#17231D'
+- elementId: nav-back
+  elementType: icon
+  bounds:
+  - 16
+  - 33
+  - 18
+  - 20
+  iconName: fas:chevron-left
+  fill:
+    type: solid
+    color: '#17231D'
+- elementId: nav-title
+  elementType: text
+  bounds:
+  - 60
+  - 28
+  - 270
+  - 30
+  content:
+    text: 收货地址
+    fontSize: 17
+    color: '#17231D'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - center
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: nav-right
+  elementType: text
+  bounds:
+  - 314
+  - 29
+  - 58
+  - 28
+  content:
+    text: 新增
+    fontSize: 12
+    color: '#17231D'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - right
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: addr-0
+  elementType: shape
+  bounds:
+  - 16
+  - 82
+  - 358
+  - 126
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#FFFFFF'
+  adjustments:
+  - 9523
+- elementId: addr-name-0
+  elementType: text
+  bounds:
+  - 30
+  - 94
+  - 270
+  - 26
+  content:
+    text: 李女士  138****6721
+    fontSize: 15
+    color: '#17231D'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: addr-t-0
+  elementType: text
+  bounds:
+  - 30
+  - 126
+  - 300
+  - 24
+  content:
+    text: 幸福里一期 2 栋 1 单元 801
+    fontSize: 12
+    color: '#748078'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: addr-line-0
+  elementType: line
+  bounds:
+  - 30
+  - 160
+  - 330
+  - 1
+  viewBox:
+  - 330
+  - 1
+  points: 0,0 330,0
+  curve: sharp
+  border:
+    style: solid
+    width: 1
+    color: '#E4E9E3'
+- elementId: addr-radio-0
+  elementType: icon
+  bounds:
+  - 30
+  - 173
+  - 16
+  - 16
+  iconName: fas:circle-check
+  fill:
+    type: solid
+    color: '#176B4D'
+- elementId: addr-default-0
+  elementType: text
+  bounds:
+  - 54
+  - 164
+  - 120
+  - 34
+  content:
+    text: 默认地址
+    fontSize: 11
+    color: '#176B4D'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: addr-edit-0
+  elementType: icon
+  bounds:
+  - 326
+  - 173
+  - 16
+  - 16
+  iconName: far:edit
+  fill:
+    type: solid
+    color: '#748078'
+- elementId: addr-1
+  elementType: shape
+  bounds:
+  - 16
+  - 224
+  - 358
+  - 126
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#FFFFFF'
+  adjustments:
+  - 9523
+- elementId: addr-name-1
+  elementType: text
+  bounds:
+  - 30
+  - 236
+  - 270
+  - 26
+  content:
+    text: 李女士  138****6721
+    fontSize: 15
+    color: '#17231D'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: addr-t-1
+  elementType: text
+  bounds:
+  - 30
+  - 268
+  - 300
+  - 24
+  content:
+    text: 幸福里二期 3 栋 2 单元 502
+    fontSize: 12
+    color: '#748078'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: addr-line-1
+  elementType: line
+  bounds:
+  - 30
+  - 302
+  - 330
+  - 1
+  viewBox:
+  - 330
+  - 1
+  points: 0,0 330,0
+  curve: sharp
+  border:
+    style: solid
+    width: 1
+    color: '#E4E9E3'
+- elementId: addr-radio-1
+  elementType: icon
+  bounds:
+  - 30
+  - 315
+  - 16
+  - 16
+  iconName: far:circle
+  fill:
+    type: solid
+    color: '#A6AEA8'
+- elementId: addr-default-1
+  elementType: text
+  bounds:
+  - 54
+  - 306
+  - 120
+  - 34
+  content:
+    text: 设为默认
+    fontSize: 11
+    color: '#748078'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: addr-edit-1
+  elementType: icon
+  bounds:
+  - 326
+  - 315
+  - 16
+  - 16
+  iconName: far:edit
+  fill:
+    type: solid
+    color: '#748078'
+- elementId: addr-region-t
+  elementType: text
+  bounds:
+  - 16
+  - 386
+  - 200
+  - 28
+  content:
+    text: 关联配送区域
+    fontSize: 15
+    color: '#17231D'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: addr-region
+  elementType: shape
+  bounds:
+  - 16
+  - 424
+  - 358
+  - 88
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#E8F4EC'
+  adjustments:
+  - 13636
+- elementId: addr-region-ic
+  elementType: icon
+  bounds:
+  - 30
+  - 444
+  - 24
+  - 24
+  iconName: fas:map-location-dot
+  fill:
+    type: solid
+    color: '#176B4D'
+- elementId: addr-region-v
+  elementType: text
+  bounds:
+  - 66
+  - 432
+  - 278
+  - 26
+  content:
+    text: 满利市 / 幸福街道 / 幸福里社区
+    fontSize: 13
+    color: '#176B4D'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: addr-region-s
+  elementType: text
+  bounds:
+  - 66
+  - 464
+  - 250
+  - 22
+  content:
+    text: 支持上门配送与站点自提
+    fontSize: 11
+    color: '#176B4D'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: addr-tip
+  elementType: shape
+  bounds:
+  - 16
+  - 534
+  - 358
+  - 70
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#FFF0E9'
+  adjustments:
+  - 14285
+- elementId: addr-tip-t
+  elementType: text
+  bounds:
+  - 30
+  - 534
+  - 330
+  - 70
+  content:
+    text: 地址变更仅影响新订单，已支付订单仍按原地址和配送快照履约
+    fontSize: 11
+    color: '#F26B3A'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - left
+    - middle
+    wrap: true
+    lineHeight: 1.5

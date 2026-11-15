@@ -1,0 +1,333 @@
+pageType: content
+background:
+  type: solid
+  color: '#F6F7F3'
+elements:
+- elementId: status-time
+  elementType: text
+  bounds:
+  - 18
+  - 4
+  - 52
+  - 20
+  content:
+    text: '9:41'
+    fontSize: 12
+    color: '#17231D'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: status-signal
+  elementType: icon
+  bounds:
+  - 302
+  - 7
+  - 14
+  - 12
+  iconName: fas:signal
+  fill:
+    type: solid
+    color: '#17231D'
+- elementId: status-wifi
+  elementType: icon
+  bounds:
+  - 323
+  - 7
+  - 15
+  - 12
+  iconName: fas:wifi
+  fill:
+    type: solid
+    color: '#17231D'
+- elementId: status-battery
+  elementType: icon
+  bounds:
+  - 348
+  - 7
+  - 22
+  - 12
+  iconName: fas:battery-three-quarters
+  fill:
+    type: solid
+    color: '#17231D'
+- elementId: nav-title
+  elementType: text
+  bounds:
+  - 60
+  - 28
+  - 270
+  - 30
+  content:
+    text: 状态组件
+    fontSize: 17
+    color: '#17231D'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - center
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: empty-card
+  elementType: shape
+  bounds:
+  - 16
+  - 84
+  - 358
+  - 250
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#FFFFFF'
+  adjustments:
+  - 5600
+- elementId: empty-ic-bg
+  elementType: shape
+  bounds:
+  - 155
+  - 116
+  - 80
+  - 80
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#E8F4EC'
+  adjustments:
+  - 50000
+- elementId: empty-ic
+  elementType: icon
+  bounds:
+  - 176
+  - 137
+  - 38
+  - 38
+  iconName: fas:cart-shopping
+  fill:
+    type: solid
+    color: '#176B4D'
+- elementId: empty-title
+  elementType: text
+  bounds:
+  - 60
+  - 212
+  - 270
+  - 30
+  content:
+    text: 购物车还是空的
+    fontSize: 18
+    color: '#17231D'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - center
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: empty-desc
+  elementType: text
+  bounds:
+  - 60
+  - 248
+  - 270
+  - 24
+  content:
+    text: 去挑选今日新鲜商品吧
+    fontSize: 12
+    color: '#748078'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - center
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: empty-btn-bg
+  elementType: shape
+  bounds:
+  - 121
+  - 288
+  - 148
+  - 38
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#176B4D'
+  adjustments:
+  - 50000
+- elementId: empty-btn-txt
+  elementType: text
+  bounds:
+  - 121
+  - 288
+  - 148
+  - 38
+  content:
+    text: 去逛逛
+    fontSize: 15
+    color: '#FFFFFF'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - center
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: error-card
+  elementType: shape
+  bounds:
+  - 16
+  - 358
+  - 358
+  - 224
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#FFFFFF'
+  adjustments:
+  - 6250
+- elementId: error-ic
+  elementType: icon
+  bounds:
+  - 169
+  - 386
+  - 52
+  - 44
+  iconName: fas:wifi
+  fill:
+    type: solid
+    color: '#748078'
+- elementId: error-title
+  elementType: text
+  bounds:
+  - 60
+  - 448
+  - 270
+  - 30
+  content:
+    text: 网络连接异常
+    fontSize: 17
+    color: '#17231D'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - center
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: error-desc
+  elementType: text
+  bounds:
+  - 40
+  - 484
+  - 310
+  - 24
+  content:
+    text: 请检查网络后重试，已选商品不会丢失
+    fontSize: 11
+    color: '#748078'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - center
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: error-btn-bg
+  elementType: shape
+  bounds:
+  - 121
+  - 526
+  - 148
+  - 38
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#FFFFFF'
+  adjustments:
+  - 50000
+  border:
+    style: solid
+    width: 1
+    color: '#176B4D'
+- elementId: error-btn-txt
+  elementType: text
+  bounds:
+  - 121
+  - 526
+  - 148
+  - 38
+  content:
+    text: 重新加载
+    fontSize: 15
+    color: '#176B4D'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - center
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: soldout-card
+  elementType: shape
+  bounds:
+  - 16
+  - 606
+  - 358
+  - 86
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#FFF0E9'
+  adjustments:
+  - 13953
+- elementId: soldout-ic
+  elementType: icon
+  bounds:
+  - 30
+  - 632
+  - 20
+  - 20
+  iconName: fas:circle-exclamation
+  fill:
+    type: solid
+    color: '#F26B3A'
+- elementId: soldout-title
+  elementType: text
+  bounds:
+  - 60
+  - 616
+  - 180
+  - 26
+  content:
+    text: 商品库存不足
+    fontSize: 13
+    color: '#F26B3A'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: soldout-desc
+  elementType: text
+  bounds:
+  - 60
+  - 644
+  - 280
+  - 22
+  content:
+    text: 已为你保留其他可售商品，请重新确认
+    fontSize: 11
+    color: '#F26B3A'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15

@@ -1,0 +1,500 @@
+pageType: content
+background:
+  type: image
+  src: media/bg-warm.png
+  fit:
+    mode: cover
+elements:
+- elementId: stime
+  elementType: text
+  bounds:
+  - 18
+  - 4
+  - 52
+  - 20
+  content:
+    text: '9:41'
+    fontSize: 12
+    color: '#252821'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: ssignal
+  elementType: icon
+  bounds:
+  - 302
+  - 7
+  - 14
+  - 12
+  iconName: fas:signal
+  fill:
+    type: solid
+    color: '#252821'
+- elementId: swifi
+  elementType: icon
+  bounds:
+  - 323
+  - 7
+  - 15
+  - 12
+  iconName: fas:wifi
+  fill:
+    type: solid
+    color: '#252821'
+- elementId: sbattery
+  elementType: icon
+  bounds:
+  - 348
+  - 7
+  - 22
+  - 12
+  iconName: fas:battery-three-quarters
+  fill:
+    type: solid
+    color: '#252821'
+- elementId: ntitle
+  elementType: text
+  bounds:
+  - 48
+  - 27
+  - 250
+  - 34
+  content:
+    text: 搜索商品
+    fontSize: 18
+    color: '#252821'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: sbox
+  elementType: shape
+  bounds:
+  - 16
+  - 74
+  - 306
+  - 42
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#FFFFFF'
+  adjustments:
+  - 50000
+- elementId: sicon
+  elementType: icon
+  bounds:
+  - 30
+  - 87
+  - 16
+  - 16
+  iconName: fas:magnifying-glass
+  fill:
+    type: solid
+    color: '#175C3B'
+- elementId: skey
+  elementType: text
+  bounds:
+  - 56
+  - 74
+  - 220
+  - 42
+  content:
+    text: 草莓
+    fontSize: 14
+    color: '#252821'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: sgo
+  elementType: text
+  bounds:
+  - 334
+  - 74
+  - 42
+  - 42
+  content:
+    text: 搜索
+    fontSize: 14
+    color: '#F0442E'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - right
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: chip1420
+  elementType: shape
+  bounds:
+  - 16
+  - 142
+  - 64
+  - 32
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#EAF3E5'
+  adjustments:
+  - 50000
+- elementId: chipt1420
+  elementType: text
+  bounds:
+  - 16
+  - 142
+  - 64
+  - 32
+  content:
+    text: 草莓
+    fontSize: 12
+    color: '#175C3B'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - center
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: chip1421
+  elementType: shape
+  bounds:
+  - 88
+  - 142
+  - 64
+  - 32
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#FFFFFF'
+  adjustments:
+  - 50000
+  border:
+    style: solid
+    width: 1
+    color: '#EAE3D7'
+- elementId: chipt1421
+  elementType: text
+  bounds:
+  - 88
+  - 142
+  - 64
+  - 32
+  content:
+    text: 鸡蛋
+    fontSize: 12
+    color: '#7B7D72'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - center
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: chip1422
+  elementType: shape
+  bounds:
+  - 160
+  - 142
+  - 64
+  - 32
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#FFFFFF'
+  adjustments:
+  - 50000
+  border:
+    style: solid
+    width: 1
+    color: '#EAE3D7'
+- elementId: chipt1422
+  elementType: text
+  bounds:
+  - 160
+  - 142
+  - 64
+  - 32
+  content:
+    text: 脐橙
+    fontSize: 12
+    color: '#7B7D72'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - center
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: chip1423
+  elementType: shape
+  bounds:
+  - 232
+  - 142
+  - 64
+  - 32
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#FFFFFF'
+  adjustments:
+  - 50000
+  border:
+    style: solid
+    width: 1
+    color: '#EAE3D7'
+- elementId: chipt1423
+  elementType: text
+  bounds:
+  - 232
+  - 142
+  - 64
+  - 32
+  content:
+    text: 牛奶
+    fontSize: 12
+    color: '#7B7D72'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - center
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: sec大家都在买
+  elementType: text
+  bounds:
+  - 16
+  - 208
+  - 220
+  - 30
+  content:
+    text: 大家都在买
+    fontSize: 20
+    color: '#252821'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: sim0
+  elementType: image
+  bounds:
+  - 16
+  - 250
+  - 114
+  - 104
+  src: media/strawberry.jpg
+  fit:
+    mode: cover
+  cropShape:
+    shapeName: roundRect
+    adjustments:
+    - 13461
+- elementId: sn0
+  elementType: text
+  bounds:
+  - 16
+  - 360
+  - 114
+  - 22
+  content:
+    text: 红颜草莓
+    fontSize: 11
+    color: '#252821'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - center
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: sp0
+  elementType: text
+  bounds:
+  - 16
+  - 384
+  - 114
+  - 26
+  content:
+    text: ¥15.90
+    fontSize: 16
+    color: '#F0442E'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - center
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: sim1
+  elementType: image
+  bounds:
+  - 138
+  - 250
+  - 114
+  - 104
+  src: media/orange.jpg
+  fit:
+    mode: cover
+  cropShape:
+    shapeName: roundRect
+    adjustments:
+    - 13461
+- elementId: sn1
+  elementType: text
+  bounds:
+  - 138
+  - 360
+  - 114
+  - 22
+  content:
+    text: 赣南脐橙
+    fontSize: 11
+    color: '#252821'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - center
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: sp1
+  elementType: text
+  bounds:
+  - 138
+  - 384
+  - 114
+  - 26
+  content:
+    text: ¥8.80
+    fontSize: 16
+    color: '#F0442E'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - center
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: sim2
+  elementType: image
+  bounds:
+  - 260
+  - 250
+  - 114
+  - 104
+  src: media/broccoli.jpg
+  fit:
+    mode: cover
+  cropShape:
+    shapeName: roundRect
+    adjustments:
+    - 13461
+- elementId: sn2
+  elementType: text
+  bounds:
+  - 260
+  - 360
+  - 114
+  - 22
+  content:
+    text: 新鲜西兰花
+    fontSize: 11
+    color: '#252821'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - center
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: sp2
+  elementType: text
+  bounds:
+  - 260
+  - 384
+  - 114
+  - 26
+  content:
+    text: ¥5.60
+    fontSize: 16
+    color: '#F0442E'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - center
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: strend
+  elementType: shape
+  bounds:
+  - 16
+  - 442
+  - 358
+  - 104
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#FFF0E7'
+  adjustments:
+  - 15384
+- elementId: strendi
+  elementType: icon
+  bounds:
+  - 34
+  - 464
+  - 28
+  - 28
+  iconName: fas:fire
+  fill:
+    type: solid
+    color: '#F0442E'
+- elementId: strendt
+  elementType: text
+  bounds:
+  - 76
+  - 454
+  - 250
+  - 28
+  content:
+    text: 今日热搜：红颜草莓
+    fontSize: 16
+    color: '#F0442E'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: strends
+  elementType: text
+  bounds:
+  - 76
+  - 488
+  - 250
+  - 24
+  content:
+    text: 当季现摘，已有 986 人搜索
+    fontSize: 12
+    color: '#7B7D72'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15

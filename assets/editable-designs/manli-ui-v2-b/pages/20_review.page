@@ -1,0 +1,469 @@
+pageType: content
+background:
+  type: image
+  src: media/bg-warm.png
+  fit:
+    mode: cover
+elements:
+- elementId: stime
+  elementType: text
+  bounds:
+  - 18
+  - 4
+  - 52
+  - 20
+  content:
+    text: '9:41'
+    fontSize: 12
+    color: '#252821'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: ssignal
+  elementType: icon
+  bounds:
+  - 302
+  - 7
+  - 14
+  - 12
+  iconName: fas:signal
+  fill:
+    type: solid
+    color: '#252821'
+- elementId: swifi
+  elementType: icon
+  bounds:
+  - 323
+  - 7
+  - 15
+  - 12
+  iconName: fas:wifi
+  fill:
+    type: solid
+    color: '#252821'
+- elementId: sbattery
+  elementType: icon
+  bounds:
+  - 348
+  - 7
+  - 22
+  - 12
+  iconName: fas:battery-three-quarters
+  fill:
+    type: solid
+    color: '#252821'
+- elementId: nback
+  elementType: icon
+  bounds:
+  - 16
+  - 32
+  - 18
+  - 22
+  iconName: fas:chevron-left
+  fill:
+    type: solid
+    color: '#252821'
+- elementId: ntitle
+  elementType: text
+  bounds:
+  - 48
+  - 27
+  - 250
+  - 34
+  content:
+    text: 评价商品
+    fontSize: 18
+    color: '#252821'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: nright
+  elementType: text
+  bounds:
+  - 310
+  - 29
+  - 64
+  - 30
+  content:
+    text: 我的评价
+    fontSize: 11
+    color: '#175C3B'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - right
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: revg
+  elementType: shape
+  bounds:
+  - 16
+  - 76
+  - 358
+  - 84
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#FFFFFF'
+  adjustments:
+  - 16666
+- elementId: revim
+  elementType: image
+  bounds:
+  - 30
+  - 88
+  - 60
+  - 60
+  src: media/strawberry.jpg
+  fit:
+    mode: cover
+  cropShape:
+    shapeName: roundRect
+    adjustments:
+    - 16666
+- elementId: revn
+  elementType: text
+  bounds:
+  - 104
+  - 88
+  - 200
+  - 26
+  content:
+    text: 红颜草莓
+    fontSize: 14
+    color: '#252821'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: revs
+  elementType: text
+  bounds:
+  - 104
+  - 120
+  - 180
+  - 22
+  content:
+    text: 250g/盒 ×1
+    fontSize: 11
+    color: '#7B7D72'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: revrt
+  elementType: text
+  bounds:
+  - 16
+  - 184
+  - 160
+  - 28
+  content:
+    text: 商品评分
+    fontSize: 15
+    color: '#252821'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: revstar0
+  elementType: icon
+  bounds:
+  - 20
+  - 226
+  - 30
+  - 30
+  iconName: fas:star
+  fill:
+    type: solid
+    color: '#FFC847'
+- elementId: revstar1
+  elementType: icon
+  bounds:
+  - 64
+  - 226
+  - 30
+  - 30
+  iconName: fas:star
+  fill:
+    type: solid
+    color: '#FFC847'
+- elementId: revstar2
+  elementType: icon
+  bounds:
+  - 108
+  - 226
+  - 30
+  - 30
+  iconName: fas:star
+  fill:
+    type: solid
+    color: '#FFC847'
+- elementId: revstar3
+  elementType: icon
+  bounds:
+  - 152
+  - 226
+  - 30
+  - 30
+  iconName: fas:star
+  fill:
+    type: solid
+    color: '#FFC847'
+- elementId: revstar4
+  elementType: icon
+  bounds:
+  - 196
+  - 226
+  - 30
+  - 30
+  iconName: fas:star
+  fill:
+    type: solid
+    color: '#FFC847'
+- elementId: revrv
+  elementType: text
+  bounds:
+  - 252
+  - 226
+  - 110
+  - 30
+  content:
+    text: 非常满意
+    fontSize: 13
+    color: '#F0442E'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - right
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: revtext
+  elementType: shape
+  bounds:
+  - 16
+  - 280
+  - 358
+  - 132
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#FFFFFF'
+  adjustments:
+  - 10606
+- elementId: revph
+  elementType: text
+  bounds:
+  - 30
+  - 292
+  - 310
+  - 30
+  content:
+    text: 分享商品口感、新鲜度和包装情况…
+    fontSize: 12
+    color: '#7B7D72'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: revup
+  elementType: shape
+  bounds:
+  - 16
+  - 434
+  - 80
+  - 80
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#FFFFFF'
+  adjustments:
+  - 15000
+  border:
+    style: solid
+    width: 1
+    color: '#EAE3D7'
+- elementId: revcam
+  elementType: icon
+  bounds:
+  - 42
+  - 452
+  - 28
+  - 28
+  iconName: fas:camera
+  fill:
+    type: solid
+    color: '#F0442E'
+- elementId: revupt
+  elementType: text
+  bounds:
+  - 16
+  - 486
+  - 80
+  - 20
+  content:
+    text: 添加图片
+    fontSize: 10
+    color: '#7B7D72'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - center
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: revdt
+  elementType: text
+  bounds:
+  - 16
+  - 544
+  - 160
+  - 28
+  content:
+    text: 配送服务
+    fontSize: 15
+    color: '#252821'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: revdstar0
+  elementType: icon
+  bounds:
+  - 20
+  - 582
+  - 26
+  - 26
+  iconName: fas:star
+  fill:
+    type: solid
+    color: '#F3B62F'
+- elementId: revdstar1
+  elementType: icon
+  bounds:
+  - 58
+  - 582
+  - 26
+  - 26
+  iconName: fas:star
+  fill:
+    type: solid
+    color: '#F3B62F'
+- elementId: revdstar2
+  elementType: icon
+  bounds:
+  - 96
+  - 582
+  - 26
+  - 26
+  iconName: fas:star
+  fill:
+    type: solid
+    color: '#F3B62F'
+- elementId: revdstar3
+  elementType: icon
+  bounds:
+  - 134
+  - 582
+  - 26
+  - 26
+  iconName: fas:star
+  fill:
+    type: solid
+    color: '#F3B62F'
+- elementId: revdstar4
+  elementType: icon
+  bounds:
+  - 172
+  - 582
+  - 26
+  - 26
+  iconName: far:star
+  fill:
+    type: solid
+    color: '#F3B62F'
+- elementId: revanon
+  elementType: text
+  bounds:
+  - 16
+  - 644
+  - 120
+  - 28
+  content:
+    text: 匿名评价
+    fontSize: 13
+    color: '#252821'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: revswitch
+  elementType: icon
+  bounds:
+  - 322
+  - 644
+  - 34
+  - 24
+  iconName: fas:toggle-on
+  fill:
+    type: solid
+    color: '#175C3B'
+- elementId: revsubmit-bg
+  elementType: shape
+  bounds:
+  - 16
+  - 736
+  - 358
+  - 46
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#F0442E'
+  adjustments:
+  - 50000
+- elementId: revsubmit-t
+  elementType: text
+  bounds:
+  - 16
+  - 736
+  - 358
+  - 46
+  content:
+    text: 提交评价
+    fontSize: 14
+    color: '#FFFFFF'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - center
+    - middle
+    wrap: false
+    lineHeight: 1.15

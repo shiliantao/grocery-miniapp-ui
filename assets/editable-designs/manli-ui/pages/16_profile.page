@@ -1,0 +1,1036 @@
+pageType: content
+background:
+  type: solid
+  color: '#F6F7F3'
+elements:
+- elementId: profile-head
+  elementType: shape
+  bounds:
+  - 0
+  - 0
+  - 390
+  - 216
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#176B4D'
+- elementId: status-time
+  elementType: text
+  bounds:
+  - 18
+  - 4
+  - 52
+  - 20
+  content:
+    text: '9:41'
+    fontSize: 12
+    color: '#FFFFFF'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: status-signal
+  elementType: icon
+  bounds:
+  - 302
+  - 7
+  - 14
+  - 12
+  iconName: fas:signal
+  fill:
+    type: solid
+    color: '#FFFFFF'
+- elementId: status-wifi
+  elementType: icon
+  bounds:
+  - 323
+  - 7
+  - 15
+  - 12
+  iconName: fas:wifi
+  fill:
+    type: solid
+    color: '#FFFFFF'
+- elementId: status-battery
+  elementType: icon
+  bounds:
+  - 348
+  - 7
+  - 22
+  - 12
+  iconName: fas:battery-three-quarters
+  fill:
+    type: solid
+    color: '#FFFFFF'
+- elementId: profile-title
+  elementType: text
+  bounds:
+  - 16
+  - 32
+  - 150
+  - 32
+  content:
+    text: 我的
+    fontSize: 19
+    color: '#FFFFFF'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: profile-setting
+  elementType: icon
+  bounds:
+  - 344
+  - 35
+  - 20
+  - 20
+  iconName: fas:gear
+  fill:
+    type: solid
+    color: '#FFFFFF'
+- elementId: profile-avatar
+  elementType: shape
+  bounds:
+  - 20
+  - 84
+  - 66
+  - 66
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#FFFFFF'
+  adjustments:
+  - 50000
+- elementId: profile-avatar-ic
+  elementType: icon
+  bounds:
+  - 38
+  - 100
+  - 30
+  - 32
+  iconName: fas:user
+  fill:
+    type: solid
+    color: '#176B4D'
+- elementId: profile-name
+  elementType: text
+  bounds:
+  - 102
+  - 86
+  - 170
+  - 30
+  content:
+    text: 李女士
+    fontSize: 20
+    color: '#FFFFFF'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: profile-phone
+  elementType: text
+  bounds:
+  - 102
+  - 121
+  - 160
+  - 22
+  content:
+    text: 138****6721
+    fontSize: 12
+    color: '#D8EBDF'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: profile-member
+  elementType: shape
+  bounds:
+  - 274
+  - 94
+  - 86
+  - 30
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#F3C664'
+  adjustments:
+  - 50000
+- elementId: profile-crown
+  elementType: icon
+  bounds:
+  - 286
+  - 102
+  - 14
+  - 14
+  iconName: fas:crown
+  fill:
+    type: solid
+    color: '#26332C'
+- elementId: profile-member-t
+  elementType: text
+  bounds:
+  - 304
+  - 94
+  - 50
+  - 30
+  content:
+    text: 充卡会员
+    fontSize: 10
+    color: '#26332C'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - center
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: profile-balance
+  elementType: shape
+  bounds:
+  - 16
+  - 162
+  - 358
+  - 42
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#FFFFFF18'
+  adjustments:
+  - 23809
+- elementId: profile-balance-t
+  elementType: text
+  bounds:
+  - 30
+  - 162
+  - 180
+  - 42
+  content:
+    text: 会员余额  ¥268.50
+    fontSize: 12
+    color: '#FFFFFF'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: profile-balance-more
+  elementType: text
+  bounds:
+  - 274
+  - 162
+  - 84
+  - 42
+  content:
+    text: 充值 / 流水
+    fontSize: 11
+    color: '#FFFFFF'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - right
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: profile-orders
+  elementType: shape
+  bounds:
+  - 16
+  - 224
+  - 358
+  - 126
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#FFFFFF'
+  adjustments:
+  - 9523
+- elementId: profile-orders-t
+  elementType: text
+  bounds:
+  - 30
+  - 234
+  - 160
+  - 28
+  content:
+    text: 我的订单
+    fontSize: 16
+    color: '#17231D'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: profile-orders-all
+  elementType: text
+  bounds:
+  - 280
+  - 236
+  - 68
+  - 24
+  content:
+    text: 全部订单
+    fontSize: 11
+    color: '#748078'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - right
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: profile-orders-arrow
+  elementType: icon
+  bounds:
+  - 354
+  - 241
+  - 10
+  - 12
+  iconName: fas:chevron-right
+  fill:
+    type: solid
+    color: '#A6AEA8'
+- elementId: po-ic-0
+  elementType: icon
+  bounds:
+  - 41.0
+  - 280
+  - 22
+  - 22
+  iconName: fas:wallet
+  fill:
+    type: solid
+    color: '#176B4D'
+- elementId: po-t-0
+  elementType: text
+  bounds:
+  - 16.0
+  - 310
+  - 71.6
+  - 22
+  content:
+    text: 待支付
+    fontSize: 11
+    color: '#17231D'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - center
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: po-ic-1
+  elementType: icon
+  bounds:
+  - 112.6
+  - 280
+  - 22
+  - 22
+  iconName: fas:box
+  fill:
+    type: solid
+    color: '#176B4D'
+- elementId: po-t-1
+  elementType: text
+  bounds:
+  - 87.6
+  - 310
+  - 71.6
+  - 22
+  content:
+    text: 备货中
+    fontSize: 11
+    color: '#17231D'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - center
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: po-ic-2
+  elementType: icon
+  bounds:
+  - 184.2
+  - 280
+  - 22
+  - 22
+  iconName: fas:truck-fast
+  fill:
+    type: solid
+    color: '#176B4D'
+- elementId: po-t-2
+  elementType: text
+  bounds:
+  - 159.2
+  - 310
+  - 71.6
+  - 22
+  content:
+    text: 配送中
+    fontSize: 11
+    color: '#17231D'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - center
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: po-ic-3
+  elementType: icon
+  bounds:
+  - 255.79999999999998
+  - 280
+  - 22
+  - 22
+  iconName: fas:hand-holding
+  fill:
+    type: solid
+    color: '#176B4D'
+- elementId: po-t-3
+  elementType: text
+  bounds:
+  - 230.79999999999998
+  - 310
+  - 71.6
+  - 22
+  content:
+    text: 待签收
+    fontSize: 11
+    color: '#17231D'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - center
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: po-ic-4
+  elementType: icon
+  bounds:
+  - 327.4
+  - 280
+  - 22
+  - 22
+  iconName: fas:rotate-left
+  fill:
+    type: solid
+    color: '#176B4D'
+- elementId: po-t-4
+  elementType: text
+  bounds:
+  - 302.4
+  - 310
+  - 71.6
+  - 22
+  content:
+    text: 售后
+    fontSize: 11
+    color: '#17231D'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - center
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: rows-bg
+  elementType: shape
+  bounds:
+  - 16
+  - 370
+  - 358
+  - 336
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#FFFFFF'
+  adjustments:
+  - 3571
+- elementId: row-ic-0
+  elementType: icon
+  bounds:
+  - 30
+  - 387
+  - 18
+  - 18
+  iconName: fas:ticket
+  fill:
+    type: solid
+    color: '#176B4D'
+- elementId: row-label-0
+  elementType: text
+  bounds:
+  - 58
+  - 370
+  - 170
+  - 56
+  content:
+    text: 优惠券
+    fontSize: 14
+    color: '#17231D'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: row-value-0
+  elementType: text
+  bounds:
+  - 210
+  - 370
+  - 130
+  - 56
+  content:
+    text: 3 张可用
+    fontSize: 12
+    color: '#748078'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - right
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: row-arrow-0
+  elementType: icon
+  bounds:
+  - 350
+  - 390
+  - 10
+  - 14
+  iconName: fas:chevron-right
+  fill:
+    type: solid
+    color: '#A6AEA8'
+- elementId: row-line-0
+  elementType: line
+  bounds:
+  - 30
+  - 426
+  - 332
+  - 1
+  viewBox:
+  - 332
+  - 1
+  points: 0,0 332,0
+  curve: sharp
+  border:
+    style: solid
+    width: 1
+    color: '#E4E9E3'
+- elementId: row-ic-1
+  elementType: icon
+  bounds:
+  - 30
+  - 443
+  - 18
+  - 18
+  iconName: fas:repeat
+  fill:
+    type: solid
+    color: '#176B4D'
+- elementId: row-label-1
+  elementType: text
+  bounds:
+  - 58
+  - 426
+  - 170
+  - 56
+  content:
+    text: 常购清单
+    fontSize: 14
+    color: '#17231D'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: row-value-1
+  elementType: text
+  bounds:
+  - 210
+  - 426
+  - 130
+  - 56
+  content:
+    text: 回购更方便
+    fontSize: 12
+    color: '#748078'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - right
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: row-arrow-1
+  elementType: icon
+  bounds:
+  - 350
+  - 446
+  - 10
+  - 14
+  iconName: fas:chevron-right
+  fill:
+    type: solid
+    color: '#A6AEA8'
+- elementId: row-line-1
+  elementType: line
+  bounds:
+  - 30
+  - 482
+  - 332
+  - 1
+  viewBox:
+  - 332
+  - 1
+  points: 0,0 332,0
+  curve: sharp
+  border:
+    style: solid
+    width: 1
+    color: '#E4E9E3'
+- elementId: row-ic-2
+  elementType: icon
+  bounds:
+  - 30
+  - 499
+  - 18
+  - 18
+  iconName: fas:location-dot
+  fill:
+    type: solid
+    color: '#176B4D'
+- elementId: row-label-2
+  elementType: text
+  bounds:
+  - 58
+  - 482
+  - 170
+  - 56
+  content:
+    text: 收货地址
+    fontSize: 14
+    color: '#17231D'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: row-value-2
+  elementType: text
+  bounds:
+  - 210
+  - 482
+  - 130
+  - 56
+  content:
+    text: 幸福里一期
+    fontSize: 12
+    color: '#748078'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - right
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: row-arrow-2
+  elementType: icon
+  bounds:
+  - 350
+  - 502
+  - 10
+  - 14
+  iconName: fas:chevron-right
+  fill:
+    type: solid
+    color: '#A6AEA8'
+- elementId: row-line-2
+  elementType: line
+  bounds:
+  - 30
+  - 538
+  - 332
+  - 1
+  viewBox:
+  - 332
+  - 1
+  points: 0,0 332,0
+  curve: sharp
+  border:
+    style: solid
+    width: 1
+    color: '#E4E9E3'
+- elementId: row-ic-3
+  elementType: icon
+  bounds:
+  - 30
+  - 555
+  - 18
+  - 18
+  iconName: far:star
+  fill:
+    type: solid
+    color: '#176B4D'
+- elementId: row-label-3
+  elementType: text
+  bounds:
+  - 58
+  - 538
+  - 170
+  - 56
+  content:
+    text: 我的评价
+    fontSize: 14
+    color: '#17231D'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: row-value-3
+  elementType: text
+  bounds:
+  - 210
+  - 538
+  - 130
+  - 56
+  content:
+    text: 查看与待评价
+    fontSize: 12
+    color: '#748078'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - right
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: row-arrow-3
+  elementType: icon
+  bounds:
+  - 350
+  - 558
+  - 10
+  - 14
+  iconName: fas:chevron-right
+  fill:
+    type: solid
+    color: '#A6AEA8'
+- elementId: row-line-3
+  elementType: line
+  bounds:
+  - 30
+  - 594
+  - 332
+  - 1
+  viewBox:
+  - 332
+  - 1
+  points: 0,0 332,0
+  curve: sharp
+  border:
+    style: solid
+    width: 1
+    color: '#E4E9E3'
+- elementId: row-ic-4
+  elementType: icon
+  bounds:
+  - 30
+  - 611
+  - 18
+  - 18
+  iconName: fas:headset
+  fill:
+    type: solid
+    color: '#176B4D'
+- elementId: row-label-4
+  elementType: text
+  bounds:
+  - 58
+  - 594
+  - 170
+  - 56
+  content:
+    text: 客服与反馈
+    fontSize: 14
+    color: '#17231D'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: row-value-4
+  elementType: text
+  bounds:
+  - 210
+  - 594
+  - 130
+  - 56
+  content:
+    text: 处理进度可查
+    fontSize: 12
+    color: '#748078'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - right
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: row-arrow-4
+  elementType: icon
+  bounds:
+  - 350
+  - 614
+  - 10
+  - 14
+  iconName: fas:chevron-right
+  fill:
+    type: solid
+    color: '#A6AEA8'
+- elementId: row-line-4
+  elementType: line
+  bounds:
+  - 30
+  - 650
+  - 332
+  - 1
+  viewBox:
+  - 332
+  - 1
+  points: 0,0 332,0
+  curve: sharp
+  border:
+    style: solid
+    width: 1
+    color: '#E4E9E3'
+- elementId: row-ic-5
+  elementType: icon
+  bounds:
+  - 30
+  - 667
+  - 18
+  - 18
+  iconName: far:bell
+  fill:
+    type: solid
+    color: '#176B4D'
+- elementId: row-label-5
+  elementType: text
+  bounds:
+  - 58
+  - 650
+  - 170
+  - 56
+  content:
+    text: 消息中心
+    fontSize: 14
+    color: '#17231D'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: row-value-5
+  elementType: text
+  bounds:
+  - 210
+  - 650
+  - 130
+  - 56
+  content:
+    text: 2 条未读
+    fontSize: 12
+    color: '#748078'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - right
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: row-arrow-5
+  elementType: icon
+  bounds:
+  - 350
+  - 670
+  - 10
+  - 14
+  iconName: fas:chevron-right
+  fill:
+    type: solid
+    color: '#A6AEA8'
+- elementId: tab-bg
+  elementType: shape
+  bounds:
+  - 0
+  - 780
+  - 390
+  - 64
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#FFFFFF'
+- elementId: tab-line
+  elementType: line
+  bounds:
+  - 0
+  - 780
+  - 390
+  - 1
+  viewBox:
+  - 390
+  - 1
+  points: 0,0 390,0
+  curve: sharp
+  border:
+    style: solid
+    width: 1
+    color: '#E4E9E3'
+- elementId: tab-0
+  elementType: icon
+  bounds:
+  - 38.0
+  - 790
+  - 20
+  - 20
+  iconName: fas:house
+  fill:
+    type: solid
+    color: '#748078'
+- elementId: tab-t-0
+  elementType: text
+  bounds:
+  - 0.0
+  - 814
+  - 97.5
+  - 20
+  content:
+    text: 首页
+    fontSize: 11
+    color: '#748078'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - center
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: tab-1
+  elementType: icon
+  bounds:
+  - 135.5
+  - 790
+  - 20
+  - 20
+  iconName: fas:table-cells-large
+  fill:
+    type: solid
+    color: '#748078'
+- elementId: tab-t-1
+  elementType: text
+  bounds:
+  - 97.5
+  - 814
+  - 97.5
+  - 20
+  content:
+    text: 分类
+    fontSize: 11
+    color: '#748078'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - center
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: tab-2
+  elementType: icon
+  bounds:
+  - 233.0
+  - 790
+  - 20
+  - 20
+  iconName: fas:cart-shopping
+  fill:
+    type: solid
+    color: '#748078'
+- elementId: tab-t-2
+  elementType: text
+  bounds:
+  - 195.0
+  - 814
+  - 97.5
+  - 20
+  content:
+    text: 购物车
+    fontSize: 11
+    color: '#748078'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - center
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: tab-3
+  elementType: icon
+  bounds:
+  - 330.5
+  - 790
+  - 20
+  - 20
+  iconName: far:user
+  fill:
+    type: solid
+    color: '#176B4D'
+- elementId: tab-t-3
+  elementType: text
+  bounds:
+  - 292.5
+  - 814
+  - 97.5
+  - 20
+  content:
+    text: 我的
+    fontSize: 11
+    color: '#176B4D'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - center
+    - middle
+    wrap: false
+    lineHeight: 1.15

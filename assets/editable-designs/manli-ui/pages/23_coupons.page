@@ -1,0 +1,645 @@
+pageType: content
+background:
+  type: solid
+  color: '#F6F7F3'
+elements:
+- elementId: status-time
+  elementType: text
+  bounds:
+  - 18
+  - 4
+  - 52
+  - 20
+  content:
+    text: '9:41'
+    fontSize: 12
+    color: '#17231D'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: status-signal
+  elementType: icon
+  bounds:
+  - 302
+  - 7
+  - 14
+  - 12
+  iconName: fas:signal
+  fill:
+    type: solid
+    color: '#17231D'
+- elementId: status-wifi
+  elementType: icon
+  bounds:
+  - 323
+  - 7
+  - 15
+  - 12
+  iconName: fas:wifi
+  fill:
+    type: solid
+    color: '#17231D'
+- elementId: status-battery
+  elementType: icon
+  bounds:
+  - 348
+  - 7
+  - 22
+  - 12
+  iconName: fas:battery-three-quarters
+  fill:
+    type: solid
+    color: '#17231D'
+- elementId: nav-back
+  elementType: icon
+  bounds:
+  - 16
+  - 33
+  - 18
+  - 20
+  iconName: fas:chevron-left
+  fill:
+    type: solid
+    color: '#17231D'
+- elementId: nav-title
+  elementType: text
+  bounds:
+  - 60
+  - 28
+  - 270
+  - 30
+  content:
+    text: 优惠券
+    fontSize: 17
+    color: '#17231D'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - center
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: nav-right
+  elementType: text
+  bounds:
+  - 314
+  - 29
+  - 58
+  - 28
+  content:
+    text: 使用规则
+    fontSize: 12
+    color: '#17231D'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - right
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: chip-76-0
+  elementType: shape
+  bounds:
+  - 16
+  - 76
+  - 63
+  - 30
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#E8F4EC'
+  adjustments:
+  - 50000
+- elementId: chip-t-76-0
+  elementType: text
+  bounds:
+  - 16
+  - 76
+  - 63
+  - 30
+  content:
+    text: 可使用
+    fontSize: 12
+    color: '#176B4D'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - center
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: chip-76-1
+  elementType: shape
+  bounds:
+  - 87
+  - 76
+  - 63
+  - 30
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#FFFFFF'
+  adjustments:
+  - 50000
+  border:
+    style: solid
+    width: 1
+    color: '#E4E9E3'
+- elementId: chip-t-76-1
+  elementType: text
+  bounds:
+  - 87
+  - 76
+  - 63
+  - 30
+  content:
+    text: 已使用
+    fontSize: 12
+    color: '#748078'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - center
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: chip-76-2
+  elementType: shape
+  bounds:
+  - 158
+  - 76
+  - 63
+  - 30
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#FFFFFF'
+  adjustments:
+  - 50000
+  border:
+    style: solid
+    width: 1
+    color: '#E4E9E3'
+- elementId: chip-t-76-2
+  elementType: text
+  bounds:
+  - 158
+  - 76
+  - 63
+  - 30
+  content:
+    text: 已过期
+    fontSize: 12
+    color: '#748078'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - center
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: coupon-0
+  elementType: shape
+  bounds:
+  - 16
+  - 126
+  - 358
+  - 112
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#FFFFFF'
+  adjustments:
+  - 10714
+- elementId: coupon-left-0
+  elementType: shape
+  bounds:
+  - 16
+  - 126
+  - 104
+  - 112
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#E8F4EC'
+  adjustments:
+  - 11538
+- elementId: coupon-money-0
+  elementType: text
+  bounds:
+  - 22
+  - 144
+  - 92
+  - 40
+  content:
+    text: ¥2
+    fontSize: 28
+    color: '#176B4D'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - center
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: coupon-cond-0
+  elementType: text
+  bounds:
+  - 22
+  - 188
+  - 92
+  - 24
+  content:
+    text: 满12元可用
+    fontSize: 10
+    color: '#748078'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - center
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: coupon-name-0
+  elementType: text
+  bounds:
+  - 136
+  - 142
+  - 150
+  - 28
+  content:
+    text: 新人立减券
+    fontSize: 15
+    color: '#17231D'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: coupon-date-0
+  elementType: text
+  bounds:
+  - 136
+  - 176
+  - 170
+  - 22
+  content:
+    text: 有效期至 2026.11.18
+    fontSize: 10
+    color: '#748078'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: coupon-btn-0-bg
+  elementType: shape
+  bounds:
+  - 290
+  - 186
+  - 68
+  - 30
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#FFFFFF'
+  adjustments:
+  - 50000
+  border:
+    style: solid
+    width: 1
+    color: '#176B4D'
+- elementId: coupon-btn-0-txt
+  elementType: text
+  bounds:
+  - 290
+  - 186
+  - 68
+  - 30
+  content:
+    text: 去使用
+    fontSize: 11
+    color: '#176B4D'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - center
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: coupon-1
+  elementType: shape
+  bounds:
+  - 16
+  - 256
+  - 358
+  - 112
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#FFFFFF'
+  adjustments:
+  - 10714
+- elementId: coupon-left-1
+  elementType: shape
+  bounds:
+  - 16
+  - 256
+  - 104
+  - 112
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#FFF0E9'
+  adjustments:
+  - 11538
+- elementId: coupon-money-1
+  elementType: text
+  bounds:
+  - 22
+  - 274
+  - 92
+  - 40
+  content:
+    text: ¥5
+    fontSize: 28
+    color: '#F26B3A'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - center
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: coupon-cond-1
+  elementType: text
+  bounds:
+  - 22
+  - 318
+  - 92
+  - 24
+  content:
+    text: 满39元可用
+    fontSize: 10
+    color: '#748078'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - center
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: coupon-name-1
+  elementType: text
+  bounds:
+  - 136
+  - 272
+  - 150
+  - 28
+  content:
+    text: 全场优惠券
+    fontSize: 15
+    color: '#17231D'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: coupon-date-1
+  elementType: text
+  bounds:
+  - 136
+  - 306
+  - 170
+  - 22
+  content:
+    text: 有效期至 2026.11.30
+    fontSize: 10
+    color: '#748078'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: coupon-btn-1-bg
+  elementType: shape
+  bounds:
+  - 290
+  - 316
+  - 68
+  - 30
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#FFFFFF'
+  adjustments:
+  - 50000
+  border:
+    style: solid
+    width: 1
+    color: '#176B4D'
+- elementId: coupon-btn-1-txt
+  elementType: text
+  bounds:
+  - 290
+  - 316
+  - 68
+  - 30
+  content:
+    text: 去使用
+    fontSize: 11
+    color: '#176B4D'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - center
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: coupon-2
+  elementType: shape
+  bounds:
+  - 16
+  - 386
+  - 358
+  - 112
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#FFFFFF'
+  adjustments:
+  - 10714
+- elementId: coupon-left-2
+  elementType: shape
+  bounds:
+  - 16
+  - 386
+  - 104
+  - 112
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#FFF0E9'
+  adjustments:
+  - 11538
+- elementId: coupon-money-2
+  elementType: text
+  bounds:
+  - 22
+  - 404
+  - 92
+  - 40
+  content:
+    text: ¥8
+    fontSize: 28
+    color: '#F26B3A'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - center
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: coupon-cond-2
+  elementType: text
+  bounds:
+  - 22
+  - 448
+  - 92
+  - 24
+  content:
+    text: 满69元可用
+    fontSize: 10
+    color: '#748078'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - center
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: coupon-name-2
+  elementType: text
+  bounds:
+  - 136
+  - 402
+  - 150
+  - 28
+  content:
+    text: 生鲜品类券
+    fontSize: 15
+    color: '#17231D'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: coupon-date-2
+  elementType: text
+  bounds:
+  - 136
+  - 436
+  - 170
+  - 22
+  content:
+    text: 有效期至 2026.12.01
+    fontSize: 10
+    color: '#748078'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: coupon-btn-2-bg
+  elementType: shape
+  bounds:
+  - 290
+  - 446
+  - 68
+  - 30
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#FFFFFF'
+  adjustments:
+  - 50000
+  border:
+    style: solid
+    width: 1
+    color: '#176B4D'
+- elementId: coupon-btn-2-txt
+  elementType: text
+  bounds:
+  - 290
+  - 446
+  - 68
+  - 30
+  content:
+    text: 去使用
+    fontSize: 11
+    color: '#176B4D'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - center
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: coupon-empty
+  elementType: shape
+  bounds:
+  - 16
+  - 536
+  - 358
+  - 84
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#E8F4EC'
+  adjustments:
+  - 14285
+- elementId: coupon-info
+  elementType: icon
+  bounds:
+  - 30
+  - 564
+  - 18
+  - 18
+  iconName: fas:circle-info
+  fill:
+    type: solid
+    color: '#176B4D'
+- elementId: coupon-tip
+  elementType: text
+  bounds:
+  - 58
+  - 536
+  - 300
+  - 84
+  content:
+    text: 一单一券；不可叠加时将在结算页说明原因
+    fontSize: 11
+    color: '#176B4D'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15

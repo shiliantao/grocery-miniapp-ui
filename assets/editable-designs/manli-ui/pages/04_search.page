@@ -1,0 +1,772 @@
+pageType: content
+background:
+  type: solid
+  color: '#F6F7F3'
+elements:
+- elementId: status-time
+  elementType: text
+  bounds:
+  - 18
+  - 4
+  - 52
+  - 20
+  content:
+    text: '9:41'
+    fontSize: 12
+    color: '#17231D'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: status-signal
+  elementType: icon
+  bounds:
+  - 302
+  - 7
+  - 14
+  - 12
+  iconName: fas:signal
+  fill:
+    type: solid
+    color: '#17231D'
+- elementId: status-wifi
+  elementType: icon
+  bounds:
+  - 323
+  - 7
+  - 15
+  - 12
+  iconName: fas:wifi
+  fill:
+    type: solid
+    color: '#17231D'
+- elementId: status-battery
+  elementType: icon
+  bounds:
+  - 348
+  - 7
+  - 22
+  - 12
+  iconName: fas:battery-three-quarters
+  fill:
+    type: solid
+    color: '#17231D'
+- elementId: nav-title
+  elementType: text
+  bounds:
+  - 60
+  - 28
+  - 270
+  - 30
+  content:
+    text: 搜索商品
+    fontSize: 17
+    color: '#17231D'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - center
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: s-box
+  elementType: shape
+  bounds:
+  - 16
+  - 72
+  - 312
+  - 40
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#FFFFFF'
+  adjustments:
+  - 50000
+- elementId: s-ic
+  elementType: icon
+  bounds:
+  - 30
+  - 84
+  - 16
+  - 16
+  iconName: fas:magnifying-glass
+  fill:
+    type: solid
+    color: '#176B4D'
+- elementId: s-key
+  elementType: text
+  bounds:
+  - 54
+  - 72
+  - 240
+  - 40
+  content:
+    text: 草莓
+    fontSize: 14
+    color: '#17231D'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: s-clear
+  elementType: icon
+  bounds:
+  - 296
+  - 85
+  - 14
+  - 14
+  iconName: fas:circle-xmark
+  fill:
+    type: solid
+    color: '#A6AEA8'
+- elementId: s-cancel
+  elementType: text
+  bounds:
+  - 336
+  - 72
+  - 42
+  - 40
+  content:
+    text: 搜索
+    fontSize: 14
+    color: '#176B4D'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - right
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: history
+  elementType: text
+  bounds:
+  - 16
+  - 136
+  - 160
+  - 26
+  content:
+    text: 最近搜索
+    fontSize: 15
+    color: '#17231D'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: history-del
+  elementType: icon
+  bounds:
+  - 344
+  - 140
+  - 16
+  - 16
+  iconName: far:trash-can
+  fill:
+    type: solid
+    color: '#748078'
+- elementId: chip-172-0
+  elementType: shape
+  bounds:
+  - 16
+  - 172
+  - 58
+  - 30
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#E8F4EC'
+  adjustments:
+  - 50000
+- elementId: chip-t-172-0
+  elementType: text
+  bounds:
+  - 16
+  - 172
+  - 58
+  - 30
+  content:
+    text: 草莓
+    fontSize: 12
+    color: '#176B4D'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - center
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: chip-172-1
+  elementType: shape
+  bounds:
+  - 82
+  - 172
+  - 58
+  - 30
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#FFFFFF'
+  adjustments:
+  - 50000
+  border:
+    style: solid
+    width: 1
+    color: '#E4E9E3'
+- elementId: chip-t-172-1
+  elementType: text
+  bounds:
+  - 82
+  - 172
+  - 58
+  - 30
+  content:
+    text: 鸡蛋
+    fontSize: 12
+    color: '#748078'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - center
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: chip-172-2
+  elementType: shape
+  bounds:
+  - 148
+  - 172
+  - 58
+  - 30
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#FFFFFF'
+  adjustments:
+  - 50000
+  border:
+    style: solid
+    width: 1
+    color: '#E4E9E3'
+- elementId: chip-t-172-2
+  elementType: text
+  bounds:
+  - 148
+  - 172
+  - 58
+  - 30
+  content:
+    text: 脐橙
+    fontSize: 12
+    color: '#748078'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - center
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: chip-172-3
+  elementType: shape
+  bounds:
+  - 214
+  - 172
+  - 58
+  - 30
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#FFFFFF'
+  adjustments:
+  - 50000
+  border:
+    style: solid
+    width: 1
+    color: '#E4E9E3'
+- elementId: chip-t-172-3
+  elementType: text
+  bounds:
+  - 214
+  - 172
+  - 58
+  - 30
+  content:
+    text: 牛奶
+    fontSize: 12
+    color: '#748078'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - center
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: hot
+  elementType: text
+  bounds:
+  - 16
+  - 230
+  - 160
+  - 26
+  content:
+    text: 热门搜索
+    fontSize: 15
+    color: '#17231D'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: hot-rank-0
+  elementType: shape
+  bounds:
+  - 18
+  - 275
+  - 24
+  - 24
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#FFF0E9'
+  adjustments:
+  - 29166
+- elementId: hot-num-0
+  elementType: text
+  bounds:
+  - 18
+  - 275
+  - 24
+  - 24
+  content:
+    text: '1'
+    fontSize: 11
+    color: '#F26B3A'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - center
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: hot-name-0
+  elementType: text
+  bounds:
+  - 54
+  - 270
+  - 180
+  - 34
+  content:
+    text: 红颜草莓
+    fontSize: 13
+    color: '#17231D'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: hot-val-0
+  elementType: text
+  bounds:
+  - 250
+  - 270
+  - 110
+  - 34
+  content:
+    text: 986 人搜索
+    fontSize: 11
+    color: '#748078'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - right
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: hot-rank-1
+  elementType: shape
+  bounds:
+  - 18
+  - 317
+  - 24
+  - 24
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#FFF0E9'
+  adjustments:
+  - 29166
+- elementId: hot-num-1
+  elementType: text
+  bounds:
+  - 18
+  - 317
+  - 24
+  - 24
+  content:
+    text: '2'
+    fontSize: 11
+    color: '#F26B3A'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - center
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: hot-name-1
+  elementType: text
+  bounds:
+  - 54
+  - 312
+  - 180
+  - 34
+  content:
+    text: 沙瓤西红柿
+    fontSize: 13
+    color: '#17231D'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: hot-val-1
+  elementType: text
+  bounds:
+  - 250
+  - 312
+  - 110
+  - 34
+  content:
+    text: 883 人搜索
+    fontSize: 11
+    color: '#748078'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - right
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: hot-rank-2
+  elementType: shape
+  bounds:
+  - 18
+  - 359
+  - 24
+  - 24
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#FFF0E9'
+  adjustments:
+  - 29166
+- elementId: hot-num-2
+  elementType: text
+  bounds:
+  - 18
+  - 359
+  - 24
+  - 24
+  content:
+    text: '3'
+    fontSize: 11
+    color: '#F26B3A'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - center
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: hot-name-2
+  elementType: text
+  bounds:
+  - 54
+  - 354
+  - 180
+  - 34
+  content:
+    text: 谷物鲜鸡蛋
+    fontSize: 13
+    color: '#17231D'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: hot-val-2
+  elementType: text
+  bounds:
+  - 250
+  - 354
+  - 110
+  - 34
+  content:
+    text: 780 人搜索
+    fontSize: 11
+    color: '#748078'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - right
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: hot-rank-3
+  elementType: shape
+  bounds:
+  - 18
+  - 401
+  - 24
+  - 24
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#F6F7F3'
+  adjustments:
+  - 29166
+- elementId: hot-num-3
+  elementType: text
+  bounds:
+  - 18
+  - 401
+  - 24
+  - 24
+  content:
+    text: '4'
+    fontSize: 11
+    color: '#748078'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - center
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: hot-name-3
+  elementType: text
+  bounds:
+  - 54
+  - 396
+  - 180
+  - 34
+  content:
+    text: 赣南脐橙
+    fontSize: 13
+    color: '#17231D'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: hot-val-3
+  elementType: text
+  bounds:
+  - 250
+  - 396
+  - 110
+  - 34
+  content:
+    text: 677 人搜索
+    fontSize: 11
+    color: '#748078'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - right
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: hot-rank-4
+  elementType: shape
+  bounds:
+  - 18
+  - 443
+  - 24
+  - 24
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#F6F7F3'
+  adjustments:
+  - 29166
+- elementId: hot-num-4
+  elementType: text
+  bounds:
+  - 18
+  - 443
+  - 24
+  - 24
+  content:
+    text: '5'
+    fontSize: 11
+    color: '#748078'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - center
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: hot-name-4
+  elementType: text
+  bounds:
+  - 54
+  - 438
+  - 180
+  - 34
+  content:
+    text: 原切牛腩
+    fontSize: 13
+    color: '#17231D'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: hot-val-4
+  elementType: text
+  bounds:
+  - 250
+  - 438
+  - 110
+  - 34
+  content:
+    text: 574 人搜索
+    fontSize: 11
+    color: '#748078'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - right
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: hot-rank-5
+  elementType: shape
+  bounds:
+  - 18
+  - 485
+  - 24
+  - 24
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#F6F7F3'
+  adjustments:
+  - 29166
+- elementId: hot-num-5
+  elementType: text
+  bounds:
+  - 18
+  - 485
+  - 24
+  - 24
+  content:
+    text: '6'
+    fontSize: 11
+    color: '#748078'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - center
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: hot-name-5
+  elementType: text
+  bounds:
+  - 54
+  - 480
+  - 180
+  - 34
+  content:
+    text: 纯牛奶
+    fontSize: 13
+    color: '#17231D'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: hot-val-5
+  elementType: text
+  bounds:
+  - 250
+  - 480
+  - 110
+  - 34
+  content:
+    text: 471 人搜索
+    fontSize: 11
+    color: '#748078'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - right
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: search-tip
+  elementType: shape
+  bounds:
+  - 16
+  - 552
+  - 358
+  - 64
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#E8F4EC'
+  adjustments:
+  - 18750
+- elementId: search-tip-ic
+  elementType: icon
+  bounds:
+  - 30
+  - 570
+  - 18
+  - 18
+  iconName: fas:lightbulb
+  fill:
+    type: solid
+    color: '#176B4D'
+- elementId: search-tip-t
+  elementType: text
+  bounds:
+  - 58
+  - 552
+  - 290
+  - 64
+  content:
+    text: 试试搜索“低脂”“当季”“净菜”
+    fontSize: 12
+    color: '#176B4D'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15

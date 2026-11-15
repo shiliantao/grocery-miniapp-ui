@@ -1,0 +1,432 @@
+pageType: content
+background:
+  type: solid
+  color: '#F1F3F5'
+elements:
+- elementId: skubg
+  elementType: image
+  bounds:
+  - 0
+  - 0
+  - 390
+  - 390
+  src: media/tomato.jpg
+  fit:
+    mode: cover
+- elementId: skumask
+  elementType: shape
+  bounds:
+  - 0
+  - 0
+  - 390
+  - 844
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#00000066'
+- elementId: stime
+  elementType: text
+  bounds:
+  - 18
+  - 4
+  - 52
+  - 20
+  content:
+    text: '9:41'
+    fontSize: 12
+    color: '#FFFFFF'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: ssignal
+  elementType: icon
+  bounds:
+  - 302
+  - 7
+  - 14
+  - 12
+  iconName: fas:signal
+  fill:
+    type: solid
+    color: '#FFFFFF'
+- elementId: swifi
+  elementType: icon
+  bounds:
+  - 323
+  - 7
+  - 15
+  - 12
+  iconName: fas:wifi
+  fill:
+    type: solid
+    color: '#FFFFFF'
+- elementId: sbattery
+  elementType: icon
+  bounds:
+  - 348
+  - 7
+  - 22
+  - 12
+  iconName: fas:battery-three-quarters
+  fill:
+    type: solid
+    color: '#FFFFFF'
+- elementId: skusheet
+  elementType: shape
+  bounds:
+  - 0
+  - 314
+  - 390
+  - 530
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#FFFFFF'
+- elementId: skuthumb
+  elementType: image
+  bounds:
+  - 16
+  - 290
+  - 104
+  - 104
+  src: media/tomato.jpg
+  fit:
+    mode: cover
+  cropShape:
+    shapeName: roundRect
+    adjustments:
+    - 4807
+- elementId: skuprice
+  elementType: text
+  bounds:
+  - 136
+  - 340
+  - 150
+  - 36
+  content:
+    text: ¥3.99
+    fontSize: 26
+    color: '#FF6738'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: skustock
+  elementType: text
+  bounds:
+  - 136
+  - 382
+  - 180
+  - 24
+  content:
+    text: 库存 286 份
+    fontSize: 12
+    color: '#707B88'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: skusel
+  elementType: text
+  bounds:
+  - 136
+  - 410
+  - 200
+  - 24
+  content:
+    text: 已选：500g/份
+    fontSize: 12
+    color: '#1D2735'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: skuclose
+  elementType: icon
+  bounds:
+  - 350
+  - 334
+  - 18
+  - 18
+  iconName: fas:xmark
+  fill:
+    type: solid
+    color: '#707B88'
+- elementId: skuspec
+  elementType: text
+  bounds:
+  - 16
+  - 444
+  - 180
+  - 28
+  content:
+    text: 选择规格
+    fontSize: 16
+    color: '#1D2735'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: chip4860
+  elementType: shape
+  bounds:
+  - 16
+  - 486
+  - 102
+  - 32
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#17233C'
+  adjustments:
+  - 12500
+- elementId: chipt4860
+  elementType: text
+  bounds:
+  - 16
+  - 486
+  - 102
+  - 32
+  content:
+    text: 500g/份
+    fontSize: 12
+    color: '#D8EF73'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - center
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: chip4861
+  elementType: shape
+  bounds:
+  - 126
+  - 486
+  - 89
+  - 32
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#FFFFFF'
+  adjustments:
+  - 12500
+  border:
+    style: solid
+    width: 1
+    color: '#DDE2E7'
+- elementId: chipt4861
+  elementType: text
+  bounds:
+  - 126
+  - 486
+  - 89
+  - 32
+  content:
+    text: 1kg/份
+    fontSize: 12
+    color: '#707B88'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - center
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: chip4862
+  elementType: shape
+  bounds:
+  - 223
+  - 486
+  - 115
+  - 32
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#FFFFFF'
+  adjustments:
+  - 12500
+  border:
+    style: solid
+    width: 1
+    color: '#DDE2E7'
+- elementId: chipt4862
+  elementType: text
+  bounds:
+  - 223
+  - 486
+  - 115
+  - 32
+  content:
+    text: 2.5kg/箱
+    fontSize: 12
+    color: '#707B88'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - center
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: skunum
+  elementType: text
+  bounds:
+  - 16
+  - 550
+  - 150
+  - 30
+  content:
+    text: 购买数量
+    fontSize: 14
+    color: '#1D2735'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: skuminus
+  elementType: shape
+  bounds:
+  - 262
+  - 550
+  - 32
+  - 32
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#F1F3F5'
+  adjustments:
+  - 21875
+- elementId: skuminusi
+  elementType: icon
+  bounds:
+  - 272
+  - 560
+  - 12
+  - 12
+  iconName: fas:minus
+  fill:
+    type: solid
+    color: '#1D2735'
+- elementId: skunumv
+  elementType: text
+  bounds:
+  - 298
+  - 550
+  - 40
+  - 32
+  content:
+    text: '1'
+    fontSize: 15
+    color: '#1D2735'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - center
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: skuplus
+  elementType: shape
+  bounds:
+  - 340
+  - 550
+  - 32
+  - 32
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#EAF0F5'
+  adjustments:
+  - 21875
+- elementId: skuplusi
+  elementType: icon
+  bounds:
+  - 350
+  - 560
+  - 12
+  - 12
+  iconName: fas:plus
+  fill:
+    type: solid
+    color: '#263A5B'
+- elementId: skulimit
+  elementType: shape
+  bounds:
+  - 16
+  - 610
+  - 358
+  - 42
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#FFF0E9'
+  adjustments:
+  - 9523
+- elementId: skulimitt
+  elementType: text
+  bounds:
+  - 30
+  - 610
+  - 330
+  - 42
+  content:
+    text: 每人限购 5 份，活动库存以支付时为准
+    fontSize: 11
+    color: '#FF6738'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: skuconfirm-bg
+  elementType: shape
+  bounds:
+  - 16
+  - 754
+  - 358
+  - 46
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#263A5B'
+  adjustments:
+  - 10869
+- elementId: skuconfirm-t
+  elementType: text
+  bounds:
+  - 16
+  - 754
+  - 358
+  - 46
+  content:
+    text: 确定
+    fontSize: 14
+    color: '#FFFFFF'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - center
+    - middle
+    wrap: false
+    lineHeight: 1.15

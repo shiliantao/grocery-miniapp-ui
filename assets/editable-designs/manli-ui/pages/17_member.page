@@ -1,0 +1,578 @@
+pageType: content
+background:
+  type: solid
+  color: '#F6F7F3'
+elements:
+- elementId: member-head
+  elementType: shape
+  bounds:
+  - 0
+  - 0
+  - 390
+  - 278
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#26332C'
+- elementId: status-time
+  elementType: text
+  bounds:
+  - 18
+  - 4
+  - 52
+  - 20
+  content:
+    text: '9:41'
+    fontSize: 12
+    color: '#FFFFFF'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: status-signal
+  elementType: icon
+  bounds:
+  - 302
+  - 7
+  - 14
+  - 12
+  iconName: fas:signal
+  fill:
+    type: solid
+    color: '#FFFFFF'
+- elementId: status-wifi
+  elementType: icon
+  bounds:
+  - 323
+  - 7
+  - 15
+  - 12
+  iconName: fas:wifi
+  fill:
+    type: solid
+    color: '#FFFFFF'
+- elementId: status-battery
+  elementType: icon
+  bounds:
+  - 348
+  - 7
+  - 22
+  - 12
+  iconName: fas:battery-three-quarters
+  fill:
+    type: solid
+    color: '#FFFFFF'
+- elementId: nav-back
+  elementType: icon
+  bounds:
+  - 16
+  - 33
+  - 18
+  - 20
+  iconName: fas:chevron-left
+  fill:
+    type: solid
+    color: '#FFFFFF'
+- elementId: nav-title
+  elementType: text
+  bounds:
+  - 60
+  - 28
+  - 270
+  - 30
+  content:
+    text: 充卡会员
+    fontSize: 17
+    color: '#FFFFFF'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - center
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: nav-right
+  elementType: text
+  bounds:
+  - 314
+  - 29
+  - 58
+  - 28
+  content:
+    text: 交易记录
+    fontSize: 12
+    color: '#FFFFFF'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - right
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: member-card
+  elementType: shape
+  bounds:
+  - 16
+  - 86
+  - 358
+  - 168
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#F3D99B'
+  adjustments:
+  - 10714
+- elementId: member-crown
+  elementType: icon
+  bounds:
+  - 32
+  - 106
+  - 28
+  - 28
+  iconName: fas:crown
+  fill:
+    type: solid
+    color: '#26332C'
+- elementId: member-card-t
+  elementType: text
+  bounds:
+  - 72
+  - 102
+  - 240
+  - 32
+  content:
+    text: 满利到家 · 充卡会员
+    fontSize: 18
+    color: '#26332C'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: member-balance-l
+  elementType: text
+  bounds:
+  - 32
+  - 148
+  - 180
+  - 22
+  content:
+    text: 当前余额（元）
+    fontSize: 11
+    color: '#665A3C'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: member-balance
+  elementType: text
+  bounds:
+  - 32
+  - 174
+  - 220
+  - 46
+  content:
+    text: '268.50'
+    fontSize: 32
+    color: '#26332C'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: member-exp
+  elementType: text
+  bounds:
+  - 32
+  - 224
+  - 280
+  - 22
+  content:
+    text: 有效期至 2027.11.11  |  全场 95 折
+    fontSize: 11
+    color: '#665A3C'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: member-recharge
+  elementType: text
+  bounds:
+  - 16
+  - 278
+  - 200
+  - 30
+  content:
+    text: 选择充值金额
+    fontSize: 17
+    color: '#17231D'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: member-opt-0
+  elementType: shape
+  bounds:
+  - 16
+  - 322
+  - 110
+  - 82
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#FFFFFF'
+  adjustments:
+  - 14634
+  border:
+    style: solid
+    width: 1
+    color: '#E4E9E3'
+- elementId: member-money-0
+  elementType: text
+  bounds:
+  - 16
+  - 334
+  - 110
+  - 32
+  content:
+    text: ¥100
+    fontSize: 20
+    color: '#17231D'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - center
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: member-gift-0
+  elementType: text
+  bounds:
+  - 16
+  - 368
+  - 110
+  - 22
+  content:
+    text: 无赠送
+    fontSize: 10
+    color: '#748078'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - center
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: member-opt-1
+  elementType: shape
+  bounds:
+  - 138
+  - 322
+  - 110
+  - 82
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#E8F4EC'
+  adjustments:
+  - 14634
+  border:
+    style: solid
+    width: 1
+    color: '#176B4D'
+- elementId: member-money-1
+  elementType: text
+  bounds:
+  - 138
+  - 334
+  - 110
+  - 32
+  content:
+    text: ¥300
+    fontSize: 20
+    color: '#176B4D'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - center
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: member-gift-1
+  elementType: text
+  bounds:
+  - 138
+  - 368
+  - 110
+  - 22
+  content:
+    text: 会员 95 折
+    fontSize: 10
+    color: '#176B4D'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - center
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: member-opt-2
+  elementType: shape
+  bounds:
+  - 260
+  - 322
+  - 110
+  - 82
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#FFFFFF'
+  adjustments:
+  - 14634
+  border:
+    style: solid
+    width: 1
+    color: '#E4E9E3'
+- elementId: member-money-2
+  elementType: text
+  bounds:
+  - 260
+  - 334
+  - 110
+  - 32
+  content:
+    text: ¥500
+    fontSize: 20
+    color: '#17231D'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - center
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: member-gift-2
+  elementType: text
+  bounds:
+  - 260
+  - 368
+  - 110
+  - 22
+  content:
+    text: 会员 95 折
+    fontSize: 10
+    color: '#748078'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - center
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: member-benefit
+  elementType: shape
+  bounds:
+  - 16
+  - 426
+  - 358
+  - 124
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#FFFFFF'
+  adjustments:
+  - 9677
+- elementId: member-benefit-t
+  elementType: text
+  bounds:
+  - 30
+  - 438
+  - 180
+  - 26
+  content:
+    text: 会员权益
+    fontSize: 15
+    color: '#17231D'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: member-b1
+  elementType: icon
+  bounds:
+  - 32
+  - 484
+  - 20
+  - 20
+  iconName: fas:percent
+  fill:
+    type: solid
+    color: '#176B4D'
+- elementId: member-b1-t
+  elementType: text
+  bounds:
+  - 62
+  - 478
+  - 126
+  - 30
+  content:
+    text: 适用商品 95 折
+    fontSize: 12
+    color: '#17231D'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: member-b2
+  elementType: icon
+  bounds:
+  - 212
+  - 484
+  - 20
+  - 20
+  iconName: fas:clock-rotate-left
+  fill:
+    type: solid
+    color: '#176B4D'
+- elementId: member-b2-t
+  elementType: text
+  bounds:
+  - 242
+  - 478
+  - 116
+  - 30
+  content:
+    text: 余额流水可追溯
+    fontSize: 12
+    color: '#17231D'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: member-rule
+  elementType: text
+  bounds:
+  - 30
+  - 516
+  - 320
+  - 22
+  content:
+    text: 折扣与活动是否叠加，以结算页规则明细为准
+    fontSize: 10
+    color: '#748078'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: member-agree
+  elementType: shape
+  bounds:
+  - 16
+  - 580
+  - 16
+  - 16
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#FFFFFF'
+  adjustments:
+  - 25000
+  border:
+    style: solid
+    width: 1
+    color: '#E4E9E3'
+- elementId: member-agree-t
+  elementType: text
+  bounds:
+  - 42
+  - 572
+  - 300
+  - 32
+  content:
+    text: 我已阅读并同意《会员充值协议》
+    fontSize: 11
+    color: '#748078'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: member-pay-bg
+  elementType: shape
+  bounds:
+  - 16
+  - 632
+  - 358
+  - 46
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#176B4D'
+  adjustments:
+  - 50000
+- elementId: member-pay-txt
+  elementType: text
+  bounds:
+  - 16
+  - 632
+  - 358
+  - 46
+  content:
+    text: 微信支付 ¥300
+    fontSize: 15
+    color: '#FFFFFF'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - center
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: member-note
+  elementType: text
+  bounds:
+  - 16
+  - 700
+  - 358
+  - 30
+  content:
+    text: 充值、消费、退款及后台调整均记录账户流水
+    fontSize: 11
+    color: '#748078'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - center
+    - middle
+    wrap: false
+    lineHeight: 1.15

@@ -1,0 +1,600 @@
+pageType: content
+background:
+  type: image
+  src: media/bg-warm.png
+  fit:
+    mode: cover
+elements:
+- elementId: stime
+  elementType: text
+  bounds:
+  - 18
+  - 4
+  - 52
+  - 20
+  content:
+    text: '9:41'
+    fontSize: 12
+    color: '#252821'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: ssignal
+  elementType: icon
+  bounds:
+  - 302
+  - 7
+  - 14
+  - 12
+  iconName: fas:signal
+  fill:
+    type: solid
+    color: '#252821'
+- elementId: swifi
+  elementType: icon
+  bounds:
+  - 323
+  - 7
+  - 15
+  - 12
+  iconName: fas:wifi
+  fill:
+    type: solid
+    color: '#252821'
+- elementId: sbattery
+  elementType: icon
+  bounds:
+  - 348
+  - 7
+  - 22
+  - 12
+  iconName: fas:battery-three-quarters
+  fill:
+    type: solid
+    color: '#252821'
+- elementId: nback
+  elementType: icon
+  bounds:
+  - 16
+  - 32
+  - 18
+  - 22
+  iconName: fas:chevron-left
+  fill:
+    type: solid
+    color: '#252821'
+- elementId: ntitle
+  elementType: text
+  bounds:
+  - 48
+  - 27
+  - 250
+  - 34
+  content:
+    text: 订单详情
+    fontSize: 18
+    color: '#252821'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: nright
+  elementType: text
+  bounds:
+  - 310
+  - 29
+  - 64
+  - 30
+  content:
+    text: 客服
+    fontSize: 11
+    color: '#175C3B'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - right
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: delhero
+  elementType: shape
+  bounds:
+  - 16
+  - 76
+  - 358
+  - 116
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#173B2C'
+  adjustments:
+  - 15517
+- elementId: deltruck
+  elementType: icon
+  bounds:
+  - 32
+  - 98
+  - 32
+  - 32
+  iconName: fas:truck-fast
+  fill:
+    type: solid
+    color: '#FFC847'
+- elementId: delstatus
+  elementType: text
+  bounds:
+  - 80
+  - 88
+  - 180
+  - 34
+  content:
+    text: 配送中
+    fontSize: 22
+    color: '#FFFFFF'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: delsub
+  elementType: text
+  bounds:
+  - 80
+  - 126
+  - 250
+  - 24
+  content:
+    text: 配送员已出发，请保持电话畅通
+    fontSize: 12
+    color: '#D5DDE8'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: delbatch
+  elementType: text
+  bounds:
+  - 32
+  - 160
+  - 280
+  - 22
+  content:
+    text: 批次：ML-D20261112-03
+    fontSize: 11
+    color: '#FFC847'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: delprog
+  elementType: shape
+  bounds:
+  - 16
+  - 210
+  - 358
+  - 260
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#FFFFFF'
+  adjustments:
+  - 6153
+- elementId: delprogt
+  elementType: text
+  bounds:
+  - 30
+  - 222
+  - 180
+  - 28
+  content:
+    text: 配送进度
+    fontSize: 16
+    color: '#252821'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: deldot0
+  elementType: shape
+  bounds:
+  - 32
+  - 276
+  - 12
+  - 12
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#F0442E'
+  adjustments:
+  - 50000
+- elementId: dela0
+  elementType: text
+  bounds:
+  - 58
+  - 270
+  - 200
+  - 24
+  content:
+    text: 包裹已交接配送员
+    fontSize: 13
+    color: '#252821'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: delb0
+  elementType: text
+  bounds:
+  - 234
+  - 270
+  - 116
+  - 24
+  content:
+    text: 今天 08:36
+    fontSize: 10
+    color: '#7B7D72'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - right
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: delline0
+  elementType: shape
+  bounds:
+  - 37
+  - 290
+  - 2
+  - 30
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#EAE3D7'
+- elementId: deldot1
+  elementType: shape
+  bounds:
+  - 32
+  - 324
+  - 12
+  - 12
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#175C3B'
+  adjustments:
+  - 50000
+- elementId: dela1
+  elementType: text
+  bounds:
+  - 58
+  - 318
+  - 200
+  - 24
+  content:
+    text: 仓库分拣复核完成
+    fontSize: 13
+    color: '#252821'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: delb1
+  elementType: text
+  bounds:
+  - 234
+  - 318
+  - 116
+  - 24
+  content:
+    text: 今天 07:52
+    fontSize: 10
+    color: '#7B7D72'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - right
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: delline1
+  elementType: shape
+  bounds:
+  - 37
+  - 338
+  - 2
+  - 30
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#EAE3D7'
+- elementId: deldot2
+  elementType: shape
+  bounds:
+  - 32
+  - 372
+  - 12
+  - 12
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#175C3B'
+  adjustments:
+  - 50000
+- elementId: dela2
+  elementType: text
+  bounds:
+  - 58
+  - 366
+  - 200
+  - 24
+  content:
+    text: 订单支付成功
+    fontSize: 13
+    color: '#252821'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: delb2
+  elementType: text
+  bounds:
+  - 234
+  - 366
+  - 116
+  - 24
+  content:
+    text: 昨天 20:18
+    fontSize: 10
+    color: '#7B7D72'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - right
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: delline2
+  elementType: shape
+  bounds:
+  - 37
+  - 386
+  - 2
+  - 30
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#EAE3D7'
+- elementId: deldot3
+  elementType: shape
+  bounds:
+  - 32
+  - 420
+  - 12
+  - 12
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#EAE3D7'
+  adjustments:
+  - 50000
+- elementId: dela3
+  elementType: text
+  bounds:
+  - 58
+  - 414
+  - 200
+  - 24
+  content:
+    text: 预计送达
+    fontSize: 13
+    color: '#252821'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: delb3
+  elementType: text
+  bounds:
+  - 234
+  - 414
+  - 116
+  - 24
+  content:
+    text: 今天 09:00–18:00
+    fontSize: 10
+    color: '#7B7D72'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - right
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: deladdr
+  elementType: shape
+  bounds:
+  - 16
+  - 488
+  - 358
+  - 94
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#FFFFFF'
+  adjustments:
+  - 14893
+- elementId: deladdr-i
+  elementType: icon
+  bounds:
+  - 30
+  - 510
+  - 22
+  - 24
+  iconName: fas:location-dot
+  fill:
+    type: solid
+    color: '#F0442E'
+- elementId: deladdrn
+  elementType: text
+  bounds:
+  - 64
+  - 498
+  - 250
+  - 26
+  content:
+    text: 李女士  138****6721
+    fontSize: 14
+    color: '#252821'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: deladdrt
+  elementType: text
+  bounds:
+  - 64
+  - 530
+  - 270
+  - 24
+  content:
+    text: 幸福里一期 2 栋 1 单元 801
+    fontSize: 12
+    color: '#7B7D72'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: delnote
+  elementType: shape
+  bounds:
+  - 16
+  - 604
+  - 358
+  - 58
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#EAF3E5'
+  adjustments:
+  - 17241
+- elementId: delnotet
+  elementType: text
+  bounds:
+  - 30
+  - 604
+  - 330
+  - 58
+  content:
+    text: 本期不展示骑手实时位置，进度以配送事件为准
+    fontSize: 11
+    color: '#175C3B'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: delcontact-bg
+  elementType: shape
+  bounds:
+  - 16
+  - 748
+  - 172
+  - 44
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#FFFFFF'
+  adjustments:
+  - 50000
+  border:
+    style: solid
+    width: 1
+    color: '#175C3B'
+- elementId: delcontact-t
+  elementType: text
+  bounds:
+  - 16
+  - 748
+  - 172
+  - 44
+  content:
+    text: 联系配送员
+    fontSize: 14
+    color: '#175C3B'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - center
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: delsign-bg
+  elementType: shape
+  bounds:
+  - 202
+  - 748
+  - 172
+  - 44
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#F0442E'
+  adjustments:
+  - 50000
+- elementId: delsign-t
+  elementType: text
+  bounds:
+  - 202
+  - 748
+  - 172
+  - 44
+  content:
+    text: 确认签收
+    fontSize: 14
+    color: '#FFFFFF'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - center
+    - middle
+    wrap: false
+    lineHeight: 1.15

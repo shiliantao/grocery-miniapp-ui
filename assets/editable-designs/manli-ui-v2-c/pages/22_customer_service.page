@@ -1,0 +1,419 @@
+pageType: content
+background:
+  type: solid
+  color: '#F1F3F5'
+elements:
+- elementId: navbg
+  elementType: shape
+  bounds:
+  - 0
+  - 0
+  - 390
+  - 66
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#17233C'
+- elementId: stime
+  elementType: text
+  bounds:
+  - 18
+  - 4
+  - 52
+  - 20
+  content:
+    text: '9:41'
+    fontSize: 12
+    color: '#FFFFFF'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: ssignal
+  elementType: icon
+  bounds:
+  - 302
+  - 7
+  - 14
+  - 12
+  iconName: fas:signal
+  fill:
+    type: solid
+    color: '#FFFFFF'
+- elementId: swifi
+  elementType: icon
+  bounds:
+  - 323
+  - 7
+  - 15
+  - 12
+  iconName: fas:wifi
+  fill:
+    type: solid
+    color: '#FFFFFF'
+- elementId: sbattery
+  elementType: icon
+  bounds:
+  - 348
+  - 7
+  - 22
+  - 12
+  iconName: fas:battery-three-quarters
+  fill:
+    type: solid
+    color: '#FFFFFF'
+- elementId: nback
+  elementType: icon
+  bounds:
+  - 16
+  - 32
+  - 18
+  - 22
+  iconName: fas:chevron-left
+  fill:
+    type: solid
+    color: '#FFFFFF'
+- elementId: ntitle
+  elementType: text
+  bounds:
+  - 58
+  - 27
+  - 250
+  - 34
+  content:
+    text: 客服与反馈
+    fontSize: 18
+    color: '#FFFFFF'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - center
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: nright
+  elementType: text
+  bounds:
+  - 310
+  - 29
+  - 64
+  - 30
+  content:
+    text: 反馈进度
+    fontSize: 11
+    color: '#D8EF73'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - right
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: servorder
+  elementType: shape
+  bounds:
+  - 16
+  - 74
+  - 358
+  - 44
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#FFFFFF'
+  adjustments:
+  - 9090
+- elementId: servlink
+  elementType: icon
+  bounds:
+  - 28
+  - 88
+  - 16
+  - 16
+  iconName: fas:link
+  fill:
+    type: solid
+    color: '#263A5B'
+- elementId: servordert
+  elementType: text
+  bounds:
+  - 54
+  - 74
+  - 250
+  - 44
+  content:
+    text: 关联订单：ML202611110086
+    fontSize: 11
+    color: '#1D2735'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: servtime
+  elementType: text
+  bounds:
+  - 16
+  - 136
+  - 358
+  - 24
+  content:
+    text: 今天 09:30
+    fontSize: 10
+    color: '#707B88'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - center
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: serva1
+  elementType: shape
+  bounds:
+  - 16
+  - 176
+  - 36
+  - 36
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#17233C'
+  adjustments:
+  - 13888
+- elementId: serva1i
+  elementType: icon
+  bounds:
+  - 25
+  - 185
+  - 18
+  - 18
+  iconName: fas:headset
+  fill:
+    type: solid
+    color: '#D8EF73'
+- elementId: servm1
+  elementType: shape
+  bounds:
+  - 64
+  - 172
+  - 252
+  - 58
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#FFFFFF'
+  adjustments:
+  - 8620
+- elementId: servm1t
+  elementType: text
+  bounds:
+  - 78
+  - 172
+  - 224
+  - 58
+  content:
+    text: 您好，请问有什么可以帮您？
+    fontSize: 12
+    color: '#1D2735'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: servm2
+  elementType: shape
+  bounds:
+  - 132
+  - 248
+  - 242
+  - 58
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#EAF0F5'
+  adjustments:
+  - 8620
+- elementId: servm2t
+  elementType: text
+  bounds:
+  - 146
+  - 248
+  - 214
+  - 58
+  content:
+    text: 西红柿有一颗破损，想申请售后
+    fontSize: 12
+    color: '#1D2735'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: serva2
+  elementType: shape
+  bounds:
+  - 16
+  - 334
+  - 36
+  - 36
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#17233C'
+  adjustments:
+  - 13888
+- elementId: serva2i
+  elementType: icon
+  bounds:
+  - 25
+  - 343
+  - 18
+  - 18
+  iconName: fas:headset
+  fill:
+    type: solid
+    color: '#D8EF73'
+- elementId: servm3
+  elementType: shape
+  bounds:
+  - 64
+  - 330
+  - 286
+  - 82
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#FFFFFF'
+  adjustments:
+  - 6097
+- elementId: servm3t
+  elementType: text
+  bounds:
+  - 78
+  - 338
+  - 250
+  - 62
+  content:
+    text: 已为您关联订单，请上传商品照片，我们会尽快处理。
+    fontSize: 12
+    color: '#1D2735'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - left
+    - middle
+    wrap: true
+    lineHeight: 1.5
+- elementId: servstatus
+  elementType: shape
+  bounds:
+  - 64
+  - 430
+  - 170
+  - 28
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#FFF0E9'
+  adjustments:
+  - 14285
+- elementId: servstatust
+  elementType: text
+  bounds:
+  - 64
+  - 430
+  - 170
+  - 28
+  content:
+    text: 反馈处理中 · 客服小林
+    fontSize: 10
+    color: '#FF6738'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - center
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: servinput
+  elementType: shape
+  bounds:
+  - 0
+  - 748
+  - 390
+  - 96
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#FFFFFF'
+- elementId: servbox
+  elementType: shape
+  bounds:
+  - 16
+  - 762
+  - 266
+  - 40
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#F1F3F5'
+  adjustments:
+  - 12500
+- elementId: servph
+  elementType: text
+  bounds:
+  - 32
+  - 762
+  - 220
+  - 40
+  content:
+    text: 输入消息…
+    fontSize: 12
+    color: '#707B88'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: servsend-bg
+  elementType: shape
+  bounds:
+  - 326
+  - 762
+  - 48
+  - 40
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#263A5B'
+  adjustments:
+  - 12500
+- elementId: servsend-t
+  elementType: text
+  bounds:
+  - 326
+  - 762
+  - 48
+  - 40
+  content:
+    text: 发送
+    fontSize: 14
+    color: '#FFFFFF'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - center
+    - middle
+    wrap: false
+    lineHeight: 1.15

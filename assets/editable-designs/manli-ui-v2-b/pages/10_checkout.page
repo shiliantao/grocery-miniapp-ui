@@ -1,0 +1,866 @@
+pageType: content
+background:
+  type: image
+  src: media/bg-warm.png
+  fit:
+    mode: cover
+elements:
+- elementId: stime
+  elementType: text
+  bounds:
+  - 18
+  - 4
+  - 52
+  - 20
+  content:
+    text: '9:41'
+    fontSize: 12
+    color: '#252821'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: ssignal
+  elementType: icon
+  bounds:
+  - 302
+  - 7
+  - 14
+  - 12
+  iconName: fas:signal
+  fill:
+    type: solid
+    color: '#252821'
+- elementId: swifi
+  elementType: icon
+  bounds:
+  - 323
+  - 7
+  - 15
+  - 12
+  iconName: fas:wifi
+  fill:
+    type: solid
+    color: '#252821'
+- elementId: sbattery
+  elementType: icon
+  bounds:
+  - 348
+  - 7
+  - 22
+  - 12
+  iconName: fas:battery-three-quarters
+  fill:
+    type: solid
+    color: '#252821'
+- elementId: nback
+  elementType: icon
+  bounds:
+  - 16
+  - 32
+  - 18
+  - 22
+  iconName: fas:chevron-left
+  fill:
+    type: solid
+    color: '#252821'
+- elementId: ntitle
+  elementType: text
+  bounds:
+  - 48
+  - 27
+  - 250
+  - 34
+  content:
+    text: 确认订单
+    fontSize: 18
+    color: '#252821'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: coaddr
+  elementType: shape
+  bounds:
+  - 16
+  - 76
+  - 358
+  - 94
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#FFFFFF'
+  adjustments:
+  - 17021
+- elementId: coloc
+  elementType: icon
+  bounds:
+  - 30
+  - 96
+  - 22
+  - 24
+  iconName: fas:location-dot
+  fill:
+    type: solid
+    color: '#F0442E'
+- elementId: coname
+  elementType: text
+  bounds:
+  - 64
+  - 84
+  - 250
+  - 26
+  content:
+    text: 李女士  138****6721
+    fontSize: 15
+    color: '#252821'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: coaddrt
+  elementType: text
+  bounds:
+  - 64
+  - 116
+  - 270
+  - 22
+  content:
+    text: 幸福里一期 2 栋 1 单元 801
+    fontSize: 12
+    color: '#7B7D72'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: comode
+  elementType: text
+  bounds:
+  - 64
+  - 142
+  - 90
+  - 20
+  content:
+    text: 上门配送
+    fontSize: 10
+    color: '#175C3B'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: chip1860
+  elementType: shape
+  bounds:
+  - 16
+  - 186
+  - 76
+  - 32
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#EAF3E5'
+  adjustments:
+  - 50000
+- elementId: chipt1860
+  elementType: text
+  bounds:
+  - 16
+  - 186
+  - 76
+  - 32
+  content:
+    text: 上门配送
+    fontSize: 12
+    color: '#175C3B'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - center
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: chip1861
+  elementType: shape
+  bounds:
+  - 100
+  - 186
+  - 76
+  - 32
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#FFFFFF'
+  adjustments:
+  - 50000
+  border:
+    style: solid
+    width: 1
+    color: '#EAE3D7'
+- elementId: chipt1861
+  elementType: text
+  bounds:
+  - 100
+  - 186
+  - 76
+  - 32
+  content:
+    text: 站点自提
+    fontSize: 12
+    color: '#7B7D72'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - center
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: codate
+  elementType: shape
+  bounds:
+  - 16
+  - 234
+  - 358
+  - 48
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#FFFFFF'
+  adjustments:
+  - 20833
+- elementId: codatel
+  elementType: text
+  bounds:
+  - 30
+  - 234
+  - 120
+  - 48
+  content:
+    text: 配送日期
+    fontSize: 13
+    color: '#252821'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: codatev
+  elementType: text
+  bounds:
+  - 180
+  - 234
+  - 166
+  - 48
+  content:
+    text: 明天 09:00–18:00
+    fontSize: 12
+    color: '#175C3B'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - right
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: cogoods
+  elementType: shape
+  bounds:
+  - 16
+  - 298
+  - 358
+  - 142
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#FFFFFF'
+  adjustments:
+  - 9859
+- elementId: cogoodst
+  elementType: text
+  bounds:
+  - 30
+  - 308
+  - 180
+  - 26
+  content:
+    text: 商品清单 · 2 件
+    fontSize: 14
+    color: '#252821'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: coim1
+  elementType: image
+  bounds:
+  - 30
+  - 346
+  - 66
+  - 66
+  src: media/tomato.jpg
+  fit:
+    mode: cover
+  cropShape:
+    shapeName: roundRect
+    adjustments:
+    - 15151
+- elementId: coim2
+  elementType: image
+  bounds:
+  - 106
+  - 346
+  - 66
+  - 66
+  src: media/eggs.jpg
+  fit:
+    mode: cover
+  cropShape:
+    shapeName: roundRect
+    adjustments:
+    - 15151
+- elementId: cogoodsn
+  elementType: text
+  bounds:
+  - 186
+  - 346
+  - 150
+  - 58
+  content:
+    text: '沙瓤西红柿 ×1
+
+      谷物鲜鸡蛋 ×1'
+    fontSize: 12
+    color: '#252821'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - left
+    - top
+    wrap: true
+    lineHeight: 1.5
+- elementId: cogoodsp
+  elementType: text
+  bounds:
+  - 252
+  - 408
+  - 94
+  - 24
+  content:
+    text: ¥13.89
+    fontSize: 15
+    color: '#252821'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - right
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: rowsbg
+  elementType: shape
+  bounds:
+  - 16
+  - 456
+  - 358
+  - 192
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#FFFFFF'
+  adjustments:
+  - 8333
+- elementId: rowic0bg
+  elementType: shape
+  bounds:
+  - 26
+  - 461.0
+  - 38
+  - 38
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#FFF0D8'
+  adjustments:
+  - 50000
+- elementId: rowic0ic
+  elementType: icon
+  bounds:
+  - 36.0
+  - 471.0
+  - 18
+  - 18
+  iconName: fas:ticket
+  fill:
+    type: solid
+    color: '#D68C16'
+- elementId: rowl0
+  elementType: text
+  bounds:
+  - 74
+  - 456
+  - 150
+  - 48
+  content:
+    text: 优惠券
+    fontSize: 14
+    color: '#252821'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: rowv0
+  elementType: text
+  bounds:
+  - 204
+  - 456
+  - 136
+  - 48
+  content:
+    text: 满12减2
+    fontSize: 12
+    color: '#7B7D72'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - right
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: rowa0
+  elementType: icon
+  bounds:
+  - 350
+  - 474.0
+  - 10
+  - 12
+  iconName: fas:chevron-right
+  fill:
+    type: solid
+    color: '#7B7D72'
+- elementId: rowln0
+  elementType: line
+  bounds:
+  - 26
+  - 504
+  - 338
+  - 1
+  viewBox:
+  - 338
+  - 1
+  points: 0,0 338,0
+  curve: sharp
+  border:
+    style: solid
+    width: 1
+    color: '#EAE3D7'
+- elementId: rowic1bg
+  elementType: shape
+  bounds:
+  - 26
+  - 509.0
+  - 38
+  - 38
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#F0E7F8'
+  adjustments:
+  - 50000
+- elementId: rowic1ic
+  elementType: icon
+  bounds:
+  - 36.0
+  - 519.0
+  - 18
+  - 18
+  iconName: fas:crown
+  fill:
+    type: solid
+    color: '#8B62B0'
+- elementId: rowl1
+  elementType: text
+  bounds:
+  - 74
+  - 504
+  - 150
+  - 48
+  content:
+    text: 会员优惠
+    fontSize: 14
+    color: '#252821'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: rowv1
+  elementType: text
+  bounds:
+  - 204
+  - 504
+  - 136
+  - 48
+  content:
+    text: 95折  -¥0.69
+    fontSize: 12
+    color: '#7B7D72'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - right
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: rowa1
+  elementType: icon
+  bounds:
+  - 350
+  - 522.0
+  - 10
+  - 12
+  iconName: fas:chevron-right
+  fill:
+    type: solid
+    color: '#7B7D72'
+- elementId: rowln1
+  elementType: line
+  bounds:
+  - 26
+  - 552
+  - 338
+  - 1
+  viewBox:
+  - 338
+  - 1
+  points: 0,0 338,0
+  curve: sharp
+  border:
+    style: solid
+    width: 1
+    color: '#EAE3D7'
+- elementId: rowic2bg
+  elementType: shape
+  bounds:
+  - 26
+  - 557.0
+  - 38
+  - 38
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#E1F1FC'
+  adjustments:
+  - 50000
+- elementId: rowic2ic
+  elementType: icon
+  bounds:
+  - 36.0
+  - 567.0
+  - 18
+  - 18
+  iconName: fas:truck-fast
+  fill:
+    type: solid
+    color: '#328CB4'
+- elementId: rowl2
+  elementType: text
+  bounds:
+  - 74
+  - 552
+  - 150
+  - 48
+  content:
+    text: 配送费
+    fontSize: 14
+    color: '#252821'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: rowv2
+  elementType: text
+  bounds:
+  - 204
+  - 552
+  - 136
+  - 48
+  content:
+    text: 已免  ¥0.00
+    fontSize: 12
+    color: '#7B7D72'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - right
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: rowa2
+  elementType: icon
+  bounds:
+  - 350
+  - 570.0
+  - 10
+  - 12
+  iconName: fas:chevron-right
+  fill:
+    type: solid
+    color: '#7B7D72'
+- elementId: rowln2
+  elementType: line
+  bounds:
+  - 26
+  - 600
+  - 338
+  - 1
+  viewBox:
+  - 338
+  - 1
+  points: 0,0 338,0
+  curve: sharp
+  border:
+    style: solid
+    width: 1
+    color: '#EAE3D7'
+- elementId: rowic3bg
+  elementType: shape
+  bounds:
+  - 26
+  - 605.0
+  - 38
+  - 38
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#E8F3E4'
+  adjustments:
+  - 50000
+- elementId: rowic3ic
+  elementType: icon
+  bounds:
+  - 36.0
+  - 615.0
+  - 18
+  - 18
+  iconName: far:edit
+  fill:
+    type: solid
+    color: '#4E9A52'
+- elementId: rowl3
+  elementType: text
+  bounds:
+  - 74
+  - 600
+  - 150
+  - 48
+  content:
+    text: 订单备注
+    fontSize: 14
+    color: '#252821'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: rowv3
+  elementType: text
+  bounds:
+  - 204
+  - 600
+  - 136
+  - 48
+  content:
+    text: 选填
+    fontSize: 12
+    color: '#7B7D72'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - right
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: rowa3
+  elementType: icon
+  bounds:
+  - 350
+  - 618.0
+  - 10
+  - 12
+  iconName: fas:chevron-right
+  fill:
+    type: solid
+    color: '#7B7D72'
+- elementId: copay
+  elementType: shape
+  bounds:
+  - 16
+  - 664
+  - 358
+  - 54
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#FFFFFF'
+  adjustments:
+  - 25925
+- elementId: copaybg
+  elementType: shape
+  bounds:
+  - 28
+  - 672
+  - 38
+  - 38
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#E7F6E9'
+  adjustments:
+  - 50000
+- elementId: copayi
+  elementType: icon
+  bounds:
+  - 36
+  - 680
+  - 22
+  - 22
+  iconName: fab:weixin
+  fill:
+    type: solid
+    color: '#18A957'
+- elementId: copayt
+  elementType: text
+  bounds:
+  - 78
+  - 664
+  - 180
+  - 54
+  content:
+    text: 微信支付
+    fontSize: 14
+    color: '#252821'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: copaycheck
+  elementType: icon
+  bounds:
+  - 340
+  - 682
+  - 18
+  - 18
+  iconName: fas:circle-check
+  fill:
+    type: solid
+    color: '#18A957'
+- elementId: cobottom
+  elementType: shape
+  bounds:
+  - 0
+  - 764
+  - 390
+  - 80
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#FFFFFF'
+- elementId: cotl
+  elementType: text
+  bounds:
+  - 16
+  - 776
+  - 66
+  - 26
+  content:
+    text: 实付款
+    fontSize: 12
+    color: '#252821'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: cot
+  elementType: text
+  bounds:
+  - 82
+  - 770
+  - 120
+  - 36
+  content:
+    text: ¥11.20
+    fontSize: 24
+    color: '#F0442E'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: cosubmit-bg
+  elementType: shape
+  bounds:
+  - 230
+  - 776
+  - 144
+  - 46
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#F0442E'
+  adjustments:
+  - 50000
+- elementId: cosubmit-t
+  elementType: text
+  bounds:
+  - 230
+  - 776
+  - 144
+  - 46
+  content:
+    text: 提交订单
+    fontSize: 14
+    color: '#FFFFFF'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - center
+    - middle
+    wrap: false
+    lineHeight: 1.15

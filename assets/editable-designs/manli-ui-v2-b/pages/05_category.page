@@ -1,0 +1,722 @@
+pageType: content
+background:
+  type: image
+  src: media/bg-warm.png
+  fit:
+    mode: cover
+elements:
+- elementId: stime
+  elementType: text
+  bounds:
+  - 18
+  - 4
+  - 52
+  - 20
+  content:
+    text: '9:41'
+    fontSize: 12
+    color: '#252821'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: ssignal
+  elementType: icon
+  bounds:
+  - 302
+  - 7
+  - 14
+  - 12
+  iconName: fas:signal
+  fill:
+    type: solid
+    color: '#252821'
+- elementId: swifi
+  elementType: icon
+  bounds:
+  - 323
+  - 7
+  - 15
+  - 12
+  iconName: fas:wifi
+  fill:
+    type: solid
+    color: '#252821'
+- elementId: sbattery
+  elementType: icon
+  bounds:
+  - 348
+  - 7
+  - 22
+  - 12
+  iconName: fas:battery-three-quarters
+  fill:
+    type: solid
+    color: '#252821'
+- elementId: ntitle
+  elementType: text
+  bounds:
+  - 48
+  - 27
+  - 250
+  - 34
+  content:
+    text: 商品分类
+    fontSize: 18
+    color: '#252821'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: cs
+  elementType: shape
+  bounds:
+  - 16
+  - 74
+  - 358
+  - 40
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#FFFFFF'
+  adjustments:
+  - 50000
+- elementId: csi
+  elementType: icon
+  bounds:
+  - 30
+  - 86
+  - 16
+  - 16
+  iconName: fas:magnifying-glass
+  fill:
+    type: solid
+    color: '#175C3B'
+- elementId: cst
+  elementType: text
+  bounds:
+  - 56
+  - 74
+  - 280
+  - 40
+  content:
+    text: 搜索全部分类商品
+    fontSize: 12
+    color: '#7B7D72'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: chip1300
+  elementType: shape
+  bounds:
+  - 16
+  - 130
+  - 64
+  - 32
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#EAF3E5'
+  adjustments:
+  - 50000
+- elementId: chipt1300
+  elementType: text
+  bounds:
+  - 16
+  - 130
+  - 64
+  - 32
+  content:
+    text: 蔬菜
+    fontSize: 12
+    color: '#175C3B'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - center
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: chip1301
+  elementType: shape
+  bounds:
+  - 88
+  - 130
+  - 64
+  - 32
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#FFFFFF'
+  adjustments:
+  - 50000
+  border:
+    style: solid
+    width: 1
+    color: '#EAE3D7'
+- elementId: chipt1301
+  elementType: text
+  bounds:
+  - 88
+  - 130
+  - 64
+  - 32
+  content:
+    text: 水果
+    fontSize: 12
+    color: '#7B7D72'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - center
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: chip1302
+  elementType: shape
+  bounds:
+  - 160
+  - 130
+  - 64
+  - 32
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#FFFFFF'
+  adjustments:
+  - 50000
+  border:
+    style: solid
+    width: 1
+    color: '#EAE3D7'
+- elementId: chipt1302
+  elementType: text
+  bounds:
+  - 160
+  - 130
+  - 64
+  - 32
+  content:
+    text: 肉蛋
+    fontSize: 12
+    color: '#7B7D72'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - center
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: chip1303
+  elementType: shape
+  bounds:
+  - 232
+  - 130
+  - 64
+  - 32
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#FFFFFF'
+  adjustments:
+  - 50000
+  border:
+    style: solid
+    width: 1
+    color: '#EAE3D7'
+- elementId: chipt1303
+  elementType: text
+  bounds:
+  - 232
+  - 130
+  - 64
+  - 32
+  content:
+    text: 水产
+    fontSize: 12
+    color: '#7B7D72'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - center
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: chip1304
+  elementType: shape
+  bounds:
+  - 304
+  - 130
+  - 64
+  - 32
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#FFFFFF'
+  adjustments:
+  - 50000
+  border:
+    style: solid
+    width: 1
+    color: '#EAE3D7'
+- elementId: chipt1304
+  elementType: text
+  bounds:
+  - 304
+  - 130
+  - 64
+  - 32
+  content:
+    text: 粮油
+    fontSize: 12
+    color: '#7B7D72'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - center
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: csub
+  elementType: text
+  bounds:
+  - 16
+  - 184
+  - 200
+  - 30
+  content:
+    text: 时令蔬菜
+    fontSize: 18
+    color: '#252821'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: csuball
+  elementType: text
+  bounds:
+  - 284
+  - 186
+  - 74
+  - 24
+  content:
+    text: 查看全部 ›
+    fontSize: 11
+    color: '#175C3B'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - right
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: cim0
+  elementType: image
+  bounds:
+  - 16
+  - 226
+  - 114
+  - 110
+  src: media/tomato.jpg
+  fit:
+    mode: cover
+  cropShape:
+    shapeName: roundRect
+    adjustments:
+    - 14545
+- elementId: cin0
+  elementType: text
+  bounds:
+  - 16
+  - 340
+  - 114
+  - 26
+  content:
+    text: 茄果类
+    fontSize: 12
+    color: '#252821'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - center
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: cim1
+  elementType: image
+  bounds:
+  - 138
+  - 226
+  - 114
+  - 110
+  src: media/greens.jpg
+  fit:
+    mode: cover
+  cropShape:
+    shapeName: roundRect
+    adjustments:
+    - 14545
+- elementId: cin1
+  elementType: text
+  bounds:
+  - 138
+  - 340
+  - 114
+  - 26
+  content:
+    text: 叶菜类
+    fontSize: 12
+    color: '#252821'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - center
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: cim2
+  elementType: image
+  bounds:
+  - 260
+  - 226
+  - 114
+  - 110
+  src: media/broccoli.jpg
+  fit:
+    mode: cover
+  cropShape:
+    shapeName: roundRect
+    adjustments:
+    - 14545
+- elementId: cin2
+  elementType: text
+  bounds:
+  - 260
+  - 340
+  - 114
+  - 26
+  content:
+    text: 花菜类
+    fontSize: 12
+    color: '#252821'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - center
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: cim3
+  elementType: image
+  bounds:
+  - 16
+  - 378
+  - 114
+  - 110
+  src: media/orange.jpg
+  fit:
+    mode: cover
+  cropShape:
+    shapeName: roundRect
+    adjustments:
+    - 14545
+- elementId: cin3
+  elementType: text
+  bounds:
+  - 16
+  - 492
+  - 114
+  - 26
+  content:
+    text: 根茎类
+    fontSize: 12
+    color: '#252821'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - center
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: cim4
+  elementType: image
+  bounds:
+  - 138
+  - 378
+  - 114
+  - 110
+  src: media/rice.jpg
+  fit:
+    mode: cover
+  cropShape:
+    shapeName: roundRect
+    adjustments:
+    - 14545
+- elementId: cin4
+  elementType: text
+  bounds:
+  - 138
+  - 492
+  - 114
+  - 26
+  content:
+    text: 豆制品
+    fontSize: 12
+    color: '#252821'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - center
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: cim5
+  elementType: image
+  bounds:
+  - 260
+  - 378
+  - 114
+  - 110
+  src: media/apple.jpg
+  fit:
+    mode: cover
+  cropShape:
+    shapeName: roundRect
+    adjustments:
+    - 14545
+- elementId: cin5
+  elementType: text
+  bounds:
+  - 260
+  - 492
+  - 114
+  - 26
+  content:
+    text: 菌菇类
+    fontSize: 12
+    color: '#252821'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - center
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: cbanner
+  elementType: image
+  bounds:
+  - 16
+  - 548
+  - 358
+  - 136
+  src: media/greens.jpg
+  fit:
+    mode: cover
+  cropShape:
+    shapeName: roundRect
+    adjustments:
+    - 13235
+- elementId: cbannershade
+  elementType: shape
+  bounds:
+  - 16
+  - 548
+  - 358
+  - 136
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#173B2B88'
+  adjustments:
+  - 13235
+- elementId: cbannert
+  elementType: text
+  bounds:
+  - 34
+  - 570
+  - 240
+  - 30
+  content:
+    text: 今日蔬菜鲜达
+    fontSize: 19
+    color: '#FFFFFF'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: cbanners
+  elementType: text
+  bounds:
+  - 34
+  - 608
+  - 240
+  - 24
+  content:
+    text: 基地直供 · 限售当日
+    fontSize: 12
+    color: '#FFFFFF'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: tabbg
+  elementType: shape
+  bounds:
+  - 12
+  - 774
+  - 366
+  - 60
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#FFFFFF'
+  adjustments:
+  - 50000
+- elementId: tabi0
+  elementType: icon
+  bounds:
+  - 47
+  - 789
+  - 19
+  - 19
+  iconName: fas:house
+  fill:
+    type: solid
+    color: '#7B7D72'
+- elementId: tabt0
+  elementType: text
+  bounds:
+  - 20
+  - 811
+  - 74
+  - 20
+  content:
+    text: 首页
+    fontSize: 10
+    color: '#7B7D72'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - center
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: tabon
+  elementType: shape
+  bounds:
+  - 110
+  - 782
+  - 74
+  - 44
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#EAF3E5'
+  adjustments:
+  - 50000
+- elementId: tabi1
+  elementType: icon
+  bounds:
+  - 137
+  - 789
+  - 19
+  - 19
+  iconName: fas:table-cells-large
+  fill:
+    type: solid
+    color: '#175C3B'
+- elementId: tabt1
+  elementType: text
+  bounds:
+  - 110
+  - 811
+  - 74
+  - 20
+  content:
+    text: 分类
+    fontSize: 10
+    color: '#175C3B'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - center
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: tabi2
+  elementType: icon
+  bounds:
+  - 227
+  - 789
+  - 19
+  - 19
+  iconName: fas:cart-shopping
+  fill:
+    type: solid
+    color: '#7B7D72'
+- elementId: tabt2
+  elementType: text
+  bounds:
+  - 200
+  - 811
+  - 74
+  - 20
+  content:
+    text: 购物车
+    fontSize: 10
+    color: '#7B7D72'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - center
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: tabi3
+  elementType: icon
+  bounds:
+  - 317
+  - 789
+  - 19
+  - 19
+  iconName: far:user
+  fill:
+    type: solid
+    color: '#7B7D72'
+- elementId: tabt3
+  elementType: text
+  bounds:
+  - 290
+  - 811
+  - 74
+  - 20
+  content:
+    text: 我的
+    fontSize: 10
+    color: '#7B7D72'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - center
+    - middle
+    wrap: false
+    lineHeight: 1.15

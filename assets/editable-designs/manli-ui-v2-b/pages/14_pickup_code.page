@@ -1,0 +1,1470 @@
+pageType: content
+background:
+  type: image
+  src: media/bg-warm.png
+  fit:
+    mode: cover
+elements:
+- elementId: stime
+  elementType: text
+  bounds:
+  - 18
+  - 4
+  - 52
+  - 20
+  content:
+    text: '9:41'
+    fontSize: 12
+    color: '#252821'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: ssignal
+  elementType: icon
+  bounds:
+  - 302
+  - 7
+  - 14
+  - 12
+  iconName: fas:signal
+  fill:
+    type: solid
+    color: '#252821'
+- elementId: swifi
+  elementType: icon
+  bounds:
+  - 323
+  - 7
+  - 15
+  - 12
+  iconName: fas:wifi
+  fill:
+    type: solid
+    color: '#252821'
+- elementId: sbattery
+  elementType: icon
+  bounds:
+  - 348
+  - 7
+  - 22
+  - 12
+  iconName: fas:battery-three-quarters
+  fill:
+    type: solid
+    color: '#252821'
+- elementId: nback
+  elementType: icon
+  bounds:
+  - 16
+  - 32
+  - 18
+  - 22
+  iconName: fas:chevron-left
+  fill:
+    type: solid
+    color: '#252821'
+- elementId: ntitle
+  elementType: text
+  bounds:
+  - 48
+  - 27
+  - 250
+  - 34
+  content:
+    text: 站点自提
+    fontSize: 18
+    color: '#252821'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: nright
+  elementType: text
+  bounds:
+  - 310
+  - 29
+  - 64
+  - 30
+  content:
+    text: 客服
+    fontSize: 11
+    color: '#175C3B'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - right
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: psite
+  elementType: shape
+  bounds:
+  - 16
+  - 76
+  - 358
+  - 92
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#FFFFFF'
+  adjustments:
+  - 15217
+- elementId: psitei
+  elementType: icon
+  bounds:
+  - 30
+  - 96
+  - 26
+  - 26
+  iconName: fas:store
+  fill:
+    type: solid
+    color: '#F0442E'
+- elementId: psiten
+  elementType: text
+  bounds:
+  - 68
+  - 84
+  - 230
+  - 28
+  content:
+    text: 阳光便民站
+    fontSize: 16
+    color: '#252821'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: psitea
+  elementType: text
+  bounds:
+  - 68
+  - 118
+  - 270
+  - 22
+  content:
+    text: 幸福里一期东门北侧 · 08:00–20:00
+    fontSize: 11
+    color: '#7B7D72'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: pcode
+  elementType: shape
+  bounds:
+  - 16
+  - 188
+  - 358
+  - 360
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#FFFFFF'
+  adjustments:
+  - 5027
+- elementId: pcodet
+  elementType: text
+  bounds:
+  - 60
+  - 208
+  - 270
+  - 28
+  content:
+    text: 取件核销码
+    fontSize: 16
+    color: '#252821'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - center
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: qr0-0
+  elementType: shape
+  bounds:
+  - 105
+  - 254
+  - 10
+  - 10
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#173B2C'
+- elementId: qr0-1
+  elementType: shape
+  bounds:
+  - 117
+  - 254
+  - 10
+  - 10
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#173B2C'
+- elementId: qr0-2
+  elementType: shape
+  bounds:
+  - 129
+  - 254
+  - 10
+  - 10
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#173B2C'
+- elementId: qr0-3
+  elementType: shape
+  bounds:
+  - 141
+  - 254
+  - 10
+  - 10
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#173B2C'
+- elementId: qr0-5
+  elementType: shape
+  bounds:
+  - 165
+  - 254
+  - 10
+  - 10
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#173B2C'
+- elementId: qr0-6
+  elementType: shape
+  bounds:
+  - 177
+  - 254
+  - 10
+  - 10
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#173B2C'
+- elementId: qr0-10
+  elementType: shape
+  bounds:
+  - 225
+  - 254
+  - 10
+  - 10
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#173B2C'
+- elementId: qr0-11
+  elementType: shape
+  bounds:
+  - 237
+  - 254
+  - 10
+  - 10
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#173B2C'
+- elementId: qr0-12
+  elementType: shape
+  bounds:
+  - 249
+  - 254
+  - 10
+  - 10
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#173B2C'
+- elementId: qr0-13
+  elementType: shape
+  bounds:
+  - 261
+  - 254
+  - 10
+  - 10
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#173B2C'
+- elementId: qr0-14
+  elementType: shape
+  bounds:
+  - 273
+  - 254
+  - 10
+  - 10
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#173B2C'
+- elementId: qr1-0
+  elementType: shape
+  bounds:
+  - 105
+  - 266
+  - 10
+  - 10
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#173B2C'
+- elementId: qr1-1
+  elementType: shape
+  bounds:
+  - 117
+  - 266
+  - 10
+  - 10
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#173B2C'
+- elementId: qr1-2
+  elementType: shape
+  bounds:
+  - 129
+  - 266
+  - 10
+  - 10
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#173B2C'
+- elementId: qr1-3
+  elementType: shape
+  bounds:
+  - 141
+  - 266
+  - 10
+  - 10
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#173B2C'
+- elementId: qr1-4
+  elementType: shape
+  bounds:
+  - 153
+  - 266
+  - 10
+  - 10
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#173B2C'
+- elementId: qr1-7
+  elementType: shape
+  bounds:
+  - 189
+  - 266
+  - 10
+  - 10
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#173B2C'
+- elementId: qr1-9
+  elementType: shape
+  bounds:
+  - 213
+  - 266
+  - 10
+  - 10
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#173B2C'
+- elementId: qr1-11
+  elementType: shape
+  bounds:
+  - 237
+  - 266
+  - 10
+  - 10
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#173B2C'
+- elementId: qr1-12
+  elementType: shape
+  bounds:
+  - 249
+  - 266
+  - 10
+  - 10
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#173B2C'
+- elementId: qr1-13
+  elementType: shape
+  bounds:
+  - 261
+  - 266
+  - 10
+  - 10
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#173B2C'
+- elementId: qr1-14
+  elementType: shape
+  bounds:
+  - 273
+  - 266
+  - 10
+  - 10
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#173B2C'
+- elementId: qr2-0
+  elementType: shape
+  bounds:
+  - 105
+  - 278
+  - 10
+  - 10
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#173B2C'
+- elementId: qr2-1
+  elementType: shape
+  bounds:
+  - 117
+  - 278
+  - 10
+  - 10
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#173B2C'
+- elementId: qr2-2
+  elementType: shape
+  bounds:
+  - 129
+  - 278
+  - 10
+  - 10
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#173B2C'
+- elementId: qr2-3
+  elementType: shape
+  bounds:
+  - 141
+  - 278
+  - 10
+  - 10
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#173B2C'
+- elementId: qr2-4
+  elementType: shape
+  bounds:
+  - 153
+  - 278
+  - 10
+  - 10
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#173B2C'
+- elementId: qr2-7
+  elementType: shape
+  bounds:
+  - 189
+  - 278
+  - 10
+  - 10
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#173B2C'
+- elementId: qr2-9
+  elementType: shape
+  bounds:
+  - 213
+  - 278
+  - 10
+  - 10
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#173B2C'
+- elementId: qr2-11
+  elementType: shape
+  bounds:
+  - 237
+  - 278
+  - 10
+  - 10
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#173B2C'
+- elementId: qr2-12
+  elementType: shape
+  bounds:
+  - 249
+  - 278
+  - 10
+  - 10
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#173B2C'
+- elementId: qr2-13
+  elementType: shape
+  bounds:
+  - 261
+  - 278
+  - 10
+  - 10
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#173B2C'
+- elementId: qr2-14
+  elementType: shape
+  bounds:
+  - 273
+  - 278
+  - 10
+  - 10
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#173B2C'
+- elementId: qr3-0
+  elementType: shape
+  bounds:
+  - 105
+  - 290
+  - 10
+  - 10
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#173B2C'
+- elementId: qr3-1
+  elementType: shape
+  bounds:
+  - 117
+  - 290
+  - 10
+  - 10
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#173B2C'
+- elementId: qr3-2
+  elementType: shape
+  bounds:
+  - 129
+  - 290
+  - 10
+  - 10
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#173B2C'
+- elementId: qr3-3
+  elementType: shape
+  bounds:
+  - 141
+  - 290
+  - 10
+  - 10
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#173B2C'
+- elementId: qr3-5
+  elementType: shape
+  bounds:
+  - 165
+  - 290
+  - 10
+  - 10
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#173B2C'
+- elementId: qr3-6
+  elementType: shape
+  bounds:
+  - 177
+  - 290
+  - 10
+  - 10
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#173B2C'
+- elementId: qr3-10
+  elementType: shape
+  bounds:
+  - 225
+  - 290
+  - 10
+  - 10
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#173B2C'
+- elementId: qr3-11
+  elementType: shape
+  bounds:
+  - 237
+  - 290
+  - 10
+  - 10
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#173B2C'
+- elementId: qr3-12
+  elementType: shape
+  bounds:
+  - 249
+  - 290
+  - 10
+  - 10
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#173B2C'
+- elementId: qr3-13
+  elementType: shape
+  bounds:
+  - 261
+  - 290
+  - 10
+  - 10
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#173B2C'
+- elementId: qr3-14
+  elementType: shape
+  bounds:
+  - 273
+  - 290
+  - 10
+  - 10
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#173B2C'
+- elementId: qr5-0
+  elementType: shape
+  bounds:
+  - 105
+  - 314
+  - 10
+  - 10
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#173B2C'
+- elementId: qr5-1
+  elementType: shape
+  bounds:
+  - 117
+  - 314
+  - 10
+  - 10
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#173B2C'
+- elementId: qr5-5
+  elementType: shape
+  bounds:
+  - 165
+  - 314
+  - 10
+  - 10
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#173B2C'
+- elementId: qr5-6
+  elementType: shape
+  bounds:
+  - 177
+  - 314
+  - 10
+  - 10
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#173B2C'
+- elementId: qr5-10
+  elementType: shape
+  bounds:
+  - 225
+  - 314
+  - 10
+  - 10
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#173B2C'
+- elementId: qr5-11
+  elementType: shape
+  bounds:
+  - 237
+  - 314
+  - 10
+  - 10
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#173B2C'
+- elementId: qr6-2
+  elementType: shape
+  bounds:
+  - 129
+  - 326
+  - 10
+  - 10
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#173B2C'
+- elementId: qr6-4
+  elementType: shape
+  bounds:
+  - 153
+  - 326
+  - 10
+  - 10
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#173B2C'
+- elementId: qr6-7
+  elementType: shape
+  bounds:
+  - 189
+  - 326
+  - 10
+  - 10
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#173B2C'
+- elementId: qr6-9
+  elementType: shape
+  bounds:
+  - 213
+  - 326
+  - 10
+  - 10
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#173B2C'
+- elementId: qr6-12
+  elementType: shape
+  bounds:
+  - 249
+  - 326
+  - 10
+  - 10
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#173B2C'
+- elementId: qr6-14
+  elementType: shape
+  bounds:
+  - 273
+  - 326
+  - 10
+  - 10
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#173B2C'
+- elementId: qr7-2
+  elementType: shape
+  bounds:
+  - 129
+  - 338
+  - 10
+  - 10
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#173B2C'
+- elementId: qr7-4
+  elementType: shape
+  bounds:
+  - 153
+  - 338
+  - 10
+  - 10
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#173B2C'
+- elementId: qr7-7
+  elementType: shape
+  bounds:
+  - 189
+  - 338
+  - 10
+  - 10
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#173B2C'
+- elementId: qr7-9
+  elementType: shape
+  bounds:
+  - 213
+  - 338
+  - 10
+  - 10
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#173B2C'
+- elementId: qr7-12
+  elementType: shape
+  bounds:
+  - 249
+  - 338
+  - 10
+  - 10
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#173B2C'
+- elementId: qr7-14
+  elementType: shape
+  bounds:
+  - 273
+  - 338
+  - 10
+  - 10
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#173B2C'
+- elementId: qr8-0
+  elementType: shape
+  bounds:
+  - 105
+  - 350
+  - 10
+  - 10
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#173B2C'
+- elementId: qr8-1
+  elementType: shape
+  bounds:
+  - 117
+  - 350
+  - 10
+  - 10
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#173B2C'
+- elementId: qr8-5
+  elementType: shape
+  bounds:
+  - 165
+  - 350
+  - 10
+  - 10
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#173B2C'
+- elementId: qr8-6
+  elementType: shape
+  bounds:
+  - 177
+  - 350
+  - 10
+  - 10
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#173B2C'
+- elementId: qr8-10
+  elementType: shape
+  bounds:
+  - 225
+  - 350
+  - 10
+  - 10
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#173B2C'
+- elementId: qr8-11
+  elementType: shape
+  bounds:
+  - 237
+  - 350
+  - 10
+  - 10
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#173B2C'
+- elementId: qr10-0
+  elementType: shape
+  bounds:
+  - 105
+  - 374
+  - 10
+  - 10
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#173B2C'
+- elementId: qr10-1
+  elementType: shape
+  bounds:
+  - 117
+  - 374
+  - 10
+  - 10
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#173B2C'
+- elementId: qr10-5
+  elementType: shape
+  bounds:
+  - 165
+  - 374
+  - 10
+  - 10
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#173B2C'
+- elementId: qr10-6
+  elementType: shape
+  bounds:
+  - 177
+  - 374
+  - 10
+  - 10
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#173B2C'
+- elementId: qr10-10
+  elementType: shape
+  bounds:
+  - 225
+  - 374
+  - 10
+  - 10
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#173B2C'
+- elementId: qr10-11
+  elementType: shape
+  bounds:
+  - 237
+  - 374
+  - 10
+  - 10
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#173B2C'
+- elementId: qr11-0
+  elementType: shape
+  bounds:
+  - 105
+  - 386
+  - 10
+  - 10
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#173B2C'
+- elementId: qr11-1
+  elementType: shape
+  bounds:
+  - 117
+  - 386
+  - 10
+  - 10
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#173B2C'
+- elementId: qr11-2
+  elementType: shape
+  bounds:
+  - 129
+  - 386
+  - 10
+  - 10
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#173B2C'
+- elementId: qr11-3
+  elementType: shape
+  bounds:
+  - 141
+  - 386
+  - 10
+  - 10
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#173B2C'
+- elementId: qr11-4
+  elementType: shape
+  bounds:
+  - 153
+  - 386
+  - 10
+  - 10
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#173B2C'
+- elementId: qr11-7
+  elementType: shape
+  bounds:
+  - 189
+  - 386
+  - 10
+  - 10
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#173B2C'
+- elementId: qr11-9
+  elementType: shape
+  bounds:
+  - 213
+  - 386
+  - 10
+  - 10
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#173B2C'
+- elementId: qr11-12
+  elementType: shape
+  bounds:
+  - 249
+  - 386
+  - 10
+  - 10
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#173B2C'
+- elementId: qr11-14
+  elementType: shape
+  bounds:
+  - 273
+  - 386
+  - 10
+  - 10
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#173B2C'
+- elementId: qr12-0
+  elementType: shape
+  bounds:
+  - 105
+  - 398
+  - 10
+  - 10
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#173B2C'
+- elementId: qr12-1
+  elementType: shape
+  bounds:
+  - 117
+  - 398
+  - 10
+  - 10
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#173B2C'
+- elementId: qr12-2
+  elementType: shape
+  bounds:
+  - 129
+  - 398
+  - 10
+  - 10
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#173B2C'
+- elementId: qr12-3
+  elementType: shape
+  bounds:
+  - 141
+  - 398
+  - 10
+  - 10
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#173B2C'
+- elementId: qr12-4
+  elementType: shape
+  bounds:
+  - 153
+  - 398
+  - 10
+  - 10
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#173B2C'
+- elementId: qr12-7
+  elementType: shape
+  bounds:
+  - 189
+  - 398
+  - 10
+  - 10
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#173B2C'
+- elementId: qr12-9
+  elementType: shape
+  bounds:
+  - 213
+  - 398
+  - 10
+  - 10
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#173B2C'
+- elementId: qr12-12
+  elementType: shape
+  bounds:
+  - 249
+  - 398
+  - 10
+  - 10
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#173B2C'
+- elementId: qr12-14
+  elementType: shape
+  bounds:
+  - 273
+  - 398
+  - 10
+  - 10
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#173B2C'
+- elementId: qr13-0
+  elementType: shape
+  bounds:
+  - 105
+  - 410
+  - 10
+  - 10
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#173B2C'
+- elementId: qr13-1
+  elementType: shape
+  bounds:
+  - 117
+  - 410
+  - 10
+  - 10
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#173B2C'
+- elementId: qr13-2
+  elementType: shape
+  bounds:
+  - 129
+  - 410
+  - 10
+  - 10
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#173B2C'
+- elementId: qr13-3
+  elementType: shape
+  bounds:
+  - 141
+  - 410
+  - 10
+  - 10
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#173B2C'
+- elementId: qr13-5
+  elementType: shape
+  bounds:
+  - 165
+  - 410
+  - 10
+  - 10
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#173B2C'
+- elementId: qr13-6
+  elementType: shape
+  bounds:
+  - 177
+  - 410
+  - 10
+  - 10
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#173B2C'
+- elementId: qr13-10
+  elementType: shape
+  bounds:
+  - 225
+  - 410
+  - 10
+  - 10
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#173B2C'
+- elementId: qr13-11
+  elementType: shape
+  bounds:
+  - 237
+  - 410
+  - 10
+  - 10
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#173B2C'
+- elementId: qr14-0
+  elementType: shape
+  bounds:
+  - 105
+  - 422
+  - 10
+  - 10
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#173B2C'
+- elementId: qr14-1
+  elementType: shape
+  bounds:
+  - 117
+  - 422
+  - 10
+  - 10
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#173B2C'
+- elementId: qr14-2
+  elementType: shape
+  bounds:
+  - 129
+  - 422
+  - 10
+  - 10
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#173B2C'
+- elementId: qr14-3
+  elementType: shape
+  bounds:
+  - 141
+  - 422
+  - 10
+  - 10
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#173B2C'
+- elementId: pcodenum
+  elementType: text
+  bounds:
+  - 60
+  - 452
+  - 270
+  - 34
+  content:
+    text: 826  391
+    fontSize: 22
+    color: '#252821'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - center
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: pcodetip
+  elementType: text
+  bounds:
+  - 60
+  - 494
+  - 270
+  - 24
+  content:
+    text: 请向站点核销员出示此码
+    fontSize: 12
+    color: '#7B7D72'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - center
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: pgoods
+  elementType: shape
+  bounds:
+  - 16
+  - 570
+  - 358
+  - 90
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#FFFFFF'
+  adjustments:
+  - 15555
+- elementId: pim
+  elementType: image
+  bounds:
+  - 30
+  - 582
+  - 66
+  - 66
+  src: media/strawberry.jpg
+  fit:
+    mode: cover
+  cropShape:
+    shapeName: roundRect
+    adjustments:
+    - 15151
+- elementId: pgoodsn
+  elementType: text
+  bounds:
+  - 108
+  - 580
+  - 200
+  - 26
+  content:
+    text: 红颜草莓 等2件
+    fontSize: 14
+    color: '#252821'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: pgoodss
+  elementType: text
+  bounds:
+  - 108
+  - 612
+  - 200
+  - 24
+  content:
+    text: 共2件 · 实付 ¥25.80
+    fontSize: 12
+    color: '#7B7D72'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: pwarn
+  elementType: shape
+  bounds:
+  - 16
+  - 680
+  - 358
+  - 44
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#FFF0E7'
+  adjustments:
+  - 22727
+- elementId: pwarnt
+  elementType: text
+  bounds:
+  - 30
+  - 680
+  - 330
+  - 44
+  content:
+    text: 请于明日 20:00 前取件，逾期将触发异常提醒
+    fontSize: 11
+    color: '#F0442E'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15

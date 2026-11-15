@@ -1,0 +1,885 @@
+pageType: content
+background:
+  type: solid
+  color: '#F6F7F3'
+elements:
+- elementId: status-time
+  elementType: text
+  bounds:
+  - 18
+  - 4
+  - 52
+  - 20
+  content:
+    text: '9:41'
+    fontSize: 12
+    color: '#17231D'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: status-signal
+  elementType: icon
+  bounds:
+  - 302
+  - 7
+  - 14
+  - 12
+  iconName: fas:signal
+  fill:
+    type: solid
+    color: '#17231D'
+- elementId: status-wifi
+  elementType: icon
+  bounds:
+  - 323
+  - 7
+  - 15
+  - 12
+  iconName: fas:wifi
+  fill:
+    type: solid
+    color: '#17231D'
+- elementId: status-battery
+  elementType: icon
+  bounds:
+  - 348
+  - 7
+  - 22
+  - 12
+  iconName: fas:battery-three-quarters
+  fill:
+    type: solid
+    color: '#17231D'
+- elementId: nav-back
+  elementType: icon
+  bounds:
+  - 16
+  - 33
+  - 18
+  - 20
+  iconName: fas:chevron-left
+  fill:
+    type: solid
+    color: '#17231D'
+- elementId: nav-title
+  elementType: text
+  bounds:
+  - 60
+  - 28
+  - 270
+  - 30
+  content:
+    text: 我的订单
+    fontSize: 17
+    color: '#17231D'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - center
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: nav-right
+  elementType: text
+  bounds:
+  - 314
+  - 29
+  - 58
+  - 28
+  content:
+    text: 搜索
+    fontSize: 12
+    color: '#17231D'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - right
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: chip-74-0
+  elementType: shape
+  bounds:
+  - 2
+  - 74
+  - 58
+  - 30
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#FFFFFF'
+  adjustments:
+  - 50000
+  border:
+    style: solid
+    width: 1
+    color: '#E4E9E3'
+- elementId: chip-t-74-0
+  elementType: text
+  bounds:
+  - 2
+  - 74
+  - 58
+  - 30
+  content:
+    text: 全部
+    fontSize: 12
+    color: '#748078'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - center
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: chip-74-1
+  elementType: shape
+  bounds:
+  - 62
+  - 74
+  - 63
+  - 30
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#FFFFFF'
+  adjustments:
+  - 50000
+  border:
+    style: solid
+    width: 1
+    color: '#E4E9E3'
+- elementId: chip-t-74-1
+  elementType: text
+  bounds:
+  - 62
+  - 74
+  - 63
+  - 30
+  content:
+    text: 待支付
+    fontSize: 12
+    color: '#748078'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - center
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: chip-74-2
+  elementType: shape
+  bounds:
+  - 127
+  - 74
+  - 63
+  - 30
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#FFFFFF'
+  adjustments:
+  - 50000
+  border:
+    style: solid
+    width: 1
+    color: '#E4E9E3'
+- elementId: chip-t-74-2
+  elementType: text
+  bounds:
+  - 127
+  - 74
+  - 63
+  - 30
+  content:
+    text: 备货中
+    fontSize: 12
+    color: '#748078'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - center
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: chip-74-3
+  elementType: shape
+  bounds:
+  - 192
+  - 74
+  - 63
+  - 30
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#E8F4EC'
+  adjustments:
+  - 50000
+- elementId: chip-t-74-3
+  elementType: text
+  bounds:
+  - 192
+  - 74
+  - 63
+  - 30
+  content:
+    text: 配送中
+    fontSize: 12
+    color: '#176B4D'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - center
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: chip-74-4
+  elementType: shape
+  bounds:
+  - 257
+  - 74
+  - 63
+  - 30
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#FFFFFF'
+  adjustments:
+  - 50000
+  border:
+    style: solid
+    width: 1
+    color: '#E4E9E3'
+- elementId: chip-t-74-4
+  elementType: text
+  bounds:
+  - 257
+  - 74
+  - 63
+  - 30
+  content:
+    text: 待签收
+    fontSize: 12
+    color: '#748078'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - center
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: chip-74-5
+  elementType: shape
+  bounds:
+  - 322
+  - 74
+  - 58
+  - 30
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#FFFFFF'
+  adjustments:
+  - 50000
+  border:
+    style: solid
+    width: 1
+    color: '#E4E9E3'
+- elementId: chip-t-74-5
+  elementType: text
+  bounds:
+  - 322
+  - 74
+  - 58
+  - 30
+  content:
+    text: 售后
+    fontSize: 12
+    color: '#748078'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - center
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: order-124
+  elementType: shape
+  bounds:
+  - 16
+  - 124
+  - 358
+  - 156
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#FFFFFF'
+  adjustments:
+  - 7692
+- elementId: order-no-124
+  elementType: text
+  bounds:
+  - 28
+  - 134
+  - 230
+  - 22
+  content:
+    text: 订单 ML202611110086
+    fontSize: 11
+    color: '#748078'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: order-status-124
+  elementType: text
+  bounds:
+  - 280
+  - 134
+  - 82
+  - 22
+  content:
+    text: 配送中
+    fontSize: 12
+    color: '#176B4D'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - right
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: order-line-124
+  elementType: line
+  bounds:
+  - 28
+  - 164
+  - 334
+  - 1
+  viewBox:
+  - 334
+  - 1
+  points: 0,0 334,0
+  curve: sharp
+  border:
+    style: solid
+    width: 1
+    color: '#E4E9E3'
+- elementId: order-img-124
+  elementType: image
+  bounds:
+  - 28
+  - 176
+  - 72
+  - 72
+  src: media/tomato.jpg
+  fit:
+    mode: cover
+  cropShape:
+    shapeName: roundRect
+    adjustments:
+    - 11111
+- elementId: order-name-124
+  elementType: text
+  bounds:
+  - 112
+  - 175
+  - 210
+  - 24
+  content:
+    text: 沙瓤西红柿 等3件
+    fontSize: 14
+    color: '#17231D'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: order-mode-124
+  elementType: text
+  bounds:
+  - 112
+  - 201
+  - 220
+  - 20
+  content:
+    text: 上门配送 · 明日达
+    fontSize: 11
+    color: '#748078'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: order-count-124
+  elementType: text
+  bounds:
+  - 112
+  - 228
+  - 110
+  - 20
+  content:
+    text: 共3件  实付
+    fontSize: 11
+    color: '#748078'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: order-price-124
+  elementType: text
+  bounds:
+  - 236
+  - 224
+  - 126
+  - 26
+  content:
+    text: ¥36.70
+    fontSize: 17
+    color: '#17231D'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - right
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: order-btn-124-bg
+  elementType: shape
+  bounds:
+  - 270
+  - 240
+  - 92
+  - 30
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#FFFFFF'
+  adjustments:
+  - 50000
+  border:
+    style: solid
+    width: 1
+    color: '#176B4D'
+- elementId: order-btn-124-txt
+  elementType: text
+  bounds:
+  - 270
+  - 240
+  - 92
+  - 30
+  content:
+    text: 查看配送
+    fontSize: 11
+    color: '#176B4D'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - center
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: order-294
+  elementType: shape
+  bounds:
+  - 16
+  - 294
+  - 358
+  - 156
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#FFFFFF'
+  adjustments:
+  - 7692
+- elementId: order-no-294
+  elementType: text
+  bounds:
+  - 28
+  - 304
+  - 230
+  - 22
+  content:
+    text: 订单 ML202611110086
+    fontSize: 11
+    color: '#748078'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: order-status-294
+  elementType: text
+  bounds:
+  - 280
+  - 304
+  - 82
+  - 22
+  content:
+    text: 待签收
+    fontSize: 12
+    color: '#176B4D'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - right
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: order-line-294
+  elementType: line
+  bounds:
+  - 28
+  - 334
+  - 334
+  - 1
+  viewBox:
+  - 334
+  - 1
+  points: 0,0 334,0
+  curve: sharp
+  border:
+    style: solid
+    width: 1
+    color: '#E4E9E3'
+- elementId: order-img-294
+  elementType: image
+  bounds:
+  - 28
+  - 346
+  - 72
+  - 72
+  src: media/strawberry.jpg
+  fit:
+    mode: cover
+  cropShape:
+    shapeName: roundRect
+    adjustments:
+    - 11111
+- elementId: order-name-294
+  elementType: text
+  bounds:
+  - 112
+  - 345
+  - 210
+  - 24
+  content:
+    text: 红颜草莓 等2件
+    fontSize: 14
+    color: '#17231D'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: order-mode-294
+  elementType: text
+  bounds:
+  - 112
+  - 371
+  - 220
+  - 20
+  content:
+    text: 站点自提 · 明日达
+    fontSize: 11
+    color: '#748078'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: order-count-294
+  elementType: text
+  bounds:
+  - 112
+  - 398
+  - 110
+  - 20
+  content:
+    text: 共3件  实付
+    fontSize: 11
+    color: '#748078'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: order-price-294
+  elementType: text
+  bounds:
+  - 236
+  - 394
+  - 126
+  - 26
+  content:
+    text: ¥25.80
+    fontSize: 17
+    color: '#17231D'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - right
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: order-btn-294-bg
+  elementType: shape
+  bounds:
+  - 270
+  - 410
+  - 92
+  - 30
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#FFFFFF'
+  adjustments:
+  - 50000
+  border:
+    style: solid
+    width: 1
+    color: '#176B4D'
+- elementId: order-btn-294-txt
+  elementType: text
+  bounds:
+  - 270
+  - 410
+  - 92
+  - 30
+  content:
+    text: 核销码
+    fontSize: 11
+    color: '#176B4D'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - center
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: order-464
+  elementType: shape
+  bounds:
+  - 16
+  - 464
+  - 358
+  - 156
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#FFFFFF'
+  adjustments:
+  - 7692
+- elementId: order-no-464
+  elementType: text
+  bounds:
+  - 28
+  - 474
+  - 230
+  - 22
+  content:
+    text: 订单 ML202611110086
+    fontSize: 11
+    color: '#748078'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: order-status-464
+  elementType: text
+  bounds:
+  - 280
+  - 474
+  - 82
+  - 22
+  content:
+    text: 已完成
+    fontSize: 12
+    color: '#176B4D'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - right
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: order-line-464
+  elementType: line
+  bounds:
+  - 28
+  - 504
+  - 334
+  - 1
+  viewBox:
+  - 334
+  - 1
+  points: 0,0 334,0
+  curve: sharp
+  border:
+    style: solid
+    width: 1
+    color: '#E4E9E3'
+- elementId: order-img-464
+  elementType: image
+  bounds:
+  - 28
+  - 516
+  - 72
+  - 72
+  src: media/eggs.jpg
+  fit:
+    mode: cover
+  cropShape:
+    shapeName: roundRect
+    adjustments:
+    - 11111
+- elementId: order-name-464
+  elementType: text
+  bounds:
+  - 112
+  - 515
+  - 210
+  - 24
+  content:
+    text: 谷物鲜鸡蛋 等1件
+    fontSize: 14
+    color: '#17231D'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: order-mode-464
+  elementType: text
+  bounds:
+  - 112
+  - 541
+  - 220
+  - 20
+  content:
+    text: 上门配送 · 明日达
+    fontSize: 11
+    color: '#748078'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: order-count-464
+  elementType: text
+  bounds:
+  - 112
+  - 568
+  - 110
+  - 20
+  content:
+    text: 共3件  实付
+    fontSize: 11
+    color: '#748078'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: order-price-464
+  elementType: text
+  bounds:
+  - 236
+  - 564
+  - 126
+  - 26
+  content:
+    text: ¥9.90
+    fontSize: 17
+    color: '#17231D'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - right
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: order-btn-464-bg
+  elementType: shape
+  bounds:
+  - 270
+  - 580
+  - 92
+  - 30
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#FFFFFF'
+  adjustments:
+  - 50000
+  border:
+    style: solid
+    width: 1
+    color: '#176B4D'
+- elementId: order-btn-464-txt
+  elementType: text
+  bounds:
+  - 270
+  - 580
+  - 92
+  - 30
+  content:
+    text: 评价
+    fontSize: 11
+    color: '#176B4D'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - center
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: orders-end
+  elementType: text
+  bounds:
+  - 16
+  - 652
+  - 358
+  - 30
+  content:
+    text: 仅展示近一年订单
+    fontSize: 11
+    color: '#748078'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - center
+    - middle
+    wrap: false
+    lineHeight: 1.15

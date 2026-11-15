@@ -1,0 +1,597 @@
+pageType: content
+background:
+  type: solid
+  color: '#F6F7F3'
+elements:
+- elementId: status-time
+  elementType: text
+  bounds:
+  - 18
+  - 4
+  - 52
+  - 20
+  content:
+    text: '9:41'
+    fontSize: 12
+    color: '#17231D'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: status-signal
+  elementType: icon
+  bounds:
+  - 302
+  - 7
+  - 14
+  - 12
+  iconName: fas:signal
+  fill:
+    type: solid
+    color: '#17231D'
+- elementId: status-wifi
+  elementType: icon
+  bounds:
+  - 323
+  - 7
+  - 15
+  - 12
+  iconName: fas:wifi
+  fill:
+    type: solid
+    color: '#17231D'
+- elementId: status-battery
+  elementType: icon
+  bounds:
+  - 348
+  - 7
+  - 22
+  - 12
+  iconName: fas:battery-three-quarters
+  fill:
+    type: solid
+    color: '#17231D'
+- elementId: nav-title
+  elementType: text
+  bounds:
+  - 60
+  - 28
+  - 270
+  - 30
+  content:
+    text: 核心流程与交互
+    fontSize: 17
+    color: '#17231D'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - center
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: flow-intro
+  elementType: text
+  bounds:
+  - 16
+  - 78
+  - 358
+  - 30
+  content:
+    text: 商品浏览 → 支付 → 配送 → 售后
+    fontSize: 18
+    color: '#176B4D'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: flow-n-bg-0
+  elementType: shape
+  bounds:
+  - 18
+  - 132
+  - 42
+  - 42
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#176B4D'
+  adjustments:
+  - 50000
+- elementId: flow-n-0
+  elementType: text
+  bounds:
+  - 18
+  - 132
+  - 42
+  - 42
+  content:
+    text: '01'
+    fontSize: 13
+    color: '#FFFFFF'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - center
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: flow-t-0
+  elementType: text
+  bounds:
+  - 76
+  - 130
+  - 240
+  - 28
+  content:
+    text: 浏览与搜索
+    fontSize: 16
+    color: '#17231D'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: flow-p-0
+  elementType: text
+  bounds:
+  - 76
+  - 162
+  - 270
+  - 24
+  content:
+    text: 首页 / 分类 / 搜索
+    fontSize: 12
+    color: '#176B4D'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: flow-s-0
+  elementType: text
+  bounds:
+  - 76
+  - 190
+  - 286
+  - 36
+  content:
+    text: 区域、库存、活动同步过滤
+    fontSize: 11
+    color: '#748078'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - left
+    - top
+    wrap: true
+    lineHeight: 1.4
+- elementId: flow-arrow-0
+  elementType: icon
+  bounds:
+  - 31
+  - 194
+  - 16
+  - 20
+  iconName: fas:arrow-down
+  fill:
+    type: solid
+    color: '#A6AEA8'
+- elementId: flow-n-bg-1
+  elementType: shape
+  bounds:
+  - 18
+  - 244
+  - 42
+  - 42
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#176B4D'
+  adjustments:
+  - 50000
+- elementId: flow-n-1
+  elementType: text
+  bounds:
+  - 18
+  - 244
+  - 42
+  - 42
+  content:
+    text: '02'
+    fontSize: 13
+    color: '#FFFFFF'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - center
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: flow-t-1
+  elementType: text
+  bounds:
+  - 76
+  - 242
+  - 240
+  - 28
+  content:
+    text: 规格与购物车
+    fontSize: 16
+    color: '#17231D'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: flow-p-1
+  elementType: text
+  bounds:
+  - 76
+  - 274
+  - 270
+  - 24
+  content:
+    text: 商品详情 / SKU / 购物车
+    fontSize: 12
+    color: '#176B4D'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: flow-s-1
+  elementType: text
+  bounds:
+  - 76
+  - 302
+  - 286
+  - 36
+  content:
+    text: 按配送日期与批次分组
+    fontSize: 11
+    color: '#748078'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - left
+    - top
+    wrap: true
+    lineHeight: 1.4
+- elementId: flow-arrow-1
+  elementType: icon
+  bounds:
+  - 31
+  - 306
+  - 16
+  - 20
+  iconName: fas:arrow-down
+  fill:
+    type: solid
+    color: '#A6AEA8'
+- elementId: flow-n-bg-2
+  elementType: shape
+  bounds:
+  - 18
+  - 356
+  - 42
+  - 42
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#176B4D'
+  adjustments:
+  - 50000
+- elementId: flow-n-2
+  elementType: text
+  bounds:
+  - 18
+  - 356
+  - 42
+  - 42
+  content:
+    text: '03'
+    fontSize: 13
+    color: '#FFFFFF'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - center
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: flow-t-2
+  elementType: text
+  bounds:
+  - 76
+  - 354
+  - 240
+  - 28
+  content:
+    text: 结算与支付
+    fontSize: 16
+    color: '#17231D'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: flow-p-2
+  elementType: text
+  bounds:
+  - 76
+  - 386
+  - 270
+  - 24
+  content:
+    text: 确认订单 / 支付结果
+    fontSize: 12
+    color: '#176B4D'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: flow-s-2
+  elementType: text
+  bounds:
+  - 76
+  - 414
+  - 286
+  - 36
+  content:
+    text: 服务端校验价格、库存、优惠
+    fontSize: 11
+    color: '#748078'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - left
+    - top
+    wrap: true
+    lineHeight: 1.4
+- elementId: flow-arrow-2
+  elementType: icon
+  bounds:
+  - 31
+  - 418
+  - 16
+  - 20
+  iconName: fas:arrow-down
+  fill:
+    type: solid
+    color: '#A6AEA8'
+- elementId: flow-n-bg-3
+  elementType: shape
+  bounds:
+  - 18
+  - 468
+  - 42
+  - 42
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#E8F4EC'
+  adjustments:
+  - 50000
+- elementId: flow-n-3
+  elementType: text
+  bounds:
+  - 18
+  - 468
+  - 42
+  - 42
+  content:
+    text: '04'
+    fontSize: 13
+    color: '#176B4D'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - center
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: flow-t-3
+  elementType: text
+  bounds:
+  - 76
+  - 466
+  - 240
+  - 28
+  content:
+    text: 履约与签收
+    fontSize: 16
+    color: '#17231D'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: flow-p-3
+  elementType: text
+  bounds:
+  - 76
+  - 498
+  - 270
+  - 24
+  content:
+    text: 订单 / 配送 / 核销码
+    fontSize: 12
+    color: '#176B4D'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: flow-s-3
+  elementType: text
+  bounds:
+  - 76
+  - 526
+  - 286
+  - 36
+  content:
+    text: 只展示状态事件，不展示实时轨迹
+    fontSize: 11
+    color: '#748078'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - left
+    - top
+    wrap: true
+    lineHeight: 1.4
+- elementId: flow-arrow-3
+  elementType: icon
+  bounds:
+  - 31
+  - 530
+  - 16
+  - 20
+  iconName: fas:arrow-down
+  fill:
+    type: solid
+    color: '#A6AEA8'
+- elementId: flow-n-bg-4
+  elementType: shape
+  bounds:
+  - 18
+  - 580
+  - 42
+  - 42
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#E8F4EC'
+  adjustments:
+  - 50000
+- elementId: flow-n-4
+  elementType: text
+  bounds:
+  - 18
+  - 580
+  - 42
+  - 42
+  content:
+    text: '05'
+    fontSize: 13
+    color: '#176B4D'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - center
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: flow-t-4
+  elementType: text
+  bounds:
+  - 76
+  - 578
+  - 240
+  - 28
+  content:
+    text: 售后与复购
+    fontSize: 16
+    color: '#17231D'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: flow-p-4
+  elementType: text
+  bounds:
+  - 76
+  - 610
+  - 270
+  - 24
+  content:
+    text: 退款 / 评价 / 常购
+    fontSize: 12
+    color: '#176B4D'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: flow-s-4
+  elementType: text
+  bounds:
+  - 76
+  - 638
+  - 286
+  - 36
+  content:
+    text: 明细分摊退款，有效订单计复购
+    fontSize: 11
+    color: '#748078'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - left
+    - top
+    wrap: true
+    lineHeight: 1.4
+- elementId: flow-note
+  elementType: text
+  bounds:
+  - 16
+  - 704
+  - 120
+  - 26
+  content:
+    text: 通用规则
+    fontSize: 14
+    color: '#17231D'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: flow-note-v
+  elementType: text
+  bounds:
+  - 16
+  - 736
+  - 358
+  - 58
+  content:
+    text: 主按钮固定在底部安全区；加载保留骨架；失败支持重试；空状态提供明确下一步。
+    fontSize: 11
+    color: '#748078'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - left
+    - top
+    wrap: true
+    lineHeight: 1.5

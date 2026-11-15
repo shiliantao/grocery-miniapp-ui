@@ -1,0 +1,485 @@
+pageType: content
+background:
+  type: solid
+  color: '#F6F7F3'
+elements:
+- elementId: status-time
+  elementType: text
+  bounds:
+  - 18
+  - 4
+  - 52
+  - 20
+  content:
+    text: '9:41'
+    fontSize: 12
+    color: '#17231D'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: status-signal
+  elementType: icon
+  bounds:
+  - 302
+  - 7
+  - 14
+  - 12
+  iconName: fas:signal
+  fill:
+    type: solid
+    color: '#17231D'
+- elementId: status-wifi
+  elementType: icon
+  bounds:
+  - 323
+  - 7
+  - 15
+  - 12
+  iconName: fas:wifi
+  fill:
+    type: solid
+    color: '#17231D'
+- elementId: status-battery
+  elementType: icon
+  bounds:
+  - 348
+  - 7
+  - 22
+  - 12
+  iconName: fas:battery-three-quarters
+  fill:
+    type: solid
+    color: '#17231D'
+- elementId: nav-back
+  elementType: icon
+  bounds:
+  - 16
+  - 33
+  - 18
+  - 20
+  iconName: fas:chevron-left
+  fill:
+    type: solid
+    color: '#17231D'
+- elementId: nav-title
+  elementType: text
+  bounds:
+  - 60
+  - 28
+  - 270
+  - 30
+  content:
+    text: 评价商品
+    fontSize: 17
+    color: '#17231D'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - center
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: nav-right
+  elementType: text
+  bounds:
+  - 314
+  - 29
+  - 58
+  - 28
+  content:
+    text: 我的评价
+    fontSize: 12
+    color: '#17231D'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - right
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: review-product
+  elementType: shape
+  bounds:
+  - 16
+  - 76
+  - 358
+  - 84
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#FFFFFF'
+  adjustments:
+  - 14285
+- elementId: review-img
+  elementType: image
+  bounds:
+  - 30
+  - 88
+  - 60
+  - 60
+  src: media/strawberry.jpg
+  fit:
+    mode: cover
+  cropShape:
+    shapeName: roundRect
+    adjustments:
+    - 13333
+- elementId: review-name
+  elementType: text
+  bounds:
+  - 104
+  - 88
+  - 200
+  - 26
+  content:
+    text: 红颜草莓
+    fontSize: 14
+    color: '#17231D'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: review-spec
+  elementType: text
+  bounds:
+  - 104
+  - 120
+  - 180
+  - 22
+  content:
+    text: 250g/盒 ×1
+    fontSize: 11
+    color: '#748078'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: review-rate-t
+  elementType: text
+  bounds:
+  - 16
+  - 182
+  - 160
+  - 28
+  content:
+    text: 商品评分
+    fontSize: 15
+    color: '#17231D'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: review-star-0
+  elementType: icon
+  bounds:
+  - 20
+  - 224
+  - 30
+  - 30
+  iconName: fas:star
+  fill:
+    type: solid
+    color: '#F3C664'
+- elementId: review-star-1
+  elementType: icon
+  bounds:
+  - 64
+  - 224
+  - 30
+  - 30
+  iconName: fas:star
+  fill:
+    type: solid
+    color: '#F3C664'
+- elementId: review-star-2
+  elementType: icon
+  bounds:
+  - 108
+  - 224
+  - 30
+  - 30
+  iconName: fas:star
+  fill:
+    type: solid
+    color: '#F3C664'
+- elementId: review-star-3
+  elementType: icon
+  bounds:
+  - 152
+  - 224
+  - 30
+  - 30
+  iconName: fas:star
+  fill:
+    type: solid
+    color: '#F3C664'
+- elementId: review-star-4
+  elementType: icon
+  bounds:
+  - 196
+  - 224
+  - 30
+  - 30
+  iconName: fas:star
+  fill:
+    type: solid
+    color: '#F3C664'
+- elementId: review-rate-v
+  elementType: text
+  bounds:
+  - 252
+  - 224
+  - 110
+  - 30
+  content:
+    text: 非常满意
+    fontSize: 13
+    color: '#F26B3A'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - right
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: review-text
+  elementType: shape
+  bounds:
+  - 16
+  - 278
+  - 358
+  - 132
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#FFFFFF'
+  adjustments:
+  - 9090
+- elementId: review-ph
+  elementType: text
+  bounds:
+  - 30
+  - 290
+  - 310
+  - 30
+  content:
+    text: 分享商品口感、新鲜度和包装情况…
+    fontSize: 12
+    color: '#748078'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: review-count
+  elementType: text
+  bounds:
+  - 286
+  - 376
+  - 72
+  - 20
+  content:
+    text: 0 / 300
+    fontSize: 10
+    color: '#A6AEA8'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - right
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: review-upload
+  elementType: shape
+  bounds:
+  - 16
+  - 430
+  - 76
+  - 76
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#FFFFFF'
+  adjustments:
+  - 13157
+  border:
+    style: solid
+    width: 1
+    color: '#E4E9E3'
+- elementId: review-camera
+  elementType: icon
+  bounds:
+  - 41
+  - 448
+  - 26
+  - 26
+  iconName: fas:camera
+  fill:
+    type: solid
+    color: '#748078'
+- elementId: review-upload-t
+  elementType: text
+  bounds:
+  - 16
+  - 478
+  - 76
+  - 20
+  content:
+    text: 添加图片
+    fontSize: 10
+    color: '#748078'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - center
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: review-delivery
+  elementType: text
+  bounds:
+  - 16
+  - 536
+  - 160
+  - 28
+  content:
+    text: 配送服务
+    fontSize: 15
+    color: '#17231D'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: review-dstar-0
+  elementType: icon
+  bounds:
+  - 20
+  - 574
+  - 26
+  - 26
+  iconName: fas:star
+  fill:
+    type: solid
+    color: '#F3C664'
+- elementId: review-dstar-1
+  elementType: icon
+  bounds:
+  - 58
+  - 574
+  - 26
+  - 26
+  iconName: fas:star
+  fill:
+    type: solid
+    color: '#F3C664'
+- elementId: review-dstar-2
+  elementType: icon
+  bounds:
+  - 96
+  - 574
+  - 26
+  - 26
+  iconName: fas:star
+  fill:
+    type: solid
+    color: '#F3C664'
+- elementId: review-dstar-3
+  elementType: icon
+  bounds:
+  - 134
+  - 574
+  - 26
+  - 26
+  iconName: fas:star
+  fill:
+    type: solid
+    color: '#F3C664'
+- elementId: review-dstar-4
+  elementType: icon
+  bounds:
+  - 172
+  - 574
+  - 26
+  - 26
+  iconName: far:star
+  fill:
+    type: solid
+    color: '#F3C664'
+- elementId: review-anon
+  elementType: text
+  bounds:
+  - 16
+  - 634
+  - 120
+  - 28
+  content:
+    text: 匿名评价
+    fontSize: 13
+    color: '#17231D'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: review-switch
+  elementType: icon
+  bounds:
+  - 320
+  - 634
+  - 34
+  - 24
+  iconName: fas:toggle-on
+  fill:
+    type: solid
+    color: '#176B4D'
+- elementId: review-submit-bg
+  elementType: shape
+  bounds:
+  - 16
+  - 736
+  - 358
+  - 46
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#176B4D'
+  adjustments:
+  - 50000
+- elementId: review-submit-txt
+  elementType: text
+  bounds:
+  - 16
+  - 736
+  - 358
+  - 46
+  content:
+    text: 提交评价
+    fontSize: 15
+    color: '#FFFFFF'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - center
+    - middle
+    wrap: false
+    lineHeight: 1.15

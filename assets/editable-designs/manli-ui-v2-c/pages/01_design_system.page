@@ -1,0 +1,543 @@
+pageType: content
+background:
+  type: solid
+  color: '#F1F3F5'
+elements:
+- elementId: navbg
+  elementType: shape
+  bounds:
+  - 0
+  - 0
+  - 390
+  - 66
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#17233C'
+- elementId: stime
+  elementType: text
+  bounds:
+  - 18
+  - 4
+  - 52
+  - 20
+  content:
+    text: '9:41'
+    fontSize: 12
+    color: '#FFFFFF'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: ssignal
+  elementType: icon
+  bounds:
+  - 302
+  - 7
+  - 14
+  - 12
+  iconName: fas:signal
+  fill:
+    type: solid
+    color: '#FFFFFF'
+- elementId: swifi
+  elementType: icon
+  bounds:
+  - 323
+  - 7
+  - 15
+  - 12
+  iconName: fas:wifi
+  fill:
+    type: solid
+    color: '#FFFFFF'
+- elementId: sbattery
+  elementType: icon
+  bounds:
+  - 348
+  - 7
+  - 22
+  - 12
+  iconName: fas:battery-three-quarters
+  fill:
+    type: solid
+    color: '#FFFFFF'
+- elementId: ntitle
+  elementType: text
+  bounds:
+  - 58
+  - 27
+  - 250
+  - 34
+  content:
+    text: 满利到家 · 设计规范
+    fontSize: 18
+    color: '#FFFFFF'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - center
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: brand
+  elementType: text
+  bounds:
+  - 16
+  - 86
+  - 260
+  - 38
+  content:
+    text: 邻里速配仓
+    fontSize: 27
+    color: '#17233C'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: brands
+  elementType: text
+  bounds:
+  - 16
+  - 126
+  - 320
+  - 24
+  content:
+    text: 高密度找货 · 批次履约 · 快速复购
+    fontSize: 12
+    color: '#707B88'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: dspanel
+  elementType: shape
+  bounds:
+  - 16
+  - 172
+  - 358
+  - 136
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#17233C'
+  adjustments:
+  - 3676
+- elementId: dspnum
+  elementType: text
+  bounds:
+  - 30
+  - 188
+  - 80
+  - 48
+  content:
+    text: '03'
+    fontSize: 34
+    color: '#D8EF73'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: dspt
+  elementType: text
+  bounds:
+  - 118
+  - 188
+  - 210
+  - 28
+  content:
+    text: 明日配送批次
+    fontSize: 16
+    color: '#FFFFFF'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: dsps
+  elementType: text
+  bounds:
+  - 30
+  - 238
+  - 320
+  - 30
+  content:
+    text: 21:00 截单｜幸福里社区｜满 25 元免配送费
+    fontSize: 12
+    color: '#D5DDE8'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: dspbadge
+  elementType: shape
+  bounds:
+  - 30
+  - 272
+  - 104
+  - 22
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#D8EF73'
+  adjustments:
+  - 13636
+- elementId: dspbt
+  elementType: text
+  bounds:
+  - 30
+  - 272
+  - 104
+  - 22
+  content:
+    text: 准时送达
+    fontSize: 10
+    color: '#17233C'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - center
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: sec彩色品类识别
+  elementType: text
+  bounds:
+  - 16
+  - 330
+  - 220
+  - 30
+  content:
+    text: 彩色品类识别
+    fontSize: 17
+    color: '#1D2735'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: dscat0
+  elementType: shape
+  bounds:
+  - 16
+  - 370
+  - 76
+  - 74
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#E5F4D8'
+  adjustments:
+  - 8108
+- elementId: dscati0
+  elementType: icon
+  bounds:
+  - 39
+  - 386
+  - 30
+  - 30
+  iconName: fas:carrot
+  fill:
+    type: solid
+    color: '#54A837'
+- elementId: dscatt0
+  elementType: text
+  bounds:
+  - 16
+  - 450
+  - 76
+  - 22
+  content:
+    text: 时令蔬菜
+    fontSize: 11
+    color: '#1D2735'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - center
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: dscat1
+  elementType: shape
+  bounds:
+  - 108
+  - 370
+  - 76
+  - 74
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#FFE3DF'
+  adjustments:
+  - 8108
+- elementId: dscati1
+  elementType: icon
+  bounds:
+  - 131
+  - 386
+  - 30
+  - 30
+  iconName: fas:apple-whole
+  fill:
+    type: solid
+    color: '#EF5447'
+- elementId: dscatt1
+  elementType: text
+  bounds:
+  - 108
+  - 450
+  - 76
+  - 22
+  content:
+    text: 新鲜水果
+    fontSize: 11
+    color: '#1D2735'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - center
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: dscat2
+  elementType: shape
+  bounds:
+  - 200
+  - 370
+  - 76
+  - 74
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#FFF0D2'
+  adjustments:
+  - 8108
+- elementId: dscati2
+  elementType: icon
+  bounds:
+  - 223
+  - 386
+  - 30
+  - 30
+  iconName: fas:drumstick-bite
+  fill:
+    type: solid
+    color: '#D88A20'
+- elementId: dscatt2
+  elementType: text
+  bounds:
+  - 200
+  - 450
+  - 76
+  - 22
+  content:
+    text: 肉禽蛋品
+    fontSize: 11
+    color: '#1D2735'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - center
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: dscat3
+  elementType: shape
+  bounds:
+  - 292
+  - 370
+  - 76
+  - 74
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#DDEFFD'
+  adjustments:
+  - 8108
+- elementId: dscati3
+  elementType: icon
+  bounds:
+  - 315
+  - 386
+  - 30
+  - 30
+  iconName: fas:fish
+  fill:
+    type: solid
+    color: '#388AC4'
+- elementId: dscatt3
+  elementType: text
+  bounds:
+  - 292
+  - 450
+  - 76
+  - 22
+  content:
+    text: 水产海鲜
+    fontSize: 11
+    color: '#1D2735'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - center
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: sec组件与操作
+  elementType: text
+  bounds:
+  - 16
+  - 496
+  - 220
+  - 30
+  content:
+    text: 组件与操作
+    fontSize: 17
+    color: '#1D2735'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: dsb1-bg
+  elementType: shape
+  bounds:
+  - 16
+  - 540
+  - 170
+  - 46
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#FF6738'
+  adjustments:
+  - 10869
+- elementId: dsb1-t
+  elementType: text
+  bounds:
+  - 16
+  - 540
+  - 170
+  - 46
+  content:
+    text: 马上抢
+    fontSize: 14
+    color: '#FFFFFF'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - center
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: dsb2-bg
+  elementType: shape
+  bounds:
+  - 202
+  - 540
+  - 172
+  - 46
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#FFFFFF'
+  adjustments:
+  - 10869
+  border:
+    style: solid
+    width: 1
+    color: '#263A5B'
+- elementId: dsb2-t
+  elementType: text
+  bounds:
+  - 202
+  - 540
+  - 172
+  - 46
+  content:
+    text: 加入购物车
+    fontSize: 14
+    color: '#263A5B'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - center
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: dstype
+  elementType: text
+  bounds:
+  - 16
+  - 616
+  - 358
+  - 28
+  content:
+    text: 标题 20 / Bold　正文 14 / Regular　辅助 11
+    fontSize: 12
+    color: '#707B88'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: dsrule
+  elementType: text
+  bounds:
+  - 16
+  - 654
+  - 358
+  - 26
+  content:
+    text: 圆角与影像：直角化、紧凑列表、状态主导
+    fontSize: 12
+    color: '#263A5B'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: dsfoot
+  elementType: text
+  bounds:
+  - 16
+  - 730
+  - 358
+  - 24
+  content:
+    text: 390 × 844 · MiSans · Font Awesome
+    fontSize: 10
+    color: '#707B88'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - center
+    - middle
+    wrap: false
+    lineHeight: 1.15

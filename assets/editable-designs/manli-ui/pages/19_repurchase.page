@@ -1,0 +1,529 @@
+pageType: content
+background:
+  type: solid
+  color: '#F6F7F3'
+elements:
+- elementId: status-time
+  elementType: text
+  bounds:
+  - 18
+  - 4
+  - 52
+  - 20
+  content:
+    text: '9:41'
+    fontSize: 12
+    color: '#17231D'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: status-signal
+  elementType: icon
+  bounds:
+  - 302
+  - 7
+  - 14
+  - 12
+  iconName: fas:signal
+  fill:
+    type: solid
+    color: '#17231D'
+- elementId: status-wifi
+  elementType: icon
+  bounds:
+  - 323
+  - 7
+  - 15
+  - 12
+  iconName: fas:wifi
+  fill:
+    type: solid
+    color: '#17231D'
+- elementId: status-battery
+  elementType: icon
+  bounds:
+  - 348
+  - 7
+  - 22
+  - 12
+  iconName: fas:battery-three-quarters
+  fill:
+    type: solid
+    color: '#17231D'
+- elementId: nav-back
+  elementType: icon
+  bounds:
+  - 16
+  - 33
+  - 18
+  - 20
+  iconName: fas:chevron-left
+  fill:
+    type: solid
+    color: '#17231D'
+- elementId: nav-title
+  elementType: text
+  bounds:
+  - 60
+  - 28
+  - 270
+  - 30
+  content:
+    text: 常购清单
+    fontSize: 17
+    color: '#17231D'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - center
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: nav-right
+  elementType: text
+  bounds:
+  - 314
+  - 29
+  - 58
+  - 28
+  content:
+    text: 购买记录
+    fontSize: 12
+    color: '#17231D'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - right
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: rebuy-summary
+  elementType: shape
+  bounds:
+  - 16
+  - 76
+  - 358
+  - 72
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#E8F4EC'
+  adjustments:
+  - 16666
+- elementId: rebuy-repeat
+  elementType: icon
+  bounds:
+  - 30
+  - 96
+  - 22
+  - 22
+  iconName: fas:repeat
+  fill:
+    type: solid
+    color: '#176B4D'
+- elementId: rebuy-summary-t
+  elementType: text
+  bounds:
+  - 64
+  - 84
+  - 260
+  - 28
+  content:
+    text: 近 90 天回购 12 件商品
+    fontSize: 15
+    color: '#176B4D'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: rebuy-summary-s
+  elementType: text
+  bounds:
+  - 64
+  - 114
+  - 240
+  - 20
+  content:
+    text: 仅统计有效支付订单
+    fontSize: 11
+    color: '#176B4D'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: rebuy-0
+  elementType: shape
+  bounds:
+  - 16
+  - 166
+  - 358
+  - 108
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#FFFFFF'
+  adjustments:
+  - 11111
+- elementId: rebuy-img-0
+  elementType: image
+  bounds:
+  - 28
+  - 178
+  - 84
+  - 84
+  src: media/tomato.jpg
+  fit:
+    mode: cover
+  cropShape:
+    shapeName: roundRect
+    adjustments:
+    - 11904
+- elementId: rebuy-name-0
+  elementType: text
+  bounds:
+  - 124
+  - 176
+  - 160
+  - 26
+  content:
+    text: 沙瓤西红柿
+    fontSize: 14
+    color: '#17231D'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: rebuy-count-0
+  elementType: text
+  bounds:
+  - 124
+  - 204
+  - 190
+  - 22
+  content:
+    text: 已购 6 次 · 最近 11月06日
+    fontSize: 11
+    color: '#748078'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: rebuy-price-0
+  elementType: text
+  bounds:
+  - 124
+  - 234
+  - 80
+  - 26
+  content:
+    text: ¥3.99
+    fontSize: 17
+    color: '#F26B3A'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: rebuy-btn-0-bg
+  elementType: shape
+  bounds:
+  - 270
+  - 230
+  - 88
+  - 32
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#FFFFFF'
+  adjustments:
+  - 50000
+  border:
+    style: solid
+    width: 1
+    color: '#176B4D'
+- elementId: rebuy-btn-0-txt
+  elementType: text
+  bounds:
+  - 270
+  - 230
+  - 88
+  - 32
+  content:
+    text: 再次购买
+    fontSize: 11
+    color: '#176B4D'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - center
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: rebuy-1
+  elementType: shape
+  bounds:
+  - 16
+  - 290
+  - 358
+  - 108
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#FFFFFF'
+  adjustments:
+  - 11111
+- elementId: rebuy-img-1
+  elementType: image
+  bounds:
+  - 28
+  - 302
+  - 84
+  - 84
+  src: media/eggs.jpg
+  fit:
+    mode: cover
+  cropShape:
+    shapeName: roundRect
+    adjustments:
+    - 11904
+- elementId: rebuy-name-1
+  elementType: text
+  bounds:
+  - 124
+  - 300
+  - 160
+  - 26
+  content:
+    text: 谷物鲜鸡蛋
+    fontSize: 14
+    color: '#17231D'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: rebuy-count-1
+  elementType: text
+  bounds:
+  - 124
+  - 328
+  - 190
+  - 22
+  content:
+    text: 已购 5 次 · 最近 11月07日
+    fontSize: 11
+    color: '#748078'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: rebuy-price-1
+  elementType: text
+  bounds:
+  - 124
+  - 358
+  - 80
+  - 26
+  content:
+    text: ¥9.90
+    fontSize: 17
+    color: '#F26B3A'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: rebuy-btn-1-bg
+  elementType: shape
+  bounds:
+  - 270
+  - 354
+  - 88
+  - 32
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#FFFFFF'
+  adjustments:
+  - 50000
+  border:
+    style: solid
+    width: 1
+    color: '#176B4D'
+- elementId: rebuy-btn-1-txt
+  elementType: text
+  bounds:
+  - 270
+  - 354
+  - 88
+  - 32
+  content:
+    text: 再次购买
+    fontSize: 11
+    color: '#176B4D'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - center
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: rebuy-2
+  elementType: shape
+  bounds:
+  - 16
+  - 414
+  - 358
+  - 108
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#FFFFFF'
+  adjustments:
+  - 11111
+- elementId: rebuy-img-2
+  elementType: image
+  bounds:
+  - 28
+  - 426
+  - 84
+  - 84
+  src: media/milk.jpg
+  fit:
+    mode: cover
+  cropShape:
+    shapeName: roundRect
+    adjustments:
+    - 11904
+- elementId: rebuy-name-2
+  elementType: text
+  bounds:
+  - 124
+  - 424
+  - 160
+  - 26
+  content:
+    text: 纯牛奶
+    fontSize: 14
+    color: '#17231D'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: rebuy-count-2
+  elementType: text
+  bounds:
+  - 124
+  - 452
+  - 190
+  - 22
+  content:
+    text: 已购 4 次 · 最近 11月08日
+    fontSize: 11
+    color: '#748078'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: rebuy-price-2
+  elementType: text
+  bounds:
+  - 124
+  - 482
+  - 80
+  - 26
+  content:
+    text: ¥39.90
+    fontSize: 17
+    color: '#F26B3A'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: rebuy-btn-2-bg
+  elementType: shape
+  bounds:
+  - 270
+  - 478
+  - 88
+  - 32
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#FFFFFF'
+  adjustments:
+  - 50000
+  border:
+    style: solid
+    width: 1
+    color: '#176B4D'
+- elementId: rebuy-btn-2-txt
+  elementType: text
+  bounds:
+  - 270
+  - 478
+  - 88
+  - 32
+  content:
+    text: 再次购买
+    fontSize: 11
+    color: '#176B4D'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - center
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: rebuy-note
+  elementType: text
+  bounds:
+  - 16
+  - 558
+  - 358
+  - 30
+  content:
+    text: 取消订单和全额退款订单不计入回购次数
+    fontSize: 11
+    color: '#748078'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - center
+    - middle
+    wrap: false
+    lineHeight: 1.15

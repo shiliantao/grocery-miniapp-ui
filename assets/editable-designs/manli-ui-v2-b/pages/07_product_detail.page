@@ -1,0 +1,688 @@
+pageType: content
+background:
+  type: image
+  src: media/bg-warm.png
+  fit:
+    mode: cover
+elements:
+- elementId: dim
+  elementType: image
+  bounds:
+  - 0
+  - 0
+  - 390
+  - 360
+  src: media/tomato.jpg
+  fit:
+    mode: cover
+- elementId: stime
+  elementType: text
+  bounds:
+  - 18
+  - 4
+  - 52
+  - 20
+  content:
+    text: '9:41'
+    fontSize: 12
+    color: '#FFFFFF'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: ssignal
+  elementType: icon
+  bounds:
+  - 302
+  - 7
+  - 14
+  - 12
+  iconName: fas:signal
+  fill:
+    type: solid
+    color: '#FFFFFF'
+- elementId: swifi
+  elementType: icon
+  bounds:
+  - 323
+  - 7
+  - 15
+  - 12
+  iconName: fas:wifi
+  fill:
+    type: solid
+    color: '#FFFFFF'
+- elementId: sbattery
+  elementType: icon
+  bounds:
+  - 348
+  - 7
+  - 22
+  - 12
+  iconName: fas:battery-three-quarters
+  fill:
+    type: solid
+    color: '#FFFFFF'
+- elementId: dback
+  elementType: shape
+  bounds:
+  - 14
+  - 32
+  - 36
+  - 36
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#00000055'
+  adjustments:
+  - 50000
+- elementId: dbacki
+  elementType: icon
+  bounds:
+  - 24
+  - 40
+  - 15
+  - 18
+  iconName: fas:chevron-left
+  fill:
+    type: solid
+    color: '#FFFFFF'
+- elementId: dbody
+  elementType: shape
+  bounds:
+  - 0
+  - 342
+  - 390
+  - 438
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#FFFFFF'
+  adjustments:
+  - 5641
+- elementId: dflash
+  elementType: shape
+  bounds:
+  - 16
+  - 362
+  - 358
+  - 44
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#FFF0E7'
+  adjustments:
+  - 27272
+- elementId: dflashi
+  elementType: icon
+  bounds:
+  - 30
+  - 375
+  - 16
+  - 17
+  iconName: fas:bolt
+  fill:
+    type: solid
+    color: '#F0442E'
+- elementId: dflasht
+  elementType: text
+  bounds:
+  - 56
+  - 362
+  - 100
+  - 44
+  content:
+    text: 限时抢购
+    fontSize: 14
+    color: '#F0442E'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: dtime
+  elementType: text
+  bounds:
+  - 176
+  - 362
+  - 86
+  - 44
+  content:
+    text: 02:18:36
+    fontSize: 12
+    color: '#F0442E'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - center
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: dgo
+  elementType: shape
+  bounds:
+  - 276
+  - 369
+  - 84
+  - 30
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#F0442E'
+  adjustments:
+  - 50000
+- elementId: dgot
+  elementType: text
+  bounds:
+  - 276
+  - 369
+  - 84
+  - 30
+  content:
+    text: 马上抢 ›
+    fontSize: 11
+    color: '#FFFFFF'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - center
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: dprice
+  elementType: text
+  bounds:
+  - 16
+  - 420
+  - 130
+  - 42
+  content:
+    text: ¥3.99
+    fontSize: 29
+    color: '#F0442E'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: dold
+  elementType: text
+  bounds:
+  - 132
+  - 434
+  - 70
+  - 22
+  content:
+    text: ¥6.90
+    fontSize: 12
+    color: '#7B7D72'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: dname
+  elementType: text
+  bounds:
+  - 16
+  - 470
+  - 300
+  - 32
+  content:
+    text: 沙瓤西红柿
+    fontSize: 20
+    color: '#252821'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: dsell
+  elementType: text
+  bounds:
+  - 16
+  - 506
+  - 330
+  - 24
+  content:
+    text: 自然熟 · 沙瓤多汁 · 基地直供
+    fontSize: 12
+    color: '#7B7D72'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: rowsbg
+  elementType: shape
+  bounds:
+  - 16
+  - 552
+  - 358
+  - 150
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#FFFFFF'
+  adjustments:
+  - 10666
+- elementId: rowic0bg
+  elementType: shape
+  bounds:
+  - 26
+  - 558.0
+  - 38
+  - 38
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#FFF0D8'
+  adjustments:
+  - 50000
+- elementId: rowic0ic
+  elementType: icon
+  bounds:
+  - 36.0
+  - 568.0
+  - 18
+  - 18
+  iconName: fas:box-open
+  fill:
+    type: solid
+    color: '#D68C16'
+- elementId: rowl0
+  elementType: text
+  bounds:
+  - 74
+  - 552
+  - 150
+  - 50
+  content:
+    text: 规格
+    fontSize: 14
+    color: '#252821'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: rowv0
+  elementType: text
+  bounds:
+  - 204
+  - 552
+  - 136
+  - 50
+  content:
+    text: 500g/份
+    fontSize: 12
+    color: '#7B7D72'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - right
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: rowa0
+  elementType: icon
+  bounds:
+  - 350
+  - 571.0
+  - 10
+  - 12
+  iconName: fas:chevron-right
+  fill:
+    type: solid
+    color: '#7B7D72'
+- elementId: rowln0
+  elementType: line
+  bounds:
+  - 26
+  - 602
+  - 338
+  - 1
+  viewBox:
+  - 338
+  - 1
+  points: 0,0 338,0
+  curve: sharp
+  border:
+    style: solid
+    width: 1
+    color: '#EAE3D7'
+- elementId: rowic1bg
+  elementType: shape
+  bounds:
+  - 26
+  - 608.0
+  - 38
+  - 38
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#F0E7F8'
+  adjustments:
+  - 50000
+- elementId: rowic1ic
+  elementType: icon
+  bounds:
+  - 36.0
+  - 618.0
+  - 18
+  - 18
+  iconName: fas:truck-fast
+  fill:
+    type: solid
+    color: '#8B62B0'
+- elementId: rowl1
+  elementType: text
+  bounds:
+  - 74
+  - 602
+  - 150
+  - 50
+  content:
+    text: 配送
+    fontSize: 14
+    color: '#252821'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: rowv1
+  elementType: text
+  bounds:
+  - 204
+  - 602
+  - 136
+  - 50
+  content:
+    text: 明日 09:00 起配送
+    fontSize: 12
+    color: '#7B7D72'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - right
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: rowa1
+  elementType: icon
+  bounds:
+  - 350
+  - 621.0
+  - 10
+  - 12
+  iconName: fas:chevron-right
+  fill:
+    type: solid
+    color: '#7B7D72'
+- elementId: rowln1
+  elementType: line
+  bounds:
+  - 26
+  - 652
+  - 338
+  - 1
+  viewBox:
+  - 338
+  - 1
+  points: 0,0 338,0
+  curve: sharp
+  border:
+    style: solid
+    width: 1
+    color: '#EAE3D7'
+- elementId: rowic2bg
+  elementType: shape
+  bounds:
+  - 26
+  - 658.0
+  - 38
+  - 38
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#E1F1FC'
+  adjustments:
+  - 50000
+- elementId: rowic2ic
+  elementType: icon
+  bounds:
+  - 36.0
+  - 668.0
+  - 18
+  - 18
+  iconName: fas:shield-heart
+  fill:
+    type: solid
+    color: '#328CB4'
+- elementId: rowl2
+  elementType: text
+  bounds:
+  - 74
+  - 652
+  - 150
+  - 50
+  content:
+    text: 服务
+    fontSize: 14
+    color: '#252821'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: rowv2
+  elementType: text
+  bounds:
+  - 204
+  - 652
+  - 136
+  - 50
+  content:
+    text: 坏果包赔 · 售后无忧
+    fontSize: 12
+    color: '#7B7D72'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - right
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: rowa2
+  elementType: icon
+  bounds:
+  - 350
+  - 671.0
+  - 10
+  - 12
+  iconName: fas:chevron-right
+  fill:
+    type: solid
+    color: '#7B7D72'
+- elementId: drebuy
+  elementType: shape
+  bounds:
+  - 16
+  - 716
+  - 358
+  - 42
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#EAF3E5'
+  adjustments:
+  - 23809
+- elementId: drebuyt
+  elementType: text
+  bounds:
+  - 30
+  - 716
+  - 320
+  - 42
+  content:
+    text: 你已回购 6 次 · 最近购买 11月06日
+    fontSize: 11
+    color: '#175C3B'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: dbar
+  elementType: shape
+  bounds:
+  - 0
+  - 780
+  - 390
+  - 64
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#FFFFFF'
+- elementId: dfav
+  elementType: icon
+  bounds:
+  - 24
+  - 792
+  - 22
+  - 22
+  iconName: far:heart
+  fill:
+    type: solid
+    color: '#F0442E'
+- elementId: dfavt
+  elementType: text
+  bounds:
+  - 12
+  - 816
+  - 46
+  - 18
+  content:
+    text: 收藏
+    fontSize: 10
+    color: '#7B7D72'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - center
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: dcart
+  elementType: icon
+  bounds:
+  - 78
+  - 792
+  - 22
+  - 22
+  iconName: fas:cart-shopping
+  fill:
+    type: solid
+    color: '#175C3B'
+- elementId: dcartt
+  elementType: text
+  bounds:
+  - 64
+  - 816
+  - 52
+  - 18
+  content:
+    text: 购物车
+    fontSize: 10
+    color: '#7B7D72'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - center
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: dadd-bg
+  elementType: shape
+  bounds:
+  - 126
+  - 790
+  - 112
+  - 42
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#175C3B'
+  adjustments:
+  - 50000
+- elementId: dadd-t
+  elementType: text
+  bounds:
+  - 126
+  - 790
+  - 112
+  - 42
+  content:
+    text: 加入购物车
+    fontSize: 14
+    color: '#FFFFFF'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - center
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: dbuy-bg
+  elementType: shape
+  bounds:
+  - 246
+  - 790
+  - 128
+  - 42
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#F0442E'
+  adjustments:
+  - 50000
+- elementId: dbuy-t
+  elementType: text
+  bounds:
+  - 246
+  - 790
+  - 128
+  - 42
+  content:
+    text: 立即购买
+    fontSize: 14
+    color: '#FFFFFF'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - center
+    - middle
+    wrap: false
+    lineHeight: 1.15

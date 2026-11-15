@@ -1,0 +1,578 @@
+pageType: content
+background:
+  type: solid
+  color: '#F6F7F3'
+elements:
+- elementId: status-time
+  elementType: text
+  bounds:
+  - 18
+  - 4
+  - 52
+  - 20
+  content:
+    text: '9:41'
+    fontSize: 12
+    color: '#17231D'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: status-signal
+  elementType: icon
+  bounds:
+  - 302
+  - 7
+  - 14
+  - 12
+  iconName: fas:signal
+  fill:
+    type: solid
+    color: '#17231D'
+- elementId: status-wifi
+  elementType: icon
+  bounds:
+  - 323
+  - 7
+  - 15
+  - 12
+  iconName: fas:wifi
+  fill:
+    type: solid
+    color: '#17231D'
+- elementId: status-battery
+  elementType: icon
+  bounds:
+  - 348
+  - 7
+  - 22
+  - 12
+  iconName: fas:battery-three-quarters
+  fill:
+    type: solid
+    color: '#17231D'
+- elementId: nav-title
+  elementType: text
+  bounds:
+  - 60
+  - 28
+  - 270
+  - 30
+  content:
+    text: 满利到家 · 设计规范
+    fontSize: 17
+    color: '#17231D'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - center
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: brand
+  elementType: text
+  bounds:
+  - 16
+  - 82
+  - 240
+  - 38
+  content:
+    text: 满利到家
+    fontSize: 28
+    color: '#176B4D'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: brand-sub
+  elementType: text
+  bounds:
+  - 16
+  - 121
+  - 280
+  - 24
+  content:
+    text: 新鲜到站点，实惠到每家
+    fontSize: 13
+    color: '#748078'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: logo
+  elementType: shape
+  bounds:
+  - 308
+  - 80
+  - 58
+  - 58
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#176B4D'
+  adjustments:
+  - 31034
+- elementId: logo-ic
+  elementType: icon
+  bounds:
+  - 324
+  - 94
+  - 26
+  - 26
+  iconName: fas:leaf
+  fill:
+    type: solid
+    color: '#FFFFFF'
+- elementId: sec-品牌色
+  elementType: text
+  bounds:
+  - 16
+  - 166
+  - 220
+  - 28
+  content:
+    text: 品牌色
+    fontSize: 18
+    color: '#17231D'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: color-0
+  elementType: shape
+  bounds:
+  - 16
+  - 204
+  - 78
+  - 58
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#176B4D'
+  adjustments:
+  - 17241
+  border:
+    style: solid
+    width: 1
+    color: '#E4E9E3'
+- elementId: color-t-0
+  elementType: text
+  bounds:
+  - 16
+  - 268
+  - 78
+  - 20
+  content:
+    text: 生鲜绿
+    fontSize: 11
+    color: '#17231D'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - center
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: color-v-0
+  elementType: text
+  bounds:
+  - 16
+  - 288
+  - 78
+  - 18
+  content:
+    text: '#176B4D'
+    fontSize: 9
+    color: '#748078'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - center
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: color-1
+  elementType: shape
+  bounds:
+  - 106
+  - 204
+  - 78
+  - 58
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#F26B3A'
+  adjustments:
+  - 17241
+  border:
+    style: solid
+    width: 1
+    color: '#E4E9E3'
+- elementId: color-t-1
+  elementType: text
+  bounds:
+  - 106
+  - 268
+  - 78
+  - 20
+  content:
+    text: 暖阳橙
+    fontSize: 11
+    color: '#17231D'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - center
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: color-v-1
+  elementType: text
+  bounds:
+  - 106
+  - 288
+  - 78
+  - 18
+  content:
+    text: '#F26B3A'
+    fontSize: 9
+    color: '#748078'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - center
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: color-2
+  elementType: shape
+  bounds:
+  - 196
+  - 204
+  - 78
+  - 58
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#E8F4EC'
+  adjustments:
+  - 17241
+  border:
+    style: solid
+    width: 1
+    color: '#E4E9E3'
+- elementId: color-t-2
+  elementType: text
+  bounds:
+  - 196
+  - 268
+  - 78
+  - 20
+  content:
+    text: 浅叶绿
+    fontSize: 11
+    color: '#17231D'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - center
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: color-v-2
+  elementType: text
+  bounds:
+  - 196
+  - 288
+  - 78
+  - 18
+  content:
+    text: '#E8F4EC'
+    fontSize: 9
+    color: '#748078'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - center
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: color-3
+  elementType: shape
+  bounds:
+  - 286
+  - 204
+  - 78
+  - 58
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#F6F7F3'
+  adjustments:
+  - 17241
+  border:
+    style: solid
+    width: 1
+    color: '#E4E9E3'
+- elementId: color-t-3
+  elementType: text
+  bounds:
+  - 286
+  - 268
+  - 78
+  - 20
+  content:
+    text: 米白底
+    fontSize: 11
+    color: '#17231D'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - center
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: color-v-3
+  elementType: text
+  bounds:
+  - 286
+  - 288
+  - 78
+  - 18
+  content:
+    text: '#F6F7F3'
+    fontSize: 9
+    color: '#748078'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - center
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: sec-字体与组件
+  elementType: text
+  bounds:
+  - 16
+  - 330
+  - 220
+  - 28
+  content:
+    text: 字体与组件
+    fontSize: 18
+    color: '#17231D'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: type-1
+  elementType: text
+  bounds:
+  - 16
+  - 370
+  - 250
+  - 36
+  content:
+    text: 页面标题  28 / Bold
+    fontSize: 24
+    color: '#17231D'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: type-2
+  elementType: text
+  bounds:
+  - 16
+  - 412
+  - 250
+  - 28
+  content:
+    text: 模块标题  18 / Bold
+    fontSize: 18
+    color: '#17231D'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: type-3
+  elementType: text
+  bounds:
+  - 16
+  - 446
+  - 250
+  - 26
+  content:
+    text: 正文信息  14 / Regular
+    fontSize: 14
+    color: '#17231D'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: type-4
+  elementType: text
+  bounds:
+  - 16
+  - 478
+  - 250
+  - 24
+  content:
+    text: 辅助说明  11–12 / Regular
+    fontSize: 12
+    color: '#748078'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: demo-primary-bg
+  elementType: shape
+  bounds:
+  - 16
+  - 526
+  - 166
+  - 44
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#176B4D'
+  adjustments:
+  - 50000
+- elementId: demo-primary-txt
+  elementType: text
+  bounds:
+  - 16
+  - 526
+  - 166
+  - 44
+  content:
+    text: 主要操作
+    fontSize: 15
+    color: '#FFFFFF'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - center
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: demo-secondary-bg
+  elementType: shape
+  bounds:
+  - 198
+  - 526
+  - 176
+  - 44
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#FFFFFF'
+  adjustments:
+  - 50000
+  border:
+    style: solid
+    width: 1
+    color: '#176B4D'
+- elementId: demo-secondary-txt
+  elementType: text
+  bounds:
+  - 198
+  - 526
+  - 176
+  - 44
+  content:
+    text: 次要操作
+    fontSize: 15
+    color: '#176B4D'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - center
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: space-title
+  elementType: text
+  bounds:
+  - 16
+  - 594
+  - 200
+  - 28
+  content:
+    text: 布局规则
+    fontSize: 16
+    color: '#17231D'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: space-body
+  elementType: text
+  bounds:
+  - 16
+  - 630
+  - 350
+  - 80
+  content:
+    text: '8px 基础间距 · 16px 页面边距
+
+      12px 卡片圆角 · 44px 最小触控高度
+
+      价格统一暖橙，状态统一生鲜绿'
+    fontSize: 13
+    color: '#748078'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - left
+    - top
+    wrap: true
+    lineHeight: 1.6
+- elementId: foot
+  elementType: text
+  bounds:
+  - 16
+  - 786
+  - 358
+  - 24
+  content:
+    text: MiSans · Font Awesome · 390 × 844
+    fontSize: 10
+    color: '#A6AEA8'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - center
+    - middle
+    wrap: false
+    lineHeight: 1.15

@@ -1,0 +1,501 @@
+pageType: content
+background:
+  type: image
+  src: media/bg-warm.png
+  fit:
+    mode: cover
+elements:
+- elementId: stime
+  elementType: text
+  bounds:
+  - 18
+  - 4
+  - 52
+  - 20
+  content:
+    text: '9:41'
+    fontSize: 12
+    color: '#252821'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: ssignal
+  elementType: icon
+  bounds:
+  - 302
+  - 7
+  - 14
+  - 12
+  iconName: fas:signal
+  fill:
+    type: solid
+    color: '#252821'
+- elementId: swifi
+  elementType: icon
+  bounds:
+  - 323
+  - 7
+  - 15
+  - 12
+  iconName: fas:wifi
+  fill:
+    type: solid
+    color: '#252821'
+- elementId: sbattery
+  elementType: icon
+  bounds:
+  - 348
+  - 7
+  - 22
+  - 12
+  iconName: fas:battery-three-quarters
+  fill:
+    type: solid
+    color: '#252821'
+- elementId: nback
+  elementType: icon
+  bounds:
+  - 16
+  - 32
+  - 18
+  - 22
+  iconName: fas:chevron-left
+  fill:
+    type: solid
+    color: '#252821'
+- elementId: ntitle
+  elementType: text
+  bounds:
+  - 48
+  - 27
+  - 250
+  - 34
+  content:
+    text: 常购清单
+    fontSize: 18
+    color: '#252821'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: nright
+  elementType: text
+  bounds:
+  - 310
+  - 29
+  - 64
+  - 30
+  content:
+    text: 购买记录
+    fontSize: 11
+    color: '#175C3B'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - right
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: rebsum
+  elementType: shape
+  bounds:
+  - 16
+  - 76
+  - 358
+  - 72
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#EAF3E5'
+  adjustments:
+  - 19444
+- elementId: rebsumi
+  elementType: icon
+  bounds:
+  - 30
+  - 98
+  - 22
+  - 22
+  iconName: fas:repeat
+  fill:
+    type: solid
+    color: '#175C3B'
+- elementId: rebsumt
+  elementType: text
+  bounds:
+  - 64
+  - 84
+  - 260
+  - 28
+  content:
+    text: 近 90 天回购 12 件商品
+    fontSize: 15
+    color: '#175C3B'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: rebsums
+  elementType: text
+  bounds:
+  - 64
+  - 116
+  - 240
+  - 20
+  content:
+    text: 仅统计有效支付订单
+    fontSize: 11
+    color: '#7B7D72'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: rebc0
+  elementType: shape
+  bounds:
+  - 16
+  - 168
+  - 358
+  - 110
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#FFFFFF'
+  adjustments:
+  - 14545
+- elementId: rebim0
+  elementType: image
+  bounds:
+  - 28
+  - 180
+  - 86
+  - 86
+  src: media/tomato.jpg
+  fit:
+    mode: cover
+  cropShape:
+    shapeName: roundRect
+    adjustments:
+    - 13953
+- elementId: rebn0
+  elementType: text
+  bounds:
+  - 128
+  - 178
+  - 160
+  - 26
+  content:
+    text: 沙瓤西红柿
+    fontSize: 14
+    color: '#252821'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: rebcount0
+  elementType: text
+  bounds:
+  - 128
+  - 208
+  - 190
+  - 22
+  content:
+    text: 已购 6 次 · 最近 11月06日
+    fontSize: 11
+    color: '#7B7D72'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: rebp0
+  elementType: text
+  bounds:
+  - 128
+  - 240
+  - 80
+  - 26
+  content:
+    text: ¥3.99
+    fontSize: 17
+    color: '#F0442E'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: rebb0-bg
+  elementType: shape
+  bounds:
+  - 268
+  - 234
+  - 90
+  - 32
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#F0442E'
+  adjustments:
+  - 50000
+- elementId: rebb0-t
+  elementType: text
+  bounds:
+  - 268
+  - 234
+  - 90
+  - 32
+  content:
+    text: 再次购买
+    fontSize: 11
+    color: '#FFFFFF'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - center
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: rebc1
+  elementType: shape
+  bounds:
+  - 16
+  - 294
+  - 358
+  - 110
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#FFFFFF'
+  adjustments:
+  - 14545
+- elementId: rebim1
+  elementType: image
+  bounds:
+  - 28
+  - 306
+  - 86
+  - 86
+  src: media/eggs.jpg
+  fit:
+    mode: cover
+  cropShape:
+    shapeName: roundRect
+    adjustments:
+    - 13953
+- elementId: rebn1
+  elementType: text
+  bounds:
+  - 128
+  - 304
+  - 160
+  - 26
+  content:
+    text: 谷物鲜鸡蛋
+    fontSize: 14
+    color: '#252821'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: rebcount1
+  elementType: text
+  bounds:
+  - 128
+  - 334
+  - 190
+  - 22
+  content:
+    text: 已购 5 次 · 最近 11月07日
+    fontSize: 11
+    color: '#7B7D72'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: rebp1
+  elementType: text
+  bounds:
+  - 128
+  - 366
+  - 80
+  - 26
+  content:
+    text: ¥9.90
+    fontSize: 17
+    color: '#F0442E'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: rebb1-bg
+  elementType: shape
+  bounds:
+  - 268
+  - 360
+  - 90
+  - 32
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#F0442E'
+  adjustments:
+  - 50000
+- elementId: rebb1-t
+  elementType: text
+  bounds:
+  - 268
+  - 360
+  - 90
+  - 32
+  content:
+    text: 再次购买
+    fontSize: 11
+    color: '#FFFFFF'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - center
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: rebc2
+  elementType: shape
+  bounds:
+  - 16
+  - 420
+  - 358
+  - 110
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#FFFFFF'
+  adjustments:
+  - 14545
+- elementId: rebim2
+  elementType: image
+  bounds:
+  - 28
+  - 432
+  - 86
+  - 86
+  src: media/milk.jpg
+  fit:
+    mode: cover
+  cropShape:
+    shapeName: roundRect
+    adjustments:
+    - 13953
+- elementId: rebn2
+  elementType: text
+  bounds:
+  - 128
+  - 430
+  - 160
+  - 26
+  content:
+    text: 纯牛奶
+    fontSize: 14
+    color: '#252821'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: rebcount2
+  elementType: text
+  bounds:
+  - 128
+  - 460
+  - 190
+  - 22
+  content:
+    text: 已购 4 次 · 最近 11月08日
+    fontSize: 11
+    color: '#7B7D72'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: rebp2
+  elementType: text
+  bounds:
+  - 128
+  - 492
+  - 80
+  - 26
+  content:
+    text: ¥39.90
+    fontSize: 17
+    color: '#F0442E'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: rebb2-bg
+  elementType: shape
+  bounds:
+  - 268
+  - 486
+  - 90
+  - 32
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#F0442E'
+  adjustments:
+  - 50000
+- elementId: rebb2-t
+  elementType: text
+  bounds:
+  - 268
+  - 486
+  - 90
+  - 32
+  content:
+    text: 再次购买
+    fontSize: 11
+    color: '#FFFFFF'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - center
+    - middle
+    wrap: false
+    lineHeight: 1.15

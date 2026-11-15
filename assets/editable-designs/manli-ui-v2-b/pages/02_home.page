@@ -1,0 +1,1591 @@
+pageType: content
+background:
+  type: image
+  src: media/bg-warm.png
+  fit:
+    mode: cover
+elements:
+- elementId: stime
+  elementType: text
+  bounds:
+  - 18
+  - 4
+  - 52
+  - 20
+  content:
+    text: '9:41'
+    fontSize: 12
+    color: '#252821'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: ssignal
+  elementType: icon
+  bounds:
+  - 302
+  - 7
+  - 14
+  - 12
+  iconName: fas:signal
+  fill:
+    type: solid
+    color: '#252821'
+- elementId: swifi
+  elementType: icon
+  bounds:
+  - 323
+  - 7
+  - 15
+  - 12
+  iconName: fas:wifi
+  fill:
+    type: solid
+    color: '#252821'
+- elementId: sbattery
+  elementType: icon
+  bounds:
+  - 348
+  - 7
+  - 22
+  - 12
+  iconName: fas:battery-three-quarters
+  fill:
+    type: solid
+    color: '#252821'
+- elementId: hloc
+  elementType: icon
+  bounds:
+  - 16
+  - 33
+  - 17
+  - 19
+  iconName: fas:location-dot
+  fill:
+    type: solid
+    color: '#175C3B'
+- elementId: hregion
+  elementType: text
+  bounds:
+  - 40
+  - 28
+  - 160
+  - 30
+  content:
+    text: 幸福里社区
+    fontSize: 17
+    color: '#252821'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: hdown
+  elementType: icon
+  bounds:
+  - 174
+  - 38
+  - 10
+  - 12
+  iconName: fas:chevron-down
+  fill:
+    type: solid
+    color: '#7B7D72'
+- elementId: hbell
+  elementType: icon
+  bounds:
+  - 346
+  - 32
+  - 22
+  - 22
+  iconName: far:bell
+  fill:
+    type: solid
+    color: '#252821'
+- elementId: hsearch
+  elementType: shape
+  bounds:
+  - 16
+  - 74
+  - 358
+  - 42
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#FFFFFF'
+  adjustments:
+  - 50000
+  border:
+    style: solid
+    width: 1
+    color: '#EAE3D7'
+- elementId: hsearchi
+  elementType: icon
+  bounds:
+  - 30
+  - 87
+  - 16
+  - 16
+  iconName: fas:magnifying-glass
+  fill:
+    type: solid
+    color: '#175C3B'
+- elementId: hsearcht
+  elementType: text
+  bounds:
+  - 56
+  - 74
+  - 230
+  - 42
+  content:
+    text: 搜索今日新鲜好物
+    fontSize: 12
+    color: '#7B7D72'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: hsearchtag
+  elementType: shape
+  bounds:
+  - 294
+  - 81
+  - 68
+  - 28
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#FFC847'
+  adjustments:
+  - 50000
+- elementId: hsearchtagt
+  elementType: text
+  bounds:
+  - 294
+  - 81
+  - 68
+  - 28
+  content:
+    text: 搜索
+    fontSize: 11
+    color: '#173B2C'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - center
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: hhero
+  elementType: image
+  bounds:
+  - 16
+  - 124
+  - 358
+  - 88
+  src: media/hero.jpg
+  fit:
+    mode: cover
+  cropShape:
+    shapeName: roundRect
+    adjustments:
+    - 18181
+- elementId: hheroshade
+  elementType: shape
+  bounds:
+  - 16
+  - 124
+  - 358
+  - 88
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#153C2977'
+  adjustments:
+  - 18181
+- elementId: hherotag
+  elementType: shape
+  bounds:
+  - 30
+  - 134
+  - 88
+  - 20
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#FFC847'
+  adjustments:
+  - 50000
+- elementId: hherotagt
+  elementType: text
+  bounds:
+  - 30
+  - 134
+  - 88
+  - 20
+  content:
+    text: 今日产地直达
+    fontSize: 9
+    color: '#173B2C'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - center
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: hherot
+  elementType: text
+  bounds:
+  - 30
+  - 156
+  - 280
+  - 28
+  content:
+    text: 一口新鲜，今天到家
+    fontSize: 20
+    color: '#FFFFFF'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: hheros
+  elementType: text
+  bounds:
+  - 30
+  - 184
+  - 290
+  - 20
+  content:
+    text: 满 25 元免配送费 · 明日 09:00 起送
+    fontSize: 10
+    color: '#FFFFFF'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: hcatbg
+  elementType: shape
+  bounds:
+  - 16
+  - 222
+  - 358
+  - 176
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#FFFFFF'
+  adjustments:
+  - 11594
+- elementId: hcat0
+  elementType: shape
+  bounds:
+  - 30
+  - 232
+  - 56
+  - 56
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#E5F4D8'
+  adjustments:
+  - 50000
+- elementId: hcatim0
+  elementType: image
+  bounds:
+  - 36
+  - 238
+  - 44
+  - 44
+  src: media/greens.jpg
+  fit:
+    mode: cover
+  cropShape:
+    shapeName: roundRect
+    adjustments:
+    - 50000
+- elementId: hcatt0
+  elementType: text
+  bounds:
+  - 22
+  - 290
+  - 72
+  - 20
+  content:
+    text: 时令蔬菜
+    fontSize: 10
+    color: '#252821'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - center
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: hcat1
+  elementType: shape
+  bounds:
+  - 119
+  - 232
+  - 56
+  - 56
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#FFE3DF'
+  adjustments:
+  - 50000
+- elementId: hcatim1
+  elementType: image
+  bounds:
+  - 125
+  - 238
+  - 44
+  - 44
+  src: media/strawberry.jpg
+  fit:
+    mode: cover
+  cropShape:
+    shapeName: roundRect
+    adjustments:
+    - 50000
+- elementId: hcatt1
+  elementType: text
+  bounds:
+  - 111
+  - 290
+  - 72
+  - 20
+  content:
+    text: 新鲜水果
+    fontSize: 10
+    color: '#252821'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - center
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: hcat2
+  elementType: shape
+  bounds:
+  - 208
+  - 232
+  - 56
+  - 56
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#FFF0D2'
+  adjustments:
+  - 50000
+- elementId: hcatim2
+  elementType: image
+  bounds:
+  - 214
+  - 238
+  - 44
+  - 44
+  src: media/eggs.jpg
+  fit:
+    mode: cover
+  cropShape:
+    shapeName: roundRect
+    adjustments:
+    - 50000
+- elementId: hcatt2
+  elementType: text
+  bounds:
+  - 200
+  - 290
+  - 72
+  - 20
+  content:
+    text: 肉禽蛋品
+    fontSize: 10
+    color: '#252821'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - center
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: hcat3
+  elementType: shape
+  bounds:
+  - 297
+  - 232
+  - 56
+  - 56
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#DDEFFD'
+  adjustments:
+  - 50000
+- elementId: hcatim3
+  elementType: image
+  bounds:
+  - 303
+  - 238
+  - 44
+  - 44
+  src: media/fish.jpg
+  fit:
+    mode: cover
+  cropShape:
+    shapeName: roundRect
+    adjustments:
+    - 50000
+- elementId: hcatt3
+  elementType: text
+  bounds:
+  - 289
+  - 290
+  - 72
+  - 20
+  content:
+    text: 水产海鲜
+    fontSize: 10
+    color: '#252821'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - center
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: hcat4
+  elementType: shape
+  bounds:
+  - 30
+  - 314
+  - 56
+  - 56
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#F5E8CC'
+  adjustments:
+  - 50000
+- elementId: hcatim4
+  elementType: image
+  bounds:
+  - 36
+  - 320
+  - 44
+  - 44
+  src: media/rice.jpg
+  fit:
+    mode: cover
+  cropShape:
+    shapeName: roundRect
+    adjustments:
+    - 50000
+- elementId: hcatt4
+  elementType: text
+  bounds:
+  - 22
+  - 372
+  - 72
+  - 20
+  content:
+    text: 米面粮油
+    fontSize: 10
+    color: '#252821'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - center
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: hcat5
+  elementType: shape
+  bounds:
+  - 119
+  - 314
+  - 56
+  - 56
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#E8E1F7'
+  adjustments:
+  - 50000
+- elementId: hcatim5
+  elementType: image
+  bounds:
+  - 125
+  - 320
+  - 44
+  - 44
+  src: media/milk.jpg
+  fit:
+    mode: cover
+  cropShape:
+    shapeName: roundRect
+    adjustments:
+    - 50000
+- elementId: hcatt5
+  elementType: text
+  bounds:
+  - 111
+  - 372
+  - 72
+  - 20
+  content:
+    text: 乳品烘焙
+    fontSize: 10
+    color: '#252821'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - center
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: hcat6
+  elementType: shape
+  bounds:
+  - 208
+  - 314
+  - 56
+  - 56
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#DDF3F1'
+  adjustments:
+  - 50000
+- elementId: hcatim6
+  elementType: image
+  bounds:
+  - 214
+  - 320
+  - 44
+  - 44
+  src: media/orange.jpg
+  fit:
+    mode: cover
+  cropShape:
+    shapeName: roundRect
+    adjustments:
+    - 50000
+- elementId: hcatt6
+  elementType: text
+  bounds:
+  - 200
+  - 372
+  - 72
+  - 20
+  content:
+    text: 酒水饮料
+    fontSize: 10
+    color: '#252821'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - center
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: hcat7
+  elementType: shape
+  bounds:
+  - 297
+  - 314
+  - 56
+  - 56
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#F1E4DA'
+  adjustments:
+  - 50000
+- elementId: hcatim7
+  elementType: image
+  bounds:
+  - 303
+  - 320
+  - 44
+  - 44
+  src: media/daily.jpg
+  fit:
+    mode: cover
+  cropShape:
+    shapeName: roundRect
+    adjustments:
+    - 50000
+- elementId: hcatt7
+  elementType: text
+  bounds:
+  - 289
+  - 372
+  - 72
+  - 20
+  content:
+    text: 日用百货
+    fontSize: 10
+    color: '#252821'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - center
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: hflashhead
+  elementType: shape
+  bounds:
+  - 16
+  - 408
+  - 358
+  - 36
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#173B2C'
+  adjustments:
+  - 50000
+- elementId: hbolt
+  elementType: icon
+  bounds:
+  - 30
+  - 417
+  - 15
+  - 16
+  iconName: fas:bolt
+  fill:
+    type: solid
+    color: '#FFC847'
+- elementId: hflash
+  elementType: text
+  bounds:
+  - 54
+  - 408
+  - 100
+  - 36
+  content:
+    text: 限时抢购
+    fontSize: 16
+    color: '#FFFFFF'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: htime
+  elementType: text
+  bounds:
+  - 174
+  - 408
+  - 104
+  - 36
+  content:
+    text: '02 : 18 : 36'
+    fontSize: 12
+    color: '#FFC847'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - center
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: hmore
+  elementType: text
+  bounds:
+  - 288
+  - 408
+  - 74
+  - 36
+  content:
+    text: 全部特价 ›
+    fontSize: 11
+    color: '#FFFFFF'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - right
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: hfc0card
+  elementType: shape
+  bounds:
+  - 16
+  - 452
+  - 174
+  - 202
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#FFFFFF'
+  adjustments:
+  - 9859
+- elementId: hfc0img
+  elementType: image
+  bounds:
+  - 16
+  - 452
+  - 174
+  - 112
+  src: media/tomato.jpg
+  fit:
+    mode: cover
+  cropShape:
+    shapeName: roundRect
+    adjustments:
+    - 18421
+- elementId: hfc0mask
+  elementType: shape
+  bounds:
+  - 16
+  - 554
+  - 174
+  - 12
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#FFFFFF'
+- elementId: hfc0badge
+  elementType: shape
+  bounds:
+  - 24
+  - 542
+  - 58
+  - 22
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#FFF0E7'
+  adjustments:
+  - 50000
+- elementId: hfc0badget
+  elementType: text
+  bounds:
+  - 24
+  - 542
+  - 58
+  - 22
+  content:
+    text: 限时特价
+    fontSize: 9
+    color: '#F0442E'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - center
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: hfc0name
+  elementType: text
+  bounds:
+  - 26
+  - 570
+  - 154
+  - 24
+  content:
+    text: 沙瓤西红柿
+    fontSize: 13
+    color: '#252821'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: hfc0price
+  elementType: text
+  bounds:
+  - 26
+  - 600
+  - 80
+  - 30
+  content:
+    text: ¥3.99
+    fontSize: 20
+    color: '#F0442E'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: hfc0old
+  elementType: text
+  bounds:
+  - 96
+  - 608
+  - 48
+  - 20
+  content:
+    text: ¥6.90
+    fontSize: 10
+    color: '#7B7D72'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: hfc0btn
+  elementType: shape
+  bounds:
+  - 132
+  - 598
+  - 46
+  - 34
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#F0442E'
+  adjustments:
+  - 50000
+- elementId: hfc0btnt
+  elementType: text
+  bounds:
+  - 132
+  - 598
+  - 46
+  - 34
+  content:
+    text: 抢
+    fontSize: 13
+    color: '#FFFFFF'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - center
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: hfc1card
+  elementType: shape
+  bounds:
+  - 200
+  - 452
+  - 174
+  - 202
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#FFFFFF'
+  adjustments:
+  - 9859
+- elementId: hfc1img
+  elementType: image
+  bounds:
+  - 200
+  - 452
+  - 174
+  - 112
+  src: media/strawberry.jpg
+  fit:
+    mode: cover
+  cropShape:
+    shapeName: roundRect
+    adjustments:
+    - 18421
+- elementId: hfc1mask
+  elementType: shape
+  bounds:
+  - 200
+  - 554
+  - 174
+  - 12
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#FFFFFF'
+- elementId: hfc1badge
+  elementType: shape
+  bounds:
+  - 208
+  - 542
+  - 58
+  - 22
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#FFF0E7'
+  adjustments:
+  - 50000
+- elementId: hfc1badget
+  elementType: text
+  bounds:
+  - 208
+  - 542
+  - 58
+  - 22
+  content:
+    text: 限时特价
+    fontSize: 9
+    color: '#F0442E'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - center
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: hfc1name
+  elementType: text
+  bounds:
+  - 210
+  - 570
+  - 154
+  - 24
+  content:
+    text: 红颜草莓
+    fontSize: 13
+    color: '#252821'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: hfc1price
+  elementType: text
+  bounds:
+  - 210
+  - 600
+  - 80
+  - 30
+  content:
+    text: ¥15.90
+    fontSize: 20
+    color: '#F0442E'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: hfc1old
+  elementType: text
+  bounds:
+  - 280
+  - 608
+  - 48
+  - 20
+  content:
+    text: ¥22.00
+    fontSize: 10
+    color: '#7B7D72'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: hfc1btn
+  elementType: shape
+  bounds:
+  - 316
+  - 598
+  - 46
+  - 34
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#F0442E'
+  adjustments:
+  - 50000
+- elementId: hfc1btnt
+  elementType: text
+  bounds:
+  - 316
+  - 598
+  - 46
+  - 34
+  content:
+    text: 抢
+    fontSize: 13
+    color: '#FFFFFF'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - center
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: hot-tabs
+  elementType: shape
+  bounds:
+  - 16
+  - 662
+  - 358
+  - 40
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#FFF0E7'
+  adjustments:
+  - 50000
+  border:
+    style: solid
+    width: 1
+    color: '#F5D8CA'
+- elementId: hot-active
+  elementType: shape
+  bounds:
+  - 20
+  - 666
+  - 81.5
+  - 32
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#F0442E'
+  adjustments:
+  - 50000
+- elementId: hot-tab-0
+  elementType: text
+  bounds:
+  - 16.0
+  - 662
+  - 89.5
+  - 40
+  content:
+    text: 热卖精选
+    fontSize: 12
+    color: '#FFFFFF'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - center
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: hot-tab-1
+  elementType: text
+  bounds:
+  - 105.5
+  - 662
+  - 89.5
+  - 40
+  content:
+    text: 新鲜果蔬
+    fontSize: 12
+    color: '#6B453A'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - center
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: hot-tab-2
+  elementType: text
+  bounds:
+  - 195.0
+  - 662
+  - 89.5
+  - 40
+  content:
+    text: 冻品调料
+    fontSize: 12
+    color: '#6B453A'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - center
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: hot-tab-3
+  elementType: text
+  bounds:
+  - 284.5
+  - 662
+  - 89.5
+  - 40
+  content:
+    text: 特价专区
+    fontSize: 12
+    color: '#6B453A'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - center
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: hot-product-0card
+  elementType: shape
+  bounds:
+  - 16
+  - 714
+  - 174
+  - 202
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#FFFFFF'
+  adjustments:
+  - 9859
+- elementId: hot-product-0img
+  elementType: image
+  bounds:
+  - 16
+  - 714
+  - 174
+  - 112
+  src: media/eggs.jpg
+  fit:
+    mode: cover
+  cropShape:
+    shapeName: roundRect
+    adjustments:
+    - 18421
+- elementId: hot-product-0mask
+  elementType: shape
+  bounds:
+  - 16
+  - 816
+  - 174
+  - 12
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#FFFFFF'
+- elementId: hot-product-0badge
+  elementType: shape
+  bounds:
+  - 24
+  - 804
+  - 58
+  - 22
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#FFF0E7'
+  adjustments:
+  - 50000
+- elementId: hot-product-0badget
+  elementType: text
+  bounds:
+  - 24
+  - 804
+  - 58
+  - 22
+  content:
+    text: 热卖
+    fontSize: 9
+    color: '#F0442E'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - center
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: hot-product-0name
+  elementType: text
+  bounds:
+  - 26
+  - 832
+  - 154
+  - 24
+  content:
+    text: 谷物鲜鸡蛋
+    fontSize: 13
+    color: '#252821'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: hot-product-0price
+  elementType: text
+  bounds:
+  - 26
+  - 862
+  - 80
+  - 30
+  content:
+    text: ¥9.90
+    fontSize: 20
+    color: '#F0442E'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: hot-product-0old
+  elementType: text
+  bounds:
+  - 96
+  - 870
+  - 48
+  - 20
+  content:
+    text: ¥13.90
+    fontSize: 10
+    color: '#7B7D72'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: hot-product-0btn
+  elementType: shape
+  bounds:
+  - 132
+  - 860
+  - 46
+  - 34
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#F0442E'
+  adjustments:
+  - 50000
+- elementId: hot-product-0btnt
+  elementType: text
+  bounds:
+  - 132
+  - 860
+  - 46
+  - 34
+  content:
+    text: 抢
+    fontSize: 13
+    color: '#FFFFFF'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - center
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: hot-product-1card
+  elementType: shape
+  bounds:
+  - 200
+  - 714
+  - 174
+  - 202
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#FFFFFF'
+  adjustments:
+  - 9859
+- elementId: hot-product-1img
+  elementType: image
+  bounds:
+  - 200
+  - 714
+  - 174
+  - 112
+  src: media/orange.jpg
+  fit:
+    mode: cover
+  cropShape:
+    shapeName: roundRect
+    adjustments:
+    - 18421
+- elementId: hot-product-1mask
+  elementType: shape
+  bounds:
+  - 200
+  - 816
+  - 174
+  - 12
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#FFFFFF'
+- elementId: hot-product-1badge
+  elementType: shape
+  bounds:
+  - 208
+  - 804
+  - 58
+  - 22
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#FFF0E7'
+  adjustments:
+  - 50000
+- elementId: hot-product-1badget
+  elementType: text
+  bounds:
+  - 208
+  - 804
+  - 58
+  - 22
+  content:
+    text: 热卖
+    fontSize: 9
+    color: '#F0442E'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - center
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: hot-product-1name
+  elementType: text
+  bounds:
+  - 210
+  - 832
+  - 154
+  - 24
+  content:
+    text: 赣南脐橙
+    fontSize: 13
+    color: '#252821'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: hot-product-1price
+  elementType: text
+  bounds:
+  - 210
+  - 862
+  - 80
+  - 30
+  content:
+    text: ¥8.80
+    fontSize: 20
+    color: '#F0442E'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: hot-product-1old
+  elementType: text
+  bounds:
+  - 280
+  - 870
+  - 48
+  - 20
+  content:
+    text: ¥12.80
+    fontSize: 10
+    color: '#7B7D72'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: hot-product-1btn
+  elementType: shape
+  bounds:
+  - 316
+  - 860
+  - 46
+  - 34
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#F0442E'
+  adjustments:
+  - 50000
+- elementId: hot-product-1btnt
+  elementType: text
+  bounds:
+  - 316
+  - 860
+  - 46
+  - 34
+  content:
+    text: 抢
+    fontSize: 13
+    color: '#FFFFFF'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - center
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: tabbg
+  elementType: shape
+  bounds:
+  - 12
+  - 774
+  - 366
+  - 60
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#FFFFFF'
+  adjustments:
+  - 50000
+- elementId: tabon
+  elementType: shape
+  bounds:
+  - 20
+  - 782
+  - 74
+  - 44
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#EAF3E5'
+  adjustments:
+  - 50000
+- elementId: tabi0
+  elementType: icon
+  bounds:
+  - 47
+  - 789
+  - 19
+  - 19
+  iconName: fas:house
+  fill:
+    type: solid
+    color: '#175C3B'
+- elementId: tabt0
+  elementType: text
+  bounds:
+  - 20
+  - 811
+  - 74
+  - 20
+  content:
+    text: 首页
+    fontSize: 10
+    color: '#175C3B'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - center
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: tabi1
+  elementType: icon
+  bounds:
+  - 137
+  - 789
+  - 19
+  - 19
+  iconName: fas:table-cells-large
+  fill:
+    type: solid
+    color: '#7B7D72'
+- elementId: tabt1
+  elementType: text
+  bounds:
+  - 110
+  - 811
+  - 74
+  - 20
+  content:
+    text: 分类
+    fontSize: 10
+    color: '#7B7D72'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - center
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: tabi2
+  elementType: icon
+  bounds:
+  - 227
+  - 789
+  - 19
+  - 19
+  iconName: fas:cart-shopping
+  fill:
+    type: solid
+    color: '#7B7D72'
+- elementId: tabt2
+  elementType: text
+  bounds:
+  - 200
+  - 811
+  - 74
+  - 20
+  content:
+    text: 购物车
+    fontSize: 10
+    color: '#7B7D72'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - center
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: tabi3
+  elementType: icon
+  bounds:
+  - 317
+  - 789
+  - 19
+  - 19
+  iconName: far:user
+  fill:
+    type: solid
+    color: '#7B7D72'
+- elementId: tabt3
+  elementType: text
+  bounds:
+  - 290
+  - 811
+  - 74
+  - 20
+  content:
+    text: 我的
+    fontSize: 10
+    color: '#7B7D72'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - center
+    - middle
+    wrap: false
+    lineHeight: 1.15

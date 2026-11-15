@@ -1,0 +1,391 @@
+pageType: content
+background:
+  type: solid
+  color: '#F6F7F3'
+elements:
+- elementId: status-time
+  elementType: text
+  bounds:
+  - 18
+  - 4
+  - 52
+  - 20
+  content:
+    text: '9:41'
+    fontSize: 12
+    color: '#17231D'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: status-signal
+  elementType: icon
+  bounds:
+  - 302
+  - 7
+  - 14
+  - 12
+  iconName: fas:signal
+  fill:
+    type: solid
+    color: '#17231D'
+- elementId: status-wifi
+  elementType: icon
+  bounds:
+  - 323
+  - 7
+  - 15
+  - 12
+  iconName: fas:wifi
+  fill:
+    type: solid
+    color: '#17231D'
+- elementId: status-battery
+  elementType: icon
+  bounds:
+  - 348
+  - 7
+  - 22
+  - 12
+  iconName: fas:battery-three-quarters
+  fill:
+    type: solid
+    color: '#17231D'
+- elementId: nav-title
+  elementType: text
+  bounds:
+  - 60
+  - 28
+  - 270
+  - 30
+  content:
+    text: 支付结果
+    fontSize: 17
+    color: '#17231D'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - center
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: pay-icon-bg
+  elementType: shape
+  bounds:
+  - 145
+  - 114
+  - 100
+  - 100
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#E8F4EC'
+  adjustments:
+  - 50000
+- elementId: pay-check
+  elementType: icon
+  bounds:
+  - 172
+  - 142
+  - 46
+  - 46
+  iconName: fas:check
+  fill:
+    type: solid
+    color: '#176B4D'
+- elementId: pay-success
+  elementType: text
+  bounds:
+  - 60
+  - 232
+  - 270
+  - 38
+  content:
+    text: 支付成功
+    fontSize: 24
+    color: '#17231D'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - center
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: pay-amount
+  elementType: text
+  bounds:
+  - 60
+  - 276
+  - 270
+  - 34
+  content:
+    text: ¥11.20
+    fontSize: 22
+    color: '#F26B3A'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - center
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: pay-desc
+  elementType: text
+  bounds:
+  - 60
+  - 318
+  - 270
+  - 26
+  content:
+    text: 订单已进入明日配送批次
+    fontSize: 13
+    color: '#748078'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - center
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: pay-info
+  elementType: shape
+  bounds:
+  - 16
+  - 374
+  - 358
+  - 156
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#FFFFFF'
+  adjustments:
+  - 7692
+- elementId: pay-info-t
+  elementType: text
+  bounds:
+  - 30
+  - 386
+  - 200
+  - 26
+  content:
+    text: 配送信息
+    fontSize: 15
+    color: '#17231D'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: pay-line
+  elementType: line
+  bounds:
+  - 30
+  - 422
+  - 330
+  - 1
+  viewBox:
+  - 330
+  - 1
+  points: 0,0 330,0
+  curve: sharp
+  border:
+    style: solid
+    width: 1
+    color: '#E4E9E3'
+- elementId: pay-info-mode
+  elementType: text
+  bounds:
+  - 30
+  - 436
+  - 120
+  - 26
+  content:
+    text: 上门配送
+    fontSize: 12
+    color: '#748078'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: pay-info-mode-v
+  elementType: text
+  bounds:
+  - 190
+  - 436
+  - 156
+  - 26
+  content:
+    text: 明天 09:00–18:00
+    fontSize: 12
+    color: '#17231D'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - right
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: pay-info-addr
+  elementType: text
+  bounds:
+  - 30
+  - 468
+  - 120
+  - 26
+  content:
+    text: 收货地址
+    fontSize: 12
+    color: '#748078'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: pay-info-addr-v
+  elementType: text
+  bounds:
+  - 190
+  - 468
+  - 156
+  - 26
+  content:
+    text: 幸福里一期 2 栋
+    fontSize: 12
+    color: '#17231D'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - right
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: pay-info-cut
+  elementType: text
+  bounds:
+  - 30
+  - 500
+  - 120
+  - 26
+  content:
+    text: 截单时间
+    fontSize: 12
+    color: '#748078'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: pay-info-cut-v
+  elementType: text
+  bounds:
+  - 190
+  - 500
+  - 156
+  - 26
+  content:
+    text: 今日 21:00
+    fontSize: 12
+    color: '#17231D'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - right
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: pay-order-bg
+  elementType: shape
+  bounds:
+  - 16
+  - 566
+  - 358
+  - 46
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#176B4D'
+  adjustments:
+  - 50000
+- elementId: pay-order-txt
+  elementType: text
+  bounds:
+  - 16
+  - 566
+  - 358
+  - 46
+  content:
+    text: 查看订单
+    fontSize: 15
+    color: '#FFFFFF'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - center
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: pay-home-bg
+  elementType: shape
+  bounds:
+  - 16
+  - 624
+  - 358
+  - 46
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#FFFFFF'
+  adjustments:
+  - 50000
+  border:
+    style: solid
+    width: 1
+    color: '#176B4D'
+- elementId: pay-home-txt
+  elementType: text
+  bounds:
+  - 16
+  - 624
+  - 358
+  - 46
+  content:
+    text: 返回首页
+    fontSize: 15
+    color: '#176B4D'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - center
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: pay-note
+  elementType: text
+  bounds:
+  - 16
+  - 704
+  - 358
+  - 40
+  content:
+    text: 支付后如商品、价格或活动调整，不影响本订单
+    fontSize: 11
+    color: '#748078'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - center
+    - middle
+    wrap: false
+    lineHeight: 1.15

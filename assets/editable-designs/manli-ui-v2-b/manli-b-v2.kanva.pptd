@@ -1,0 +1,46 @@
+version: v2
+title: 满利到家 · B 版 · 鲜采生活市集
+size:
+- 390
+- 844
+theme:
+  colors:
+    primary: '#175C3B'
+    dark: '#173B2C'
+    accent: '#F0442E'
+    gold: '#FFC847'
+    bg: '#FBF7EF'
+    white: '#FFFFFF'
+    text: '#252821'
+    muted: '#7B7D72'
+    line: '#EAE3D7'
+    mint: '#EAF3E5'
+    soft: '#FFF0E7'
+    blue: '#3E8EB0'
+    purple: '#8D69B0'
+pages:
+- pages/01_design_system.page
+- pages/02_home.page
+- pages/03_region.page
+- pages/04_search.page
+- pages/05_category.page
+- pages/06_product_list.page
+- pages/07_product_detail.page
+- pages/08_sku_select.page
+- pages/09_cart.page
+- pages/10_checkout.page
+- pages/11_payment_success.page
+- pages/12_orders.page
+- pages/13_delivery_detail.page
+- pages/14_pickup_code.page
+- pages/15_after_sale.page
+- pages/16_profile.page
+- pages/17_member.page
+- pages/18_addresses.page
+- pages/19_repurchase.page
+- pages/20_review.page
+- pages/21_messages.page
+- pages/22_customer_service.page
+- pages/23_coupons.page
+- pages/24_states.page
+- pages/25_interaction_flow.page

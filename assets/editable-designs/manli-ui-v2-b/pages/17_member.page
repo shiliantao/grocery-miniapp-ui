@@ -1,0 +1,652 @@
+pageType: content
+background:
+  type: image
+  src: media/bg-warm.png
+  fit:
+    mode: cover
+elements:
+- elementId: stime
+  elementType: text
+  bounds:
+  - 18
+  - 4
+  - 52
+  - 20
+  content:
+    text: '9:41'
+    fontSize: 12
+    color: '#252821'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: ssignal
+  elementType: icon
+  bounds:
+  - 302
+  - 7
+  - 14
+  - 12
+  iconName: fas:signal
+  fill:
+    type: solid
+    color: '#252821'
+- elementId: swifi
+  elementType: icon
+  bounds:
+  - 323
+  - 7
+  - 15
+  - 12
+  iconName: fas:wifi
+  fill:
+    type: solid
+    color: '#252821'
+- elementId: sbattery
+  elementType: icon
+  bounds:
+  - 348
+  - 7
+  - 22
+  - 12
+  iconName: fas:battery-three-quarters
+  fill:
+    type: solid
+    color: '#252821'
+- elementId: nback
+  elementType: icon
+  bounds:
+  - 16
+  - 32
+  - 18
+  - 22
+  iconName: fas:chevron-left
+  fill:
+    type: solid
+    color: '#252821'
+- elementId: ntitle
+  elementType: text
+  bounds:
+  - 48
+  - 27
+  - 250
+  - 34
+  content:
+    text: 充卡会员
+    fontSize: 18
+    color: '#252821'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: nright
+  elementType: text
+  bounds:
+  - 310
+  - 29
+  - 64
+  - 30
+  content:
+    text: 交易记录
+    fontSize: 11
+    color: '#175C3B'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - right
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: memcard
+  elementType: shape
+  bounds:
+  - 16
+  - 84
+  - 358
+  - 174
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#182720'
+  adjustments:
+  - 11494
+  border:
+    style: solid
+    width: 1
+    color: '#B99A5E'
+- elementId: memorb1
+  elementType: shape
+  bounds:
+  - 272
+  - 48
+  - 176
+  - 176
+  shapeName: ellipse
+  fill:
+    type: solid
+    color: '#D8BC790C'
+- elementId: memorb2
+  elementType: shape
+  bounds:
+  - 304
+  - 112
+  - 120
+  - 120
+  shapeName: ellipse
+  fill:
+    type: solid
+    color: '#FFFFFF08'
+- elementId: memline
+  elementType: shape
+  bounds:
+  - 32
+  - 143
+  - 294
+  - 1
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#D8BC7938'
+  adjustments:
+  - 0
+- elementId: memcrownbg
+  elementType: shape
+  bounds:
+  - 28
+  - 99
+  - 44
+  - 44
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#D8BC7918'
+  adjustments:
+  - 50000
+  border:
+    style: solid
+    width: 1
+    color: '#D8BC7950'
+- elementId: memlevelbg
+  elementType: shape
+  bounds:
+  - 264
+  - 105
+  - 94
+  - 26
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#D8BC7910'
+  adjustments:
+  - 50000
+  border:
+    style: solid
+    width: 1
+    color: '#D8BC7960'
+- elementId: memlevel
+  elementType: text
+  bounds:
+  - 264
+  - 105
+  - 94
+  - 26
+  content:
+    text: GOLD MEMBER
+    fontSize: 8
+    color: '#E4CD9D'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - center
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: memcrown
+  elementType: icon
+  bounds:
+  - 39
+  - 110
+  - 22
+  - 22
+  iconName: fas:crown
+  fill:
+    type: solid
+    color: '#D8BC79'
+- elementId: memcardt
+  elementType: text
+  bounds:
+  - 82
+  - 102
+  - 176
+  - 34
+  content:
+    text: 满利到家 · 充卡会员
+    fontSize: 17
+    color: '#F6EDDC'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: membl
+  elementType: text
+  bounds:
+  - 32
+  - 152
+  - 180
+  - 22
+  content:
+    text: 当前余额（元）
+    fontSize: 11
+    color: '#C7B99E'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: memb
+  elementType: text
+  bounds:
+  - 32
+  - 180
+  - 220
+  - 44
+  content:
+    text: '268.50'
+    fontSize: 34
+    color: '#F4DDAE'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: memexp
+  elementType: text
+  bounds:
+  - 32
+  - 230
+  - 280
+  - 22
+  content:
+    text: 有效期至 2027.11.11｜全场 95 折
+    fontSize: 11
+    color: '#D2C4A9'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: sec选择充值金额
+  elementType: text
+  bounds:
+  - 16
+  - 288
+  - 220
+  - 30
+  content:
+    text: 选择充值金额
+    fontSize: 20
+    color: '#252821'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: memopt0
+  elementType: shape
+  bounds:
+  - 16
+  - 330
+  - 110
+  - 82
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#FFFFFF'
+  adjustments:
+  - 17073
+  border:
+    style: solid
+    width: 1
+    color: '#E4DDCE'
+- elementId: memm0
+  elementType: text
+  bounds:
+  - 16
+  - 342
+  - 110
+  - 32
+  content:
+    text: ¥100
+    fontSize: 20
+    color: '#2D342F'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - center
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: memg0
+  elementType: text
+  bounds:
+  - 16
+  - 376
+  - 110
+  - 22
+  content:
+    text: 无赠送
+    fontSize: 10
+    color: '#7B7D72'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - center
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: memopt1
+  elementType: shape
+  bounds:
+  - 138
+  - 330
+  - 110
+  - 82
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#F5EEDD'
+  adjustments:
+  - 17073
+  border:
+    style: solid
+    width: 1
+    color: '#B99A5E'
+- elementId: memm1
+  elementType: text
+  bounds:
+  - 138
+  - 342
+  - 110
+  - 32
+  content:
+    text: ¥300
+    fontSize: 20
+    color: '#7B5B27'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - center
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: memg1
+  elementType: text
+  bounds:
+  - 138
+  - 376
+  - 110
+  - 22
+  content:
+    text: 会员 95 折
+    fontSize: 10
+    color: '#8A6A35'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - center
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: memopt2
+  elementType: shape
+  bounds:
+  - 260
+  - 330
+  - 110
+  - 82
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#FFFFFF'
+  adjustments:
+  - 17073
+  border:
+    style: solid
+    width: 1
+    color: '#E4DDCE'
+- elementId: memm2
+  elementType: text
+  bounds:
+  - 260
+  - 342
+  - 110
+  - 32
+  content:
+    text: ¥500
+    fontSize: 20
+    color: '#2D342F'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - center
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: memg2
+  elementType: text
+  bounds:
+  - 260
+  - 376
+  - 110
+  - 22
+  content:
+    text: 会员 95 折
+    fontSize: 10
+    color: '#7B7D72'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - center
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: membenefit
+  elementType: shape
+  bounds:
+  - 16
+  - 438
+  - 358
+  - 128
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#FFFFFF'
+  adjustments:
+  - 12500
+  border:
+    style: solid
+    width: 1
+    color: '#EAE2D3'
+- elementId: membenefitt
+  elementType: text
+  bounds:
+  - 30
+  - 450
+  - 180
+  - 26
+  content:
+    text: 会员权益
+    fontSize: 15
+    color: '#252821'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: memb1bg
+  elementType: shape
+  bounds:
+  - 30
+  - 492
+  - 38
+  - 38
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#F5EEDD'
+  adjustments:
+  - 50000
+- elementId: memb1ic
+  elementType: icon
+  bounds:
+  - 39.0
+  - 501.0
+  - 20
+  - 20
+  iconName: fas:percent
+  fill:
+    type: solid
+    color: '#A17B3E'
+- elementId: memb2bg
+  elementType: shape
+  bounds:
+  - 200
+  - 492
+  - 38
+  - 38
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#F5EEDD'
+  adjustments:
+  - 50000
+- elementId: memb2ic
+  elementType: icon
+  bounds:
+  - 209.0
+  - 501.0
+  - 20
+  - 20
+  iconName: fas:clock-rotate-left
+  fill:
+    type: solid
+    color: '#A17B3E'
+- elementId: memb1t
+  elementType: text
+  bounds:
+  - 30
+  - 534
+  - 140
+  - 22
+  content:
+    text: 适用商品 95 折
+    fontSize: 11
+    color: '#252821'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: memb2t
+  elementType: text
+  bounds:
+  - 200
+  - 534
+  - 150
+  - 22
+  content:
+    text: 余额流水可追溯
+    fontSize: 11
+    color: '#252821'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: memagree
+  elementType: icon
+  bounds:
+  - 18
+  - 604
+  - 16
+  - 16
+  iconName: far:square
+  fill:
+    type: solid
+    color: '#7B7D72'
+- elementId: memagreet
+  elementType: text
+  bounds:
+  - 44
+  - 596
+  - 300
+  - 32
+  content:
+    text: 我已阅读并同意《会员充值协议》
+    fontSize: 11
+    color: '#7B7D72'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: mempay-bg
+  elementType: shape
+  bounds:
+  - 16
+  - 650
+  - 358
+  - 46
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#182720'
+  adjustments:
+  - 50000
+  border:
+    style: solid
+    width: 1
+    color: '#B99A5E'
+- elementId: mempay-t
+  elementType: text
+  bounds:
+  - 16
+  - 650
+  - 358
+  - 46
+  content:
+    text: 微信支付 ¥300
+    fontSize: 14
+    color: '#F4DDAE'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - center
+    - middle
+    wrap: false
+    lineHeight: 1.15

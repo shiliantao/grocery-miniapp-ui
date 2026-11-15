@@ -1,0 +1,605 @@
+pageType: content
+background:
+  type: solid
+  color: '#F1F3F5'
+elements:
+- elementId: navbg
+  elementType: shape
+  bounds:
+  - 0
+  - 0
+  - 390
+  - 66
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#17233C'
+- elementId: stime
+  elementType: text
+  bounds:
+  - 18
+  - 4
+  - 52
+  - 20
+  content:
+    text: '9:41'
+    fontSize: 12
+    color: '#FFFFFF'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: ssignal
+  elementType: icon
+  bounds:
+  - 302
+  - 7
+  - 14
+  - 12
+  iconName: fas:signal
+  fill:
+    type: solid
+    color: '#FFFFFF'
+- elementId: swifi
+  elementType: icon
+  bounds:
+  - 323
+  - 7
+  - 15
+  - 12
+  iconName: fas:wifi
+  fill:
+    type: solid
+    color: '#FFFFFF'
+- elementId: sbattery
+  elementType: icon
+  bounds:
+  - 348
+  - 7
+  - 22
+  - 12
+  iconName: fas:battery-three-quarters
+  fill:
+    type: solid
+    color: '#FFFFFF'
+- elementId: nback
+  elementType: icon
+  bounds:
+  - 16
+  - 32
+  - 18
+  - 22
+  iconName: fas:chevron-left
+  fill:
+    type: solid
+    color: '#FFFFFF'
+- elementId: ntitle
+  elementType: text
+  bounds:
+  - 58
+  - 27
+  - 250
+  - 34
+  content:
+    text: 选择配送区域
+    fontSize: 18
+    color: '#FFFFFF'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - center
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: nright
+  elementType: text
+  bounds:
+  - 310
+  - 29
+  - 64
+  - 30
+  content:
+    text: 定位
+    fontSize: 11
+    color: '#D8EF73'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - right
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: rsearch
+  elementType: shape
+  bounds:
+  - 16
+  - 78
+  - 358
+  - 42
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#FFFFFF'
+  adjustments:
+  - 11904
+- elementId: rsearchi
+  elementType: icon
+  bounds:
+  - 30
+  - 90
+  - 16
+  - 16
+  iconName: fas:magnifying-glass
+  fill:
+    type: solid
+    color: '#263A5B'
+- elementId: rsearcht
+  elementType: text
+  bounds:
+  - 56
+  - 78
+  - 280
+  - 42
+  content:
+    text: 搜索小区、村庄或站点
+    fontSize: 13
+    color: '#707B88'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: rcur
+  elementType: shape
+  bounds:
+  - 16
+  - 140
+  - 358
+  - 100
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#17233C'
+  adjustments:
+  - 5000
+- elementId: rcurnum
+  elementType: text
+  bounds:
+  - 30
+  - 156
+  - 58
+  - 42
+  content:
+    text: '04'
+    fontSize: 28
+    color: '#D8EF73'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: rcurv
+  elementType: text
+  bounds:
+  - 98
+  - 150
+  - 210
+  - 30
+  content:
+    text: 幸福里社区
+    fontSize: 17
+    color: '#FFFFFF'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: rcurs
+  elementType: text
+  bounds:
+  - 98
+  - 184
+  - 220
+  - 24
+  content:
+    text: 幸福街道 · 阳光便民站
+    fontSize: 11
+    color: '#C6D0DE'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: rcuri
+  elementType: icon
+  bounds:
+  - 326
+  - 168
+  - 24
+  - 24
+  iconName: fas:location-crosshairs
+  fill:
+    type: solid
+    color: '#D8EF73'
+- elementId: sec逐级选择区域
+  elementType: text
+  bounds:
+  - 16
+  - 274
+  - 220
+  - 30
+  content:
+    text: 逐级选择区域
+    fontSize: 17
+    color: '#1D2735'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: rr0
+  elementType: shape
+  bounds:
+  - 16
+  - 316
+  - 358
+  - 50
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#FFFFFF'
+  adjustments:
+  - 8000
+- elementId: rra0
+  elementType: text
+  bounds:
+  - 30
+  - 316
+  - 150
+  - 50
+  content:
+    text: 县级市
+    fontSize: 12
+    color: '#707B88'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: rrb0
+  elementType: text
+  bounds:
+  - 180
+  - 316
+  - 150
+  - 50
+  content:
+    text: 满利市
+    fontSize: 14
+    color: '#1D2735'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - right
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: rri0
+  elementType: icon
+  bounds:
+  - 348
+  - 334
+  - 10
+  - 14
+  iconName: fas:chevron-right
+  fill:
+    type: solid
+    color: '#263A5B'
+- elementId: rr1
+  elementType: shape
+  bounds:
+  - 16
+  - 374
+  - 358
+  - 50
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#FFFFFF'
+  adjustments:
+  - 8000
+- elementId: rra1
+  elementType: text
+  bounds:
+  - 30
+  - 374
+  - 150
+  - 50
+  content:
+    text: 街道 / 乡镇
+    fontSize: 12
+    color: '#707B88'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: rrb1
+  elementType: text
+  bounds:
+  - 180
+  - 374
+  - 150
+  - 50
+  content:
+    text: 幸福街道
+    fontSize: 14
+    color: '#1D2735'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - right
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: rri1
+  elementType: icon
+  bounds:
+  - 348
+  - 392
+  - 10
+  - 14
+  iconName: fas:chevron-right
+  fill:
+    type: solid
+    color: '#263A5B'
+- elementId: rr2
+  elementType: shape
+  bounds:
+  - 16
+  - 432
+  - 358
+  - 50
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#FFFFFF'
+  adjustments:
+  - 8000
+- elementId: rra2
+  elementType: text
+  bounds:
+  - 30
+  - 432
+  - 150
+  - 50
+  content:
+    text: 社区 / 村
+    fontSize: 12
+    color: '#707B88'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: rrb2
+  elementType: text
+  bounds:
+  - 180
+  - 432
+  - 150
+  - 50
+  content:
+    text: 幸福里社区
+    fontSize: 14
+    color: '#1D2735'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - right
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: rri2
+  elementType: icon
+  bounds:
+  - 348
+  - 450
+  - 10
+  - 14
+  iconName: fas:chevron-right
+  fill:
+    type: solid
+    color: '#263A5B'
+- elementId: rr3
+  elementType: shape
+  bounds:
+  - 16
+  - 490
+  - 358
+  - 50
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#FFFFFF'
+  adjustments:
+  - 8000
+- elementId: rra3
+  elementType: text
+  bounds:
+  - 30
+  - 490
+  - 150
+  - 50
+  content:
+    text: 小区 / 自然村
+    fontSize: 12
+    color: '#707B88'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: rrb3
+  elementType: text
+  bounds:
+  - 180
+  - 490
+  - 150
+  - 50
+  content:
+    text: 幸福里一期
+    fontSize: 14
+    color: '#1D2735'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - right
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: rri3
+  elementType: icon
+  bounds:
+  - 348
+  - 508
+  - 10
+  - 14
+  iconName: fas:chevron-right
+  fill:
+    type: solid
+    color: '#263A5B'
+- elementId: rnear
+  elementType: shape
+  bounds:
+  - 16
+  - 570
+  - 358
+  - 116
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#FFFFFF'
+  adjustments:
+  - 4310
+- elementId: rneart
+  elementType: text
+  bounds:
+  - 30
+  - 580
+  - 160
+  - 26
+  content:
+    text: 附近站点
+    fontSize: 15
+    color: '#1D2735'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: rneari
+  elementType: icon
+  bounds:
+  - 30
+  - 624
+  - 24
+  - 24
+  iconName: fas:store
+  fill:
+    type: solid
+    color: '#FF6738'
+- elementId: rnearn
+  elementType: text
+  bounds:
+  - 66
+  - 616
+  - 180
+  - 26
+  content:
+    text: 阳光便民站
+    fontSize: 14
+    color: '#1D2735'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: rneara
+  elementType: text
+  bounds:
+  - 66
+  - 644
+  - 220
+  - 22
+  content:
+    text: 一期东门北侧 · 距你120m
+    fontSize: 11
+    color: '#707B88'
+    fontFamily: MiSans
+    bold: false
+    align:
+    - left
+    - middle
+    wrap: false
+    lineHeight: 1.15
+- elementId: rnearb-bg
+  elementType: shape
+  bounds:
+  - 292
+  - 624
+  - 64
+  - 34
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#FFFFFF'
+  adjustments:
+  - 14705
+  border:
+    style: solid
+    width: 1
+    color: '#263A5B'
+- elementId: rnearb-t
+  elementType: text
+  bounds:
+  - 292
+  - 624
+  - 64
+  - 34
+  content:
+    text: 切换
+    fontSize: 11
+    color: '#263A5B'
+    fontFamily: MiSans
+    bold: true
+    align:
+    - center
+    - middle
+    wrap: false
+    lineHeight: 1.15
